@@ -16,4 +16,7 @@ python -m SimpleHTTPServer 9000
 
 En el momento de la elaboracion de este tutorial, se estaba desarrollando un proyecto similar: [ScratchyCAD](http://scratchycad.com/).
 
-![zonas_trabajo](./img/zonas_trabajo.png) <img src="./img/zonas_trabajo.png" width="40%">
+![zonas_trabajo](./img/zonas_trabajo.png|width=10px)
+
+
+<img src="./img/zonas_trabajo.png" width="80%">

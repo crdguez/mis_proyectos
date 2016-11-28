@@ -30,6 +30,7 @@ Además, tenemos la típica **Barra de Herramientas** para manejar los archivos,
 
 ## Tutoriales
 1. **Cubo Hola Mundo**
+<img src="./img/bloque_cubo.png" width="800px">
 * Trasladando
 * Rotando voy
 

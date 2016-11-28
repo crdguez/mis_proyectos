@@ -23,8 +23,10 @@ El entorno lo podemos dividir en tres partes:
 <img src="./img/zonas_trabajo.png" width="800px">
 
 1. Área de Programa
+
 ... Conjunto de bloques que reprensentan las instrucciones que cuando se ejecuta, "renderizar", no da el modelo 3D
 
 2. Barra de bloques
+
 ... Es la paleta de bloques
 ..*

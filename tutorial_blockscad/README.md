@@ -22,3 +22,4 @@ El entorno lo podemos dividir en tres partes:
 
 <img src="./img/zonas_trabajo.png" width="800px">
 
+**Barra de bloques**

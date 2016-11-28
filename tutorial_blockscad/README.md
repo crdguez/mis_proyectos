@@ -6,4 +6,12 @@ BlocksCAD no es más que una interfaz web de  [OpenSCAD](http://www.openscad.org
 
 Podemos acceder via web a [BlocksCAD](https://blockscad.einsteinsworkshop.com/), o bien descargarlo de [github](https://github.com/EinsteinsWorkshop/BlocksCAD) y ejecutarlo localmente o en un servidor dedicado, esto último está bien si no tienes conexión a Internet (más información en el [README](https://github.com/EinsteinsWorkshop/BlocksCAD/blob/development/README) del proyecto).
 
+
+```sh
+cd /path/to/mydir-with-index.html-in-it
+python -m SimpleHTTPServer 9000
+# Then point your browser to:
+# http://localhost:9000/
+```
+
 En el momento de la elaboracion de este tutorial, se estaba desarrollando un proyecto similar: [ScratchyCAD](http://scratchycad.com/). 

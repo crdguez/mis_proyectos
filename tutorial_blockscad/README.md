@@ -16,5 +16,9 @@ python -m SimpleHTTPServer 9000
 
 En el momento de la elaboracion de este tutorial, se estaba desarrollando un proyecto similar: [ScratchyCAD](http://scratchycad.com/).
 
+### El entorno
 
-<img src="./img/zonas_trabajo.png" width="10%">
+El entorno lo podemos dividir en tres partes:
+
+<img src="./img/zonas_trabajo.png" width="800px">
+

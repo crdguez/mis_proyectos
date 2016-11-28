@@ -1,3 +1,3 @@
-** Tutorial de BlocksCAD:
+# Tutorial de BlocksCAD:
 
-* Introducción
+## Introducción

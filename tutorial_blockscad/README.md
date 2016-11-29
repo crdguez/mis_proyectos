@@ -30,8 +30,13 @@ Además, tenemos la típica **Barra de Herramientas** para manejar los archivos,
 
 ## Tutoriales
 1. **Cubo Hola Mundo**
-<img src="./img/bloque_cubo.png" width="800px">
-* Trasladando
-* Rotando voy
+
+    En primer lugar, vamos a seleccionar la opción *Simple ToolBox* que aparece dentro del menú *options* de la *barra de menús. De esta forma reducimos las opciones de la **Barra de bloques**. Una vez vayamos conociendo el programa ya nos intereserá la parte avanzada.
+    
+    Dentro del bloque *3D Shapes*, arrastramos el bloque 
+    <img src="./img/bloque_cubo.png" width="800px"> y lo llevamos a la zona del programa
+
+* 
+* Rotando 
 
 

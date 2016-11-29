@@ -31,7 +31,7 @@ Además, tenemos la típica **Barra de Herramientas** para manejar los archivos,
 ## Tutoriales
 1. **Cubo "Hola Mundo"**
 
-    Cuando se aprende un lenguaje de programación como pueda ser este, normalmente, la primera actividad que se propone es una programa muy sencillo que permita al usuario familiarizarse con la herramienta. Antiguamente para los lenguajes de programación tradicionales, un programa típico era hacer que por pantalla apareciera el texto *Hola mundo*. En nuestro caso, lo más sencillo es construir un cubo, por lo que éste va a ser nuestro *Hola mundo* particular.
+    Cuando se aprende un lenguaje de programación como pueda ser este, normalmente, la primera actividad que se propone es una programa muy sencillo que permita al usuario familiarizarse con la herramienta. Antiguamente para los lenguajes de programación tradicionales, un programa típico era hacer que por pantalla apareciera el texto **Hola mundo**. En nuestro caso, lo más sencillo es construir un cubo, por lo que éste va a ser nuestro **Hola mundo** particular.
 
     **Procedimiento:**
     En primer lugar, vamos a seleccionar la opción *Simple ToolBox* que aparece dentro del menú *options* de la *barra de menús. De esta forma reducimos las opciones de la **Barra de bloques**. Una vez vayamos conociendo el programa ya nos intereserá la parte avanzada.
@@ -39,7 +39,9 @@ Además, tenemos la típica **Barra de Herramientas** para manejar los archivos,
     Dentro del bloque *3D Shapes*, arrastramos el bloque 
     <img src="./img/bloque_cubo.png" width="40%"> y lo llevamos a la zona del programa.
     
-    Ya tenemos nuestro primer programa con BlocksCAD. Le estamos diciendo que dibuje un cubo, pero no lo vemos aún. Nos falta ejecutar las instrucciones, en los programas de modelado a la ejecución de un programa que contiene un diseño se le llama **renderizado**. Para renderizar, hemos de ir al *área de dibujo o renderizado* y pulsar el botón **RENDER**.
+    Ya tenemos nuestro primer programa con BlocksCAD. Le estamos diciendo que dibuje un cubo, pero no lo vemos aún. Nos falta ejecutar las instrucciones, en los programas de modelado a la ejecución de un programa que contiene un diseño se le llama **renderizado**. Para renderizar, hemos de ir al *área de dibujo o renderizado* y pulsar el botón **Render** que se encuentra en la esquina inferior izquierda.
+    
+    <img src="./img/cube10x10x10c.png" width="80%">
     
     Vamos a explicar el bloque. Vemos que tiene los siguientes campos:
     
@@ -54,7 +56,7 @@ Además, tenemos la típica **Barra de Herramientas** para manejar los archivos,
     |:------:|:-----------:|
     |<img src="./img/bloque01.png"> |<img src="./img/cube10x20x30nc.png"> |
     |<img src="./img/bloque02.png"> |<img src="./img/cube10x20x30c.png"> |
-    |<img src="./img/bloque03.png"> |<img src="./img/cube10x10x10c.png"> |
+    |<img src="./img/bloque03.png"> |<img src="./img/.png"> |
     
 
     

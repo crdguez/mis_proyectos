@@ -64,10 +64,10 @@ Además, tenemos la típica **Barra de Herramientas** para manejar los archivos,
     
     Se proponen los siguientes ejercicios:
     
-    | Problema | Solución |
-    |:---------:|:-----------:|
-    | Modela un cubo de 2cm x 5cm x 3cm |<img src="./img/cube10x20x30nc.png"> |
-    | Modela un cubo de 2cm x 5cm x 3cm |<img src="./img/cube10x20x30c.png"> |
+    | Problema | Imagen   | Solución |
+    |:--------:|:--------:|:--------:|
+    | Modela un cubo de 2cm x 5cm x 3cm centrado |<img src="./img/ejercicio01.png"> |[Solución](./code/ejercicio01.xml)|
+    | Modela un cubo de 6cm x 2cm x 3cm sin centrar|<img src="./img/ejercicio02.png"> |[Solución](./code/ejercicio02.xml)|
     
     
 

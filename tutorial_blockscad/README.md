@@ -34,9 +34,33 @@ Además, tenemos la típica **Barra de Herramientas** para manejar los archivos,
     En primer lugar, vamos a seleccionar la opción *Simple ToolBox* que aparece dentro del menú *options* de la *barra de menús. De esta forma reducimos las opciones de la **Barra de bloques**. Una vez vayamos conociendo el programa ya nos intereserá la parte avanzada.
     
     Dentro del bloque *3D Shapes*, arrastramos el bloque 
-    <img src="./img/bloque_cubo.png" width="40%"> y lo llevamos a la zona del programa
+    <img src="./img/bloque_cubo.png" width="40%"> y lo llevamos a la zona del programa.
+    
+    El bloque tiene los siguientes campos:
+    
+    -   Longitud del cubo en el *eje X*, es decir el ancho. **NOTA:** Por defecto el valor indica milímetros, es decir, un valor *10* en este campo nos dará un cubo de *1 cm* de ancho.
+    -   Longitud del cubo en el *eje Y*, es decir el largo.
+    -   Longitud del cubo en el *eje Z*, es decir el alto.
+    -   Un desplegable *not centered* o *centered*. Indica si queremos que un vértice del cubo se apoye en el origen de coordenadas o que el origen de coordenadas se encuentre en el centro del cubo.
+    
+    **Ejemplos:**
+    |------|-----------|
+    |bloque|Renderizado|
+    |------|-----------|
+    
+    **Ejercicios:**
+    
+    -
+    
 
 * 
 * Rotando 
 
+## Autor
 
+    Carlos Rodríguez Jaso
+
+## Licencia
+
+![](./img/attribution-share-alike-creative-commons-license.png)  
+[Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/)

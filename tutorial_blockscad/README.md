@@ -63,8 +63,11 @@ Además, tenemos la típica **Barra de Herramientas** para manejar los archivos,
     **Ejercicios:**
     
     Se proponen los siguientes ejercicios:
+    | Problema | Solución |
+    |:------:|:-----------:|
+    |Modela un cubo de 2cm x 5cm x 3cm |<img src="./img/cube10x20x30nc.png"> |
+    |Modela un cubo de 2cm x 5cm x 3cm |<img src="./img/cube10x20x30c.png"> |
     
-    -   
     
 
 * 

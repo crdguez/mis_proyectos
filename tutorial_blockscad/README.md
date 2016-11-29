@@ -47,7 +47,7 @@ Además, tenemos la típica **Barra de Herramientas** para manejar los archivos,
     
     |Bloque|Renderizado|
     |------|-----------|
-    |<img src="./img/cubo01.png" width="40%"> |<img src="./img/cube10x20x30nc.png" width="40%"> |
+    |<img src="./img/bloque01.png"> |<img src="./img/cube10x20x30nc.png"> |
     | | |
     
     **Ejercicios:**

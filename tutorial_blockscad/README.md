@@ -71,7 +71,17 @@ Además, tenemos la típica **Barra de Herramientas** para manejar los archivos,
     
     
 
-* 
+2. **Otros objetos primitivos: Cilindros y esferas**
+
+    Hemos visto la primitiva cube, que nos permite modelar **cubos** en particular y **prismas** en general.
+    
+    **Esferas:**  Dentro del bloque *3D Shapes*, arrastramos el bloque 
+    <img src="./img/bloque_esfera.png" width="40%"> y lo llevamos a la zona del programa.
+    
+    Al renderizar obtendremos una esfera de *10mm*:
+    
+    <img src="./img/esfera10.png" width="80%">
+    
 * Rotando 
 
 ## Autor

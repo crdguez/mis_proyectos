@@ -45,10 +45,11 @@ Además, tenemos la típica **Barra de Herramientas** para manejar los archivos,
     
     **Ejemplos:**
     
-    |Bloque|Renderizado|
+    |:Bloque:|:Renderizado:|
     |------|-----------|
     |<img src="./img/bloque01.png"> |<img src="./img/cube10x20x30nc.png"> |
-    | | |
+    |<img src="./img/bloque02.png"> |<img src="./img/cube10x20x30c.png"> |
+    |<img src="./img/bloque03.png"> |<img src="./img/cube10x10x10c.png"> |
     
     **Ejercicios:**
     

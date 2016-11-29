@@ -51,6 +51,14 @@ Además, tenemos la típica **Barra de Herramientas** para manejar los archivos,
     |<img src="./img/bloque02.png"> |<img src="./img/cube10x20x30c.png"> |
     |<img src="./img/bloque03.png"> |<img src="./img/cube10x10x10c.png"> |
     
+    
+    
+    | Tables        | Are           | Cool  |
+    | ------------- |:-------------:| -----:|
+    | col 3 is      | right-aligned | $1600 |
+    | col 2 is      | centered      |   $12 |
+    | zebra stripes | are neat      |    $1 |
+    
     **Ejercicios:**
     
     -

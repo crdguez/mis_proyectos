@@ -44,9 +44,11 @@ Además, tenemos la típica **Barra de Herramientas** para manejar los archivos,
     -   Un desplegable *not centered* o *centered*. Indica si queremos que un vértice del cubo se apoye en el origen de coordenadas o que el origen de coordenadas se encuentre en el centro del cubo.
     
     **Ejemplos:**
+    
+    |Bloque|Renderizado|
     |------|-----------|
-    |bloque|Renderizado|
-    |------|-----------|
+    | | |
+    | | |
     
     **Ejercicios:**
     

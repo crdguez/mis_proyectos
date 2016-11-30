@@ -106,7 +106,7 @@ Además, tenemos la típica **Barra de Herramientas** para manejar los archivos,
     
     | Bloque | Renderizado |
     |:------:|:-----------:|
-    |<img src="./img/bloque11.png"> |<img src="./img/cilindro5_5_10.png"> |
+    |<img src="./img/bloque11.png"> |<img src="./img/cilindro5_5_10c.png"> |
     |<img src="./img/bloque12.png"> |<img src="./img/tronco10_5_20.png"> |
     |<img src="./img/bloque13.png"> |<img src="./img/cono10_20.png"> |
     

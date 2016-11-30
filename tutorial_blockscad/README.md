@@ -75,12 +75,36 @@ Además, tenemos la típica **Barra de Herramientas** para manejar los archivos,
 
     Hemos visto la primitiva cube, que nos permite modelar **cubos** en particular y **prismas** en general.
     
-    **Esferas:**  Dentro del bloque *3D Shapes*, arrastramos el bloque 
+    **Esferas:**  Para crear una esfera tendremos que seguir el siguiente procedimiento: Dentro del bloque *3D Shapes*, arrastramos el bloque 
     <img src="./img/bloque_esfera.png" width="40%"> y lo llevamos a la zona del programa.
     
     Al renderizar obtendremos una esfera de *10mm*:
     
     <img src="./img/esfera10.png" width="80%">
+    
+    El único parámetro que podemos meter indica el radio de la esfera. **NOTA.** Siempre vamos tener por defecto la esfera centrada en el origen de coordenadas.
+    
+    **Cilindros:**  Para crear un cilindro tendremos que seguir el siguiente procedimiento: Dentro del bloque *3D Shapes*, arrastramos el bloque. 
+    <img src="./img/bloque_cilindro.png" width="40%"> y lo llevamos a la zona del programa. 
+    
+    Vamos a ver qué parámetros se pueden modificar:
+        - **radius1**, es el radio de la base inferior de la figura a modelar
+        - **candado**, por defecto aparece cerrado, y esto hace que el parámetro **radius2** herede el valor de **radius1**
+        - **radius2**, radio de la base superior de la figura. Cuando coincida con **radius1*** tendremos un cilindro, y cuando no, tendremos un **tronco de cono** o un **cono** si lo ponemos que el radio es cero.
+    
+    Al renderizar obtendremos un cilindro de *10mm* de radio y *10mm* de altura:
+    
+    <img src="./img/cilindro10_10.png" width="80%">
+    
+    **NOTA:** A diferencia de OpenSCAD, donde un cilindro no es más que un prisma de bsae un ploígono regular de un número de lados dado por un parámetro, en BlocksCAD no podemos fijar el número de lados, éste viene fijado por el programa. Esto implica que no podemos hacer prismas de base poligonal utilizando la primitiva **cylinder**, al contrario de como pasa en OpenSCAD. Este hecho limita mucho las posibilidades de esta herramienta, por lo que se espera que en próximas versiones habiliten el parámetro número de lados. Evidentemente, tampoco podemos hacer pirámides ni troncos de pirámides. 
+    
+    **Ejercicios:**
+    
+    | Problema | Imagen   | Solución |
+    |:--------:|:--------:|:--------:|
+    | Modela una esfera de 2cm |<img src="./img/ejercicio11.png"> |[Solución](./code/ejercicio11.xml)|
+    | Modela un cilindro de 6cm x 2cm x 3cm sin centrar|<img src="./img/ejercicio02.png"> |[Solución](./code/ejercicio02.xml)|
+    | Modela un cilindro de 6cm x 2cm x 3cm sin centrar|<img src="./img/ejercicio02.png"> |[Solución](./code/ejercicio02.xml)|
     
 * Rotando 
 

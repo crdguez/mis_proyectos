@@ -45,9 +45,9 @@ Además, tenemos la típica **Barra de Herramientas** para manejar los archivos,
     
     Vamos a explicar el bloque. Vemos que tiene los siguientes campos:
     
-    -   Longitud del cubo en el *eje X*, es decir el ancho. **NOTA:** Por defecto el valor indica milímetros, es decir, un valor *10* en este campo nos dará un cubo de *1 cm* de ancho.
-    -   Longitud del cubo en el *eje Y*, es decir el largo.
-    -   Longitud del cubo en el *eje Z*, es decir el alto.
+    -   Longitud del cubo en el **eje X**, es decir el ancho. **NOTA:** Por defecto el valor indica milímetros, es decir, un valor *10* en este campo nos dará un cubo de *1 cm* de ancho.
+    -   Longitud del cubo en el **eje Y**, es decir el largo.
+    -   Longitud del cubo en el **eje Z**, es decir el alto.
     -   Un desplegable *not centered* o *centered*. Indica si queremos que un vértice del cubo se apoye en el origen de coordenadas o que el origen de coordenadas se encuentre en el centro del cubo.
     
     **Ejemplos:**
@@ -93,12 +93,23 @@ Además, tenemos la típica **Barra de Herramientas** para manejar los archivos,
     - **candado**, por defecto aparece cerrado, y esto hace que el parámetro **radius2** herede el valor de **radius1**
     - **radius2**, radio de la base superior de la figura. Cuando coincida con **radius1*** tendremos un cilindro, y cuando no, tendremos un **tronco de cono** o un **cono** si lo ponemos que el radio es cero.
     - **height**, altura del cilindro.
+    - **centered/not centered**, centrado en el origen de coordenadas o no
     
     Al renderizar obtendremos un cilindro de *10mm* de radio y *10mm* de altura:
     
     <img src="./img/cilindro10_10.png" width="80%">
     
     **NOTA:** A diferencia de OpenSCAD, donde un cilindro no es más que un prisma de bsae un ploígono regular de un número de lados dado por un parámetro, en BlocksCAD no podemos fijar el número de lados, éste viene fijado por el programa. Esto implica que no podemos hacer prismas de base poligonal utilizando la primitiva **cylinder**, al contrario de como pasa en OpenSCAD. Este hecho limita mucho las posibilidades de esta herramienta, por lo que se espera que en próximas versiones habiliten el parámetro número de lados. Evidentemente, tampoco podemos hacer pirámides ni troncos de pirámides. 
+    
+    
+    **Ejemplos:**
+    
+    | Bloque | Renderizado |
+    |:------:|:-----------:|
+    |<img src="./img/bloque11.png"> |<img src="./img/cilindro5_5_10.png"> |
+    |<img src="./img/bloque12.png"> |<img src="./img/tronco10_5_20.png"> |
+    |<img src="./img/bloque13.png"> |<img src="./img/cono10_20.png"> |
+    
     
     **Ejercicios:**
     

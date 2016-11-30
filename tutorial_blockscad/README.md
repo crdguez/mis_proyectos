@@ -76,7 +76,7 @@ Además, tenemos la típica **Barra de Herramientas** para manejar los archivos,
     Hemos visto la primitiva cube, que nos permite modelar **cubos** en particular y **prismas** en general.
     
     **Esferas:**  Para crear una esfera tendremos que seguir el siguiente procedimiento: Dentro del bloque *3D Shapes*, arrastramos el bloque 
-    <img src="./img/bloque_esfera.png" width="40%"> y lo llevamos a la zona del programa.
+    <img src="./img/bloque_esfera.png" width="30%"> y lo llevamos a la zona del programa.
     
     Al renderizar obtendremos una esfera de *10mm*:
     
@@ -85,13 +85,14 @@ Además, tenemos la típica **Barra de Herramientas** para manejar los archivos,
     El único parámetro que podemos meter indica el radio de la esfera. **NOTA.** Siempre vamos tener por defecto la esfera centrada en el origen de coordenadas.
     
     **Cilindros:**  Para crear un cilindro tendremos que seguir el siguiente procedimiento: Dentro del bloque *3D Shapes*, arrastramos el bloque. 
-    <img src="./img/bloque_cilindro.png" width="40%"> y lo llevamos a la zona del programa. 
+    <img src="./img/bloque_cilindro.png" width="600%"> y lo llevamos a la zona del programa. 
     
     Vamos a ver qué parámetros se pueden modificar:
     
     - **radius1**, es el radio de la base inferior de la figura a modelar
     - **candado**, por defecto aparece cerrado, y esto hace que el parámetro **radius2** herede el valor de **radius1**
     - **radius2**, radio de la base superior de la figura. Cuando coincida con **radius1*** tendremos un cilindro, y cuando no, tendremos un **tronco de cono** o un **cono** si lo ponemos que el radio es cero.
+    - **height**, altura del cilindro.
     
     Al renderizar obtendremos un cilindro de *10mm* de radio y *10mm* de altura:
     

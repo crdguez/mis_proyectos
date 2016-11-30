@@ -88,9 +88,10 @@ Además, tenemos la típica **Barra de Herramientas** para manejar los archivos,
     <img src="./img/bloque_cilindro.png" width="40%"> y lo llevamos a la zona del programa. 
     
     Vamos a ver qué parámetros se pueden modificar:
-        - **radius1**, es el radio de la base inferior de la figura a modelar
-        - **candado**, por defecto aparece cerrado, y esto hace que el parámetro **radius2** herede el valor de **radius1**
-        - **radius2**, radio de la base superior de la figura. Cuando coincida con **radius1*** tendremos un cilindro, y cuando no, tendremos un **tronco de cono** o un **cono** si lo ponemos que el radio es cero.
+    
+    - **radius1**, es el radio de la base inferior de la figura a modelar
+    - **candado**, por defecto aparece cerrado, y esto hace que el parámetro **radius2** herede el valor de **radius1**
+    - **radius2**, radio de la base superior de la figura. Cuando coincida con **radius1*** tendremos un cilindro, y cuando no, tendremos un **tronco de cono** o un **cono** si lo ponemos que el radio es cero.
     
     Al renderizar obtendremos un cilindro de *10mm* de radio y *10mm* de altura:
     

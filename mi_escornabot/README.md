@@ -1,4 +1,6 @@
-# Atribución
+# README
+
+## Atribuciones
 
 Este proyecto no es original, sino mi versión del proyecto [Escornabot](http://escornabot.com/web/)
 

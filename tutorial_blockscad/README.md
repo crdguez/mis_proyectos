@@ -29,6 +29,10 @@ El entorno lo podemos dividir en tres partes:
 Además, tenemos la típica **Barra de Herramientas** para manejar los archivos, determinar las preferencias del entorno o acceder a la ayuda del programa.
 
 ## Tutoriales
+
+**NOTA:** Por defecto, vamos a ver las opciones básicas del programa. Por tanto, se recomienda, sobre todo al principio, selecciónar en la **Barra de Herramientas** que solo aparezcans las funciones básicas: *Options-Simple Toolbox*
+
+
 1. **Cubo "Hola Mundo"**
 
     Cuando se aprende un lenguaje de programación como pueda ser este, normalmente, la primera actividad que se propone es una programa muy sencillo que permita al usuario familiarizarse con la herramienta. Antiguamente para los lenguajes de programación tradicionales, un programa típico era hacer que por pantalla apareciera el texto **Hola mundo**. En nuestro caso, lo más sencillo es construir un cubo, por lo que éste va a ser nuestro **Hola mundo** particular.
@@ -101,7 +105,7 @@ Además, tenemos la típica **Barra de Herramientas** para manejar los archivos,
     
     **NOTA:** A diferencia de OpenSCAD, donde un cilindro no es más que un prisma de bsae un ploígono regular de un número de lados dado por un parámetro, en BlocksCAD no podemos fijar el número de lados, éste viene fijado por el programa. Esto implica que no podemos hacer prismas de base poligonal utilizando la primitiva **cylinder**, al contrario de como pasa en OpenSCAD. Este hecho limita mucho las posibilidades de esta herramienta, por lo que se espera que en próximas versiones habiliten el parámetro número de lados. Evidentemente, tampoco podemos hacer pirámides ni troncos de pirámides. 
     
-    
+    ((
     **Ejemplos:**
     
     | Bloque | Renderizado |
@@ -116,10 +120,57 @@ Además, tenemos la típica **Barra de Herramientas** para manejar los archivos,
     | Problema | Imagen   | Solución |
     |:--------:|:--------:|:--------:|
     | Modela una esfera de 2cm |<img src="./img/ejercicio11.png"> |[Solución](./code/ejercicio11.xml)|
-    | Modela un cilindro de 6cm x 2cm x 3cm sin centrar|<img src="./img/ejercicio02.png"> |[Solución](./code/ejercicio02.xml)|
-    | Modela un cilindro de 6cm x 2cm x 3cm sin centrar|<img src="./img/ejercicio02.png"> |[Solución](./code/ejercicio02.xml)|
+    | Modela un cilindro de 6cm de radio x 3cm de altura, sin centrar|<img src="./img/ejercicio12.png"> |[Solución](./code/ejercicio12.xml)|
+    | Modela un cono de 3cm de base x 5cm de altura sin centrar|<img src="./img/ejercicio13.png"> |[Solución](./code/ejercicio13.xml)|
     
-* Rotando 
+3.  **Transformaciones**
+
+    Vamos a ver el segundo grupo de herramientas que aparece en la **Barra de Bloques**: El de transformaciones. Nos permite desplazar, rotar o escalar los objetos.
+    
+    **Traslaciones:**  Cuando *renderizamos* una de las primitivas anteriores, éstas aparecen colocadas en el eje de coordenadas. Mediante las traslaciones podemos desplazarlas a cualquier lugar del espacio usando *vectores de posición* Para crear una esfera tendremos que seguir el siguiente procedimiento: Dentro del bloque *3D Shapes*, arrastramos el bloque 
+    <img src="./img/bloque_esfera.png" width="30%"> y lo llevamos a la zona del programa.
+    
+    Al renderizar obtendremos una esfera de *10mm*:
+    
+    <img src="./img/esfera10.png" width="80%">
+    
+    El único parámetro que podemos meter indica el radio de la esfera. **NOTA.** Siempre vamos tener por defecto la esfera centrada en el origen de coordenadas.
+    
+    **Rotaciones:**  Para crear un cilindro tendremos que seguir el siguiente procedimiento: Dentro del bloque *3D Shapes*, arrastramos el bloque. 
+    <img src="./img/bloque_cilindro.png" width="600%"> y lo llevamos a la zona del programa. 
+    
+    Vamos a ver qué parámetros se pueden modificar:
+    
+    - **radius1**, es el radio de la base inferior de la figura a modelar
+    - **candado**, por defecto aparece cerrado, y esto hace que el parámetro **radius2** herede el valor de **radius1**
+    - **radius2**, radio de la base superior de la figura. Cuando coincida con **radius1*** tendremos un cilindro, y cuando no, tendremos un **tronco de cono** o un **cono** si lo ponemos que el radio es cero.
+    - **height**, altura del cilindro.
+    - **centered/not centered**, centrado en el origen de coordenadas o no
+    
+    Al renderizar obtendremos un cilindro de *10mm* de radio y *10mm* de altura:
+    
+    <img src="./img/cilindro10_10.png" width="80%">
+    
+    **NOTA:** A diferencia de OpenSCAD, donde un cilindro no es más que un prisma de bsae un ploígono regular de un número de lados dado por un parámetro, en BlocksCAD no podemos fijar el número de lados, éste viene fijado por el programa. Esto implica que no podemos hacer prismas de base poligonal utilizando la primitiva **cylinder**, al contrario de como pasa en OpenSCAD. Este hecho limita mucho las posibilidades de esta herramienta, por lo que se espera que en próximas versiones habiliten el parámetro número de lados. Evidentemente, tampoco podemos hacer pirámides ni troncos de pirámides. 
+    
+    ((
+    **Ejemplos:**
+    
+    | Bloque | Renderizado |
+    |:------:|:-----------:|
+    |<img src="./img/bloque11.png"> |<img src="./img/cilindro5_5_10c.png"> |
+    |<img src="./img/bloque12.png"> |<img src="./img/tronco10_5_20nc.png"> |
+    |<img src="./img/bloque13.png"> |<img src="./img/cono10_20nc.png"> |
+    
+    
+    **Ejercicios:**
+    
+    | Problema | Imagen   | Solución |
+    |:--------:|:--------:|:--------:|
+    | Modela una esfera de 2cm |<img src="./img/ejercicio11.png"> |[Solución](./code/ejercicio11.xml)|
+    | Modela un cilindro de 6cm de radio x 3cm de altura, sin centrar|<img src="./img/ejercicio12.png"> |[Solución](./code/ejercicio12.xml)|
+    | Modela un cono de 3cm de base x 5cm de altura sin centrar|<img src="./img/ejercicio13.png"> |[Solución](./code/ejercicio13.xml)|
+
 
 ## Autor
 

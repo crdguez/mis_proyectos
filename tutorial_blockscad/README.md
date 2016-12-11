@@ -125,27 +125,18 @@ Además, tenemos la típica **Barra de Herramientas** para manejar los archivos,
     
 3.  **Transformaciones**
 
-    Vamos a ver el segundo grupo de herramientas que aparece en la **Barra de Bloques**: El de transformaciones. Nos permite desplazar, rotar o escalar los objetos.
+    Vamos a ver el segundo grupo de herramientas que aparece en la **Barra de Bloques - Transforms**: El de transformaciones. Nos permite desplazar, rotar o escalar los objetos.
     
-    **Traslaciones:**  Cuando *renderizamos* una de las primitivas anteriores, éstas aparecen colocadas en el eje de coordenadas. Mediante las traslaciones podemos desplazarlas a cualquier lugar del espacio usando *vectores de posición* Para crear una esfera tendremos que seguir el siguiente procedimiento: Dentro del bloque *3D Shapes*, arrastramos el bloque 
-    <img src="./img/bloque_esfera.png" width="30%"> y lo llevamos a la zona del programa.
+    **Traslaciones:**  Cuando *renderizamos* una de las primitivas anteriores, éstas aparecen colocadas en el centro de coordenadas. Mediante las traslaciones podemos desplazarlas a cualquirr lugar del espacio usando *vectores de posición*. Para trasladarun objeto tendremos que seguir el siguiente procedimiento: Dentro del bloque *3D Shapes*, arrastramos el bloque 
+    <img src="./img/bloque_traslacion.png" width="30%"> y lo llevamos a la zona del programa. Una vez ahí, colocamos dentro, arrastrando, los bloques correspondientes al objeto a trasladar.
     
-    Al renderizar obtendremos una esfera de *10mm*:
+    En este caso, los parámetros **X**, **Y** y **Z**, son las coordenadas del vector de traslación.    
     
-    <img src="./img/esfera10.png" width="80%">
+    **Rotaciones:**  Para rotar un objeto, arrastramos el bloque    
+    <img src="./img/bloque_rotacion.png" width="30%"> y lo llevamos a la zona del programa. Una vez ahí, colocamos dentro, arrastrando, los bloques correspondientes al objeto a rotar. 
     
-    El único parámetro que podemos meter indica el radio de la esfera. **NOTA.** Siempre vamos tener por defecto la esfera centrada en el origen de coordenadas.
-    
-    **Rotaciones:**  Para crear un cilindro tendremos que seguir el siguiente procedimiento: Dentro del bloque *3D Shapes*, arrastramos el bloque. 
-    <img src="./img/bloque_cilindro.png" width="600%"> y lo llevamos a la zona del programa. 
-    
-    Vamos a ver qué parámetros se pueden modificar:
-    
-    - **radius1**, es el radio de la base inferior de la figura a modelar
-    - **candado**, por defecto aparece cerrado, y esto hace que el parámetro **radius2** herede el valor de **radius1**
-    - **radius2**, radio de la base superior de la figura. Cuando coincida con **radius1*** tendremos un cilindro, y cuando no, tendremos un **tronco de cono** o un **cono** si lo ponemos que el radio es cero.
-    - **height**, altura del cilindro.
-    - **centered/not centered**, centrado en el origen de coordenadas o no
+  
+    En este caso, los parámetros **X**, **Y** y **Z**, son los grados a rotar en los diferentes ejes. **NOTA:** Las rotaciones se hacen sobre los ejes de coordenadas, y por tanto sobre el origen de coordenadas, no sobre el centro del objeto. Por lo que si el objeto está trasladado, antes de la rotación, el vector de posición también sufrirá la rotación. Normalmente, interesará más hacer primero la rotación del objeto, centrado en el origen, y después la traslación.     
     
     Al renderizar obtendremos un cilindro de *10mm* de radio y *10mm* de altura:
     
@@ -153,7 +144,7 @@ Además, tenemos la típica **Barra de Herramientas** para manejar los archivos,
     
     **NOTA:** A diferencia de OpenSCAD, donde un cilindro no es más que un prisma de bsae un ploígono regular de un número de lados dado por un parámetro, en BlocksCAD no podemos fijar el número de lados, éste viene fijado por el programa. Esto implica que no podemos hacer prismas de base poligonal utilizando la primitiva **cylinder**, al contrario de como pasa en OpenSCAD. Este hecho limita mucho las posibilidades de esta herramienta, por lo que se espera que en próximas versiones habiliten el parámetro número de lados. Evidentemente, tampoco podemos hacer pirámides ni troncos de pirámides. 
     
-    ((
+   
     **Ejemplos:**
     
     | Bloque | Renderizado |

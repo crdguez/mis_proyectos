@@ -137,20 +137,13 @@ Además, tenemos la típica **Barra de Herramientas** para manejar los archivos,
     
   
     En este caso, los parámetros **X**, **Y** y **Z**, son los grados a rotar en los diferentes ejes. **NOTA:** Las rotaciones se hacen sobre los ejes de coordenadas, y por tanto sobre el origen de coordenadas, no sobre el centro del objeto. Por lo que si el objeto está trasladado, antes de la rotación, el vector de posición también sufrirá la rotación. Normalmente, interesará más hacer primero la rotación del objeto, centrado en el origen, y después la traslación.     
-    
-    Al renderizar obtendremos un cilindro de *10mm* de radio y *10mm* de altura:
-    
-    <img src="./img/cilindro10_10.png" width="80%">
-    
-    **NOTA:** A diferencia de OpenSCAD, donde un cilindro no es más que un prisma de bsae un ploígono regular de un número de lados dado por un parámetro, en BlocksCAD no podemos fijar el número de lados, éste viene fijado por el programa. Esto implica que no podemos hacer prismas de base poligonal utilizando la primitiva **cylinder**, al contrario de como pasa en OpenSCAD. Este hecho limita mucho las posibilidades de esta herramienta, por lo que se espera que en próximas versiones habiliten el parámetro número de lados. Evidentemente, tampoco podemos hacer pirámides ni troncos de pirámides. 
-    
-   
+              
     **Ejemplos:**
     
-    | Bloque | Renderizado |
-    |:------:|:-----------:|
-    |<img src="./img/bloque11.png"> |<img src="./img/cilindro5_5_10c.png"> |
-    |<img src="./img/bloque12.png"> |<img src="./img/tronco10_5_20nc.png"> |
+    | Ejemplo | Bloque | Renderizado |
+    |:-------:|:------:|:-----------:|
+    |Prisma de 10x20x30 centrado y trasladado 30 en la dirección X, 30 en la Y y 40 en la Z |<img src="./img/bloque21.png"> |<img src="./img/traslacion1.png"> |
+    |Ejercicio anterior rotado 45º en el eje X |<img src="./img/bloque22.png"> |<img src="./img/rotacion1.png"> |
     |<img src="./img/bloque13.png"> |<img src="./img/cono10_20nc.png"> |
     
     

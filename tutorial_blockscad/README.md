@@ -14,7 +14,7 @@ python -m SimpleHTTPServer 9000
 # http://localhost:9000/
 ```
 
-En el momento de la elaboracion de este tutorial, se estaba desarrollando un proyecto similar: [ScratchyCAD](http://scratchycad.com/).
+En el momento de la elaboracion de este tutorial, se estaba desarrollando un proyecto similar: [ScratchyCAD](http://scratchycad.com/). Posteriormente se ha conocido la existencia de [BeetleBlocks](http://beetleblocks.com/run/)
 
 ### El entorno
 

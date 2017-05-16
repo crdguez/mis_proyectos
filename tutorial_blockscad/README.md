@@ -144,14 +144,14 @@ Además, tenemos la típica **Barra de Herramientas** para manejar los archivos,
     |:-------:|:------:|:-----------:|
     |Prisma de 10x20x30 centrado y trasladado 30 en la dirección X, 30 en la Y y 40 en la Z |<img src="./img/bloque21.png"> |<img src="./img/traslacion1.png"> |
     |Ejercicio anterior rotado 45º en el eje X |<img src="./img/bloque22.png"> |<img src="./img/rotacion1.png"> |
-    |<img src="./img/bloque13.png"> |<img src="./img/cono10_20nc.png"> |
+   
     
     
     **Ejercicios:**
     
     | Problema | Imagen   | Solución |
     |:--------:|:--------:|:--------:|
-    | Modela una esfera de 2cm |<img src="./img/ejercicio11.png"> |[Solución](./code/ejercicio11.xml)|
+    | Modela un prisma de 10x0x10 trasladado 10 en el eje x|<img src="./img/ejercicio11.png"> |[Solución](./code/ejercicio11.xml)|
     | Modela un cilindro de 6cm de radio x 3cm de altura, sin centrar|<img src="./img/ejercicio12.png"> |[Solución](./code/ejercicio12.xml)|
     | Modela un cono de 3cm de base x 5cm de altura sin centrar|<img src="./img/ejercicio13.png"> |[Solución](./code/ejercicio13.xml)|
 

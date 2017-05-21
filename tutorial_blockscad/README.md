@@ -151,9 +151,8 @@ Además, tenemos la típica **Barra de Herramientas** para manejar los archivos,
     
     | Problema | Imagen   | Solución |
     |:--------:|:--------:|:--------:|
-    | Modela un prisma de 10x0x10 trasladado 10 en el eje x|<img src="./img/ejercicio11.png"> |[Solución](./code/ejercicio11.xml)|
-    | Modela un cilindro de 6cm de radio x 3cm de altura, sin centrar|<img src="./img/ejercicio12.png"> |[Solución](./code/ejercicio12.xml)|
-    | Modela un cono de 3cm de base x 5cm de altura sin centrar|<img src="./img/ejercicio13.png"> |[Solución](./code/ejercicio13.xml)|
+    | Modela un prisma de 10x0x10 trasladado 10 en el eje X|<img src="./img/ejercicio21.png"> |[Solución](./code/ejercicio21.xml)|
+    | Modela un prisma rotado 45º sobre el eje z y trasladado 10 sobre el eje Y|<img src="./img/ejercicio22.png"> |[Solución](./code/ejercicio22.xml)|
 
 
 ## Autor

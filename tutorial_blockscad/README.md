@@ -4,7 +4,7 @@
 
 BlocksCAD no es más que una interfaz web de  [OpenSCAD](http://www.openscad.org) basada en bloques tipo [Scratch](http://scratch.mit.edu). Evidentemente, solo tiene implementados bloques muy básicos, por lo que la funcionalidad es limitada. Sin embargo, el uso de bloques hace que sea una estupenda herramienta para introducir a los niños en el pensamiento computacional, la capacidad espacial y el modelado en 3D.
 
-Podemos acceder via web a [BlocksCAD](https://blockscad.einsteinsworkshop.com/), o bien descargarlo de [github](https://github.com/EinsteinsWorkshop/BlocksCAD) y ejecutarlo localmente o en un servidor dedicado, esto último está bien si no tienes conexión a Internet (más información en el [README](https://github.com/EinsteinsWorkshop/BlocksCAD/blob/development/README) del proyecto):
+Podemos acceder via web a [BlocksCAD](https://www.blockscad3d.com/), o bien descargarlo de [github](https://github.com/EinsteinsWorkshop/BlocksCAD) y ejecutarlo localmente o en un servidor dedicado, esto último está bien si no tienes conexión a Internet (más información en el [README](https://github.com/EinsteinsWorkshop/BlocksCAD/blob/development/README) del proyecto):
 
 
 ```sh
@@ -152,7 +152,7 @@ Además, tenemos la típica **Barra de Herramientas** para manejar los archivos,
     | Problema | Imagen   | Solución |
     |:--------:|:--------:|:--------:|
     | Modela un prisma de 10x0x10 trasladado 10 en el eje X|<img src="./img/ejercicio21.png"> |[Solución](./code/ejercicio21.xml)|
-    | Modela un prisma rotado 45º sobre el eje z y trasladado 10 sobre el eje Y|<img src="./img/ejercicio22.png"> |[Solución](./code/ejercicio22.xml)|
+    | Modela un prisma de 10x0x10 rotado 45º sobre el eje z y trasladado 10 sobre el eje Y|<img src="./img/ejercicio22.png"> |[Solución](./code/ejercicio22.xml)|
 
 
 ## Autor

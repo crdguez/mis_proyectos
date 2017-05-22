@@ -168,13 +168,13 @@ Además, tenemos la típica **Barra de Herramientas** para manejar los archivos,
     | Ejemplo | Bloque | Renderizado |
     |:-------:|:------:|:-----------:|
     |Une un cubo de 10x10x10 con una esfera de radio 5 y trasladada 5 sobre el eje z|<img src="./img/bloque31.png"> |<img src="./img/ejemplo31.png"> |
-    |Ejercicio anterior pero haciendo la diferencia entre el cubo y la esfera |<img src="./img/bloque32.png"> |<img src="./img/ejmeplo32.png"> |
+    |Ejercicio anterior pero haciendo la diferencia entre el cubo y la esfera |<img src="./img/bloque32.png"> |<img src="./img/ejemplo32.png"> |
     
     **Ejercicio:**
     
     | Problema | Imagen   | Solución |
     |:--------:|:--------:|:--------:|
-    | Modela un spinner de dos ramas con tres agujeros para cilindros de radio 11mm y 7 mm de altura|<img src="./img/ejercicio21.png"> ||
+    | Modela un spinner de dos ramas con tres agujeros para cilindros de radio 11mm y 7 mm de altura|<img src="./img/ejercicio31.png"> ||
     
     
 

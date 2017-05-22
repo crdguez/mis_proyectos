@@ -145,7 +145,7 @@ Además, tenemos la típica **Barra de Herramientas** para manejar los archivos,
     |Prisma de 10x20x30 centrado y trasladado 30 en la dirección X, 30 en la Y y 40 en la Z |<img src="./img/bloque21.png"> |<img src="./img/traslacion1.png"> |
     |Ejercicio anterior rotado 45º en el eje X |<img src="./img/bloque22.png"> |<img src="./img/rotacion1.png"> |
    
-    
+   
     
     **Ejercicios:**
     
@@ -153,6 +153,30 @@ Además, tenemos la típica **Barra de Herramientas** para manejar los archivos,
     |:--------:|:--------:|:--------:|
     | Modela un prisma de 10x0x10 trasladado 10 en el eje X|<img src="./img/ejercicio21.png"> |[Solución](./code/ejercicio21.xml)|
     | Modela un prisma de 10x0x10 rotado 45º sobre el eje z y trasladado 10 sobre el eje Y|<img src="./img/ejercicio22.png"> |[Solución](./code/ejercicio22.xml)|
+    
+    
+4.  **Operaciones lógicas: Unión y Diferencia. Uniendo objetos y haciendo agujeros**
+
+    Vamos a ver el tercer grupo de herramientas que aparece en la **Barra de Bloques - Set Ops**: Operaciones Lógicas de Unión, Diferencia (también aparece la intersección). Nos permite unir objetos, hacer agujeros.
+    
+    **Uniones:** Para unir dos o más objetos tenemos que seleccionar el bloque <img src="./img/bloque_union.png" width="30%">. En el bloque vemos que hay espacio para colocar dos sub-bloques, correspondientes a los objetos que queramos unir. Si queremos unir más de un objeto, pinchado en el símbolo +, podremos añadir espacio para nuevos sub-bloques.
+    
+    **Diferencias:** Si con la unión lo que hacemos es "pegar" objetos, con la diferencia lo que hacemos es hacer "agujeros". La forma de trabajar con el bloque es similar a la unión pero, obviamente, con resultados diferentes.
+    
+    **Ejemplos:**
+    
+    | Ejemplo | Bloque | Renderizado |
+    |:-------:|:------:|:-----------:|
+    |Une un cubo de 10x10x10 con una esfera de radio 5 y trasladada 5 sobre el eje z|<img src="./img/bloque31.png"> |<img src="./img/ejemplo31.png"> |
+    |Ejercicio anterior pero haciendo la diferencia entre el cubo y la esfera |<img src="./img/bloque32.png"> |<img src="./img/ejmeplo32.png"> |
+    
+    **Ejercicio:**
+    
+    | Problema | Imagen   | Solución |
+    |:--------:|:--------:|:--------:|
+    | Modela un spinner de dos ramas con tres agujeros para cilindros de radio 11mm y 7 mm de altura|<img src="./img/ejercicio21.png"> ||
+    
+    
 
 
 ## Autor

@@ -1,7 +1,7 @@
 # Site wide configuration
 
-title: Site Title
-locale: en_US
+title: Mi página personal
+locale: es_ES.UTF-8
 description: Describe your website here.
 logo: site-logo.png
 search: true

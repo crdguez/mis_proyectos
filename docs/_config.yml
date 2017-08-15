@@ -5,6 +5,7 @@ baseurl:
 title: Prueba
 email: fpgawars@gmail.com
 description: Exploring the open side of the FPGAs
+theme: jekyll-theme-minimal
 
 # Team names, titles and social links
 people:

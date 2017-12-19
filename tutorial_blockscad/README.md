@@ -39,144 +39,169 @@ Además, tenemos la típica **Barra de Herramientas** para manejar los archivos,
 
     **Procedimiento:**
     En primer lugar, vamos a seleccionar la opción *Simple ToolBox* que aparece dentro del menú *options* de la *barra de menús. De esta forma reducimos las opciones de la **Barra de bloques**. Una vez vayamos conociendo el programa ya nos intereserá la parte avanzada.
-    
+
     Dentro del bloque *3D Shapes*, arrastramos el bloque 
     <img src="./img/bloque_cubo.png" width="40%"> y lo llevamos a la zona del programa.
-    
+
     Ya tenemos nuestro primer programa con BlocksCAD. Le estamos diciendo que dibuje un cubo, pero no lo vemos aún. Nos falta ejecutar las instrucciones, en los programas de modelado a la ejecución de un programa que contiene un diseño se le llama **renderizado**. Para renderizar, hemos de ir al *área de dibujo o renderizado* y pulsar el botón **Render** que se encuentra en la esquina inferior izquierda.
-    
+
     <img src="./img/cube10x10x10c.png" width="80%">
-    
+
     Vamos a explicar el bloque. Vemos que tiene los siguientes campos:
-    
+
     -   Longitud del cubo en el **eje X**, es decir el ancho. **NOTA:** Por defecto el valor indica milímetros, es decir, un valor *10* en este campo nos dará un cubo de *1 cm* de ancho.
     -   Longitud del cubo en el **eje Y**, es decir el largo.
     -   Longitud del cubo en el **eje Z**, es decir el alto.
     -   Un desplegable *not centered* o *centered*. Indica si queremos que un vértice del cubo se apoye en el origen de coordenadas o que el origen de coordenadas se encuentre en el centro del cubo.
-    
-    **Ejemplos:**
-    
-    | Bloque | Renderizado |
-    |:------:|:-----------:|
-    |<img src="./img/bloque01.png"> |<img src="./img/cube10x20x30nc.png"> |
-    |<img src="./img/bloque02.png"> |<img src="./img/cube10x20x30c.png"> |
-    |<img src="./img/bloque03.png"> |<img src="./img/cube10x10x10c.png"> |
-    
 
-    
+    **Ejemplos:**
+
+    |             Bloque             |             Renderizado              |
+    | :----------------------------: | :----------------------------------: |
+    | <img src="./img/bloque01.png"> | <img src="./img/cube10x20x30nc.png"> |
+    | <img src="./img/bloque02.png"> | <img src="./img/cube10x20x30c.png">  |
+    | <img src="./img/bloque03.png"> | <img src="./img/cube10x10x10c.png">  |
+
+    ​
+
     **Ejercicios:**
-    
+
     Se proponen los siguientes ejercicios:
-    
-    | Problema | Imagen   | Solución |
-    |:--------:|:--------:|:--------:|
-    | Modela un cubo de 2cm x 5cm x 3cm centrado |<img src="./img/ejercicio01.png"> |[Solución](./code/ejercicio01.xml)|
-    | Modela un cubo de 6cm x 2cm x 3cm sin centrar|<img src="./img/ejercicio02.png"> |[Solución](./code/ejercicio02.xml)|
-    
-    
+
+    |                 Problema                 |              Imagen               |              Solución              |
+    | :--------------------------------------: | :-------------------------------: | :--------------------------------: |
+    | Modela un cubo de 2cm x 5cm x 3cm centrado | <img src="./img/ejercicio01.png"> | [Solución](./code/ejercicio01.xml) |
+    | Modela un cubo de 6cm x 2cm x 3cm sin centrar | <img src="./img/ejercicio02.png"> | [Solución](./code/ejercicio02.xml) |
+
+    ​
 
 2. **Otros objetos primitivos: Cilindros y esferas**
 
     Hemos visto la primitiva cube, que nos permite modelar **cubos** en particular y **prismas** en general.
-    
+
     **Esferas:**  Para crear una esfera tendremos que seguir el siguiente procedimiento: Dentro del bloque *3D Shapes*, arrastramos el bloque 
     <img src="./img/bloque_esfera.png" width="30%"> y lo llevamos a la zona del programa.
-    
+
     Al renderizar obtendremos una esfera de *10mm*:
-    
+
     <img src="./img/esfera10.png" width="80%">
-    
+
     El único parámetro que podemos meter indica el radio de la esfera. **NOTA.** Siempre vamos tener por defecto la esfera centrada en el origen de coordenadas.
-    
+
     **Cilindros:**  Para crear un cilindro tendremos que seguir el siguiente procedimiento: Dentro del bloque *3D Shapes*, arrastramos el bloque. 
     <img src="./img/bloque_cilindro.png" width="600%"> y lo llevamos a la zona del programa. 
-    
+
     Vamos a ver qué parámetros se pueden modificar:
-    
+
     - **radius1**, es el radio de la base inferior de la figura a modelar
     - **candado**, por defecto aparece cerrado, y esto hace que el parámetro **radius2** herede el valor de **radius1**
     - **radius2**, radio de la base superior de la figura. Cuando coincida con **radius1*** tendremos un cilindro, y cuando no, tendremos un **tronco de cono** o un **cono** si lo ponemos que el radio es cero.
     - **height**, altura del cilindro.
     - **centered/not centered**, centrado en el origen de coordenadas o no
-    
+
     Al renderizar obtendremos un cilindro de *10mm* de radio y *10mm* de altura:
-    
+
     <img src="./img/cilindro10_10.png" width="80%">
-    
+
     **NOTA:** A diferencia de OpenSCAD, donde un cilindro no es más que un prisma de bsae un ploígono regular de un número de lados dado por un parámetro, en BlocksCAD no podemos fijar el número de lados, éste viene fijado por el programa. Esto implica que no podemos hacer prismas de base poligonal utilizando la primitiva **cylinder**, al contrario de como pasa en OpenSCAD. Este hecho limita mucho las posibilidades de esta herramienta, por lo que se espera que en próximas versiones habiliten el parámetro número de lados. Evidentemente, tampoco podemos hacer pirámides ni troncos de pirámides. 
-    
-    ((
+
+    ​
     **Ejemplos:**
-    
-    | Bloque | Renderizado |
-    |:------:|:-----------:|
-    |<img src="./img/bloque11.png"> |<img src="./img/cilindro5_5_10c.png"> |
-    |<img src="./img/bloque12.png"> |<img src="./img/tronco10_5_20nc.png"> |
-    |<img src="./img/bloque13.png"> |<img src="./img/cono10_20nc.png"> |
-    
-    
+
+    |             Bloque             |              Renderizado              |
+    | :----------------------------: | :-----------------------------------: |
+    | <img src="./img/bloque11.png"> | <img src="./img/cilindro5_5_10c.png"> |
+    | <img src="./img/bloque12.png"> | <img src="./img/tronco10_5_20nc.png"> |
+    | <img src="./img/bloque13.png"> |   <img src="./img/cono10_20nc.png">   |
+
+
     **Ejercicios:**
-    
-    | Problema | Imagen   | Solución |
-    |:--------:|:--------:|:--------:|
-    | Modela una esfera de 2cm |<img src="./img/ejercicio11.png"> |[Solución](./code/ejercicio11.xml)|
-    | Modela un cilindro de 6cm de radio x 3cm de altura, sin centrar|<img src="./img/ejercicio12.png"> |[Solución](./code/ejercicio12.xml)|
-    | Modela un cono de 3cm de base x 5cm de altura sin centrar|<img src="./img/ejercicio13.png"> |[Solución](./code/ejercicio13.xml)|
-    
+
+    |                 Problema                 |              Imagen               |              Solución              |
+    | :--------------------------------------: | :-------------------------------: | :--------------------------------: |
+    |         Modela una esfera de 2cm         | <img src="./img/ejercicio11.png"> | [Solución](./code/ejercicio11.xml) |
+    | Modela un cilindro de 6cm de radio x 3cm de altura, sin centrar | <img src="./img/ejercicio12.png"> | [Solución](./code/ejercicio12.xml) |
+    | Modela un cono de 3cm de base x 5cm de altura sin centrar | <img src="./img/ejercicio13.png"> | [Solución](./code/ejercicio13.xml) |
+
 3.  **Transformaciones**
 
     Vamos a ver el segundo grupo de herramientas que aparece en la **Barra de Bloques - Transforms**: El de transformaciones. Nos permite desplazar, rotar o escalar los objetos.
-    
+
     **Traslaciones:**  Cuando *renderizamos* una de las primitivas anteriores, éstas aparecen colocadas en el centro de coordenadas. Mediante las traslaciones podemos desplazarlas a cualquirr lugar del espacio usando *vectores de posición*. Para trasladarun objeto tendremos que seguir el siguiente procedimiento: Dentro del bloque *3D Shapes*, arrastramos el bloque 
     <img src="./img/bloque_traslacion.png" width="30%"> y lo llevamos a la zona del programa. Una vez ahí, colocamos dentro, arrastrando, los bloques correspondientes al objeto a trasladar.
-    
+
     En este caso, los parámetros **X**, **Y** y **Z**, son las coordenadas del vector de traslación.    
-    
+
     **Rotaciones:**  Para rotar un objeto, arrastramos el bloque    
     <img src="./img/bloque_rotacion.png" width="30%"> y lo llevamos a la zona del programa. Una vez ahí, colocamos dentro, arrastrando, los bloques correspondientes al objeto a rotar. 
-    
-  
+
+
     En este caso, los parámetros **X**, **Y** y **Z**, son los grados a rotar en los diferentes ejes. **NOTA:** Las rotaciones se hacen sobre los ejes de coordenadas, y por tanto sobre el origen de coordenadas, no sobre el centro del objeto. Por lo que si el objeto está trasladado, antes de la rotación, el vector de posición también sufrirá la rotación. Normalmente, interesará más hacer primero la rotación del objeto, centrado en el origen, y después la traslación.     
-              
+    ​          
     **Ejemplos:**
-    
-    | Ejemplo | Bloque | Renderizado |
-    |:-------:|:------:|:-----------:|
-    |Prisma de 10x20x30 centrado y trasladado 30 en la dirección X, 30 en la Y y 40 en la Z |<img src="./img/bloque21.png"> |<img src="./img/traslacion1.png"> |
-    |Ejercicio anterior rotado 45º en el eje X |<img src="./img/bloque22.png"> |<img src="./img/rotacion1.png"> |
-   
-   
-    
+
+    |                 Ejemplo                  |             Bloque             |            Renderizado            |
+    | :--------------------------------------: | :----------------------------: | :-------------------------------: |
+    | Prisma de 10x20x30 centrado y trasladado 30 en la dirección X, 30 en la Y y 40 en la Z | <img src="./img/bloque21.png"> | <img src="./img/traslacion1.png"> |
+    | Ejercicio anterior rotado 45º en el eje X | <img src="./img/bloque22.png"> |  <img src="./img/rotacion1.png">  |
+
+
+
     **Ejercicios:**
-    
+
     | Problema | Imagen   | Solución |
     |:--------:|:--------:|:--------:|
     | Modela un prisma de 10x0x10 trasladado 10 en el eje X|<img src="./img/ejercicio21.png"> |[Solución](./code/ejercicio21.xml)|
     | Modela un prisma de 10x0x10 rotado 45º sobre el eje z y trasladado 10 sobre el eje Y|<img src="./img/ejercicio22.png"> |[Solución](./code/ejercicio22.xml)|
-    
-    
+
+
 4.  **Operaciones lógicas: Unión y Diferencia. Uniendo objetos y haciendo agujeros**
 
     Vamos a ver el tercer grupo de herramientas que aparece en la **Barra de Bloques - Set Ops**: Operaciones Lógicas de Unión, Diferencia (también aparece la intersección). Nos permite unir objetos, hacer agujeros.
-    
-    **Uniones:** Para unir dos o más objetos tenemos que seleccionar el bloque <img src="./img/bloque_union.png" width="30%">. En el bloque vemos que hay espacio para colocar dos sub-bloques, correspondientes a los objetos que queramos unir. Si queremos unir más de un objeto, pinchado en el símbolo +, podremos añadir espacio para nuevos sub-bloques.
-    
+
+    **Uniones:** Para unir dos o más objetos tenemos que seleccionar el bloque <img src="./img/bloque_union.png" width="10%">. En el bloque vemos que hay espacio para colocar dos sub-bloques, correspondientes a los objetos que queramos unir. Si queremos unir más de un objeto, pinchado en el símbolo +, podremos añadir espacio para nuevos sub-bloques.
+
     **Diferencias:** Si con la unión lo que hacemos es "pegar" objetos, con la diferencia lo que hacemos es hacer "agujeros". La forma de trabajar con el bloque es similar a la unión pero, obviamente, con resultados diferentes.
-    
+
     **Ejemplos:**
-    
-    | Ejemplo | Bloque | Renderizado |
-    |:-------:|:------:|:-----------:|
-    |Une un cubo de 10x10x10 con una esfera de radio 5 y trasladada 5 sobre el eje z|<img src="./img/bloque31.png"> |<img src="./img/ejemplo31.png"> |
-    |Ejercicio anterior pero haciendo la diferencia entre el cubo y la esfera |<img src="./img/bloque32.png"> |<img src="./img/ejemplo32.png"> |
-    
+
+    |                 Ejemplo                  |             Bloque             |           Renderizado           |
+    | :--------------------------------------: | :----------------------------: | :-----------------------------: |
+    | Une un cubo de 10x10x10 con una esfera de radio 5 y trasladada 5 sobre el eje z | <img src="./img/bloque31.png"> | <img src="./img/ejemplo31.png"> |
+    | Ejercicio anterior pero haciendo la diferencia entre el cubo y la esfera | <img src="./img/bloque32.png"> | <img src="./img/ejemplo32.png"> |
+
     **Ejercicio:**
-    
-    | Problema | Imagen   | Solución |
-    |:--------:|:--------:|:--------:|
-    | Modela un spinner de dos ramas con tres agujeros para cilindros de radio 11mm y 7 mm de altura|<img src="./img/ejercicio31.png"> ||
-    
-    
+
+    |                 Problema                 |              Imagen               | Solución |
+    | :--------------------------------------: | :-------------------------------: | :------: |
+    | Modela un spinner de dos ramas con tres agujeros para cilindros de radio 11mm y 7 mm de altura | <img src="./img/ejercicio31.png"> |          |
+
+5.  **Encapsulado de instrucciones en una función o módulo**
+
+    En la **Barra de bloques - Modules** podemos seleccionar el bloque **to do "something"** (por defecto, something es el nombre que se le asigna al módulo o bloque, pero le podemos poner el nombre que queramos). Este bloque nos permite encapsular un conjunto de instrucciones para luego poder ejecutarlas todas las veces que queramos en nuestro programa. Al definir un módulo o función, se nos creará un bloque con el nombre de la función.
+
+    **Bloque módulo sin parámetros:** <img src="./img/bloque_modulo.png" width="20%"> Todos los bloque que incluyamos dentro, se ejecutarán en nuestro programa siempre que aparezca el bloque <img src="./img/bloque_modulo_2.png" width="20%">
+
+    **Bloque módulo con parámetros:** Igual que el anterior, pero con valores variables, de forma que la ejecución dependerá de los valores que les demos. Por el contrario, si el módulo no lleva parámetros siempre se generará el mismo objeto. Ver los ejemplos, para ver la diferencia:
+
+    **Ejemplos:**
+
+    |                 Ejemplo                  |             Bloque             |           Renderizado           |
+    | :--------------------------------------: | :----------------------------: | :-----------------------------: |
+    | Haz una función que cree un cubo de 10x10x10. Y con esa función crea dos cubos separados por 10mm en el eje X | <img src="./img/bloque31.png"> | <img src="./img/ejemplo31.png"> |
+    | Mismo ejercicio que el anterior pero con el ancho (eje X) variable. El primer cubo tiene que ser de 10mm de ancho y el segundo de 20mm. | <img src="./img/bloque32.png"> | <img src="./img/ejemplo32.png"> |
+
+6.   **Objetos convexos a partir de sus vértices: Comando Hull**
+
+    To do
+
+7.  **Repetición de tareas: Bucles**
+
+    To do
+
+8.  **Simetrías**
+
+    To do
 
 
 ## Autor

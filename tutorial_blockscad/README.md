@@ -132,12 +132,10 @@ Además, tenemos la típica **Barra de Herramientas** para manejar los archivos,
 
     En este caso, los parámetros **X**, **Y** y **Z**, son las coordenadas del vector de traslación.    
 
-    **Rotaciones:**  Para rotar un objeto, arrastramos el bloque    
-    <img src="./img/bloque_rotacion.png" width="30%"> y lo llevamos a la zona del programa. Una vez ahí, colocamos dentro, arrastrando, los bloques correspondientes al objeto a rotar. 
+    **Rotaciones:**  Para rotar un objeto, arrastramos el bloque    <img src="./img/bloque_rotacion.png" width="30%"> y lo llevamos a la zona del programa. Una vez ahí, colocamos dentro, arrastrando, los bloques correspondientes al objeto a rotar. En este caso, los parámetros **X**, **Y** y **Z**, son los grados a rotar en los diferentes ejes. **NOTA:** Las rotaciones se hacen sobre los ejes de coordenadas, y por tanto sobre el origen de coordenadas, no sobre el centro del objeto. Por lo que si el objeto está trasladado, antes de la rotación, el vector de posición también sufrirá la rotación. Normalmente, interesará más hacer primero la rotación del objeto, centrado en el origen, y después la traslación.     
 
+    ​
 
-    En este caso, los parámetros **X**, **Y** y **Z**, son los grados a rotar en los diferentes ejes. **NOTA:** Las rotaciones se hacen sobre los ejes de coordenadas, y por tanto sobre el origen de coordenadas, no sobre el centro del objeto. Por lo que si el objeto está trasladado, antes de la rotación, el vector de posición también sufrirá la rotación. Normalmente, interesará más hacer primero la rotación del objeto, centrado en el origen, y después la traslación.     
-    ​          
     **Ejemplos:**
 
     |                 Ejemplo                  |             Bloque             |            Renderizado            |
@@ -146,13 +144,14 @@ Además, tenemos la típica **Barra de Herramientas** para manejar los archivos,
     | Ejercicio anterior rotado 45º en el eje X | <img src="./img/bloque22.png"> |  <img src="./img/rotacion1.png">  |
 
 
+**Ejercicios:**
 
-    **Ejercicios:**
+|                 Problema                 |              Imagen               |              Solución              |
+| :--------------------------------------: | :-------------------------------: | :--------------------------------: |
+| Modela un prisma de 10x0x10 trasladado 10 en el eje X | <img src="./img/ejercicio21.png"> | [Solución](./code/ejercicio21.xml) |
+| Modela un prisma de 10x0x10 rotado 45º sobre el eje z y trasladado 10 sobre el eje Y | <img src="./img/ejercicio22.png"> | [Solución](./code/ejercicio22.xml) |
 
-    | Problema | Imagen   | Solución |
-    |:--------:|:--------:|:--------:|
-    | Modela un prisma de 10x0x10 trasladado 10 en el eje X|<img src="./img/ejercicio21.png"> |[Solución](./code/ejercicio21.xml)|
-    | Modela un prisma de 10x0x10 rotado 45º sobre el eje z y trasladado 10 sobre el eje Y|<img src="./img/ejercicio22.png"> |[Solución](./code/ejercicio22.xml)|
+
 
 
 4.  **Operaciones lógicas: Unión y Diferencia. Uniendo objetos y haciendo agujeros**
@@ -180,7 +179,7 @@ Además, tenemos la típica **Barra de Herramientas** para manejar los archivos,
 
     En la **Barra de bloques - Modules** podemos seleccionar el bloque **to do "something"** (por defecto, something es el nombre que se le asigna al módulo o bloque, pero le podemos poner el nombre que queramos). Este bloque nos permite encapsular un conjunto de instrucciones para luego poder ejecutarlas todas las veces que queramos en nuestro programa. Al definir un módulo o función, se nos creará un bloque con el nombre de la función.
 
-    **Bloque módulo sin parámetros:** <img src="./img/bloque_modulo.png" width="20%"> Todos los bloque que incluyamos dentro, se ejecutarán en nuestro programa siempre que aparezca el bloque <img src="./img/bloque_modulo_2.png" width="20%">
+    **Bloque módulo sin parámetros:** Tiene esta forma: <img src="./img/bloque_modulo.png" width="20%"> Todos los bloque que incluyamos dentro, se ejecutarán en nuestro programa siempre que aparezca el bloque que lo llama:<img src="./img/bloque_modulo_2.png" width="20%">
 
     **Bloque módulo con parámetros:** Igual que el anterior, pero con valores variables, de forma que la ejecución dependerá de los valores que les demos. Por el contrario, si el módulo no lleva parámetros siempre se generará el mismo objeto. Ver los ejemplos, para ver la diferencia:
 
@@ -188,8 +187,21 @@ Además, tenemos la típica **Barra de Herramientas** para manejar los archivos,
 
     |                 Ejemplo                  |             Bloque             |           Renderizado           |
     | :--------------------------------------: | :----------------------------: | :-----------------------------: |
-    | Haz una función que cree un cubo de 10x10x10. Y con esa función crea dos cubos separados por 10mm en el eje X | <img src="./img/bloque31.png"> | <img src="./img/ejemplo31.png"> |
-    | Mismo ejercicio que el anterior pero con el ancho (eje X) variable. El primer cubo tiene que ser de 10mm de ancho y el segundo de 20mm. | <img src="./img/bloque32.png"> | <img src="./img/ejemplo32.png"> |
+    | Haz una función que cree un cubo de 10x10x10. Y con esa función crea dos cubos separados por 10mm en el eje X | <img src="./img/bloque51.png"> | <img src="./img/ejemplo51.png"> |
+    | Mismo ejercicio que el anterior pero con el ancho (eje Y) variable. El primer cubo tiene que ser de 10mm de ancho y el segundo de 20mm. | <img src="./img/bloque52.png"> | <img src="./img/ejemplo52.png"> |
+
+    **Ejercicios:**
+
+    Se proponen los siguientes ejercicios:
+
+    |                 Problema                 |              Imagen               |              Solución              |
+    | :--------------------------------------: | :-------------------------------: | :--------------------------------: |
+    | Crea una función que modele una rueda con un radio exterior, uno interior y un grosor | <img src="./img/ejercicio51.png"> | [Solución](./code/ejercicio51.xml) |
+    | Usa la función anterior para crear un modelo similar a éste | <img src="./img/ejercicio02.png"> |                                    |
+
+    ​
+
+    ​
 
 6.   **Objetos convexos a partir de sus vértices: Comando Hull**
 

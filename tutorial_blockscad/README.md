@@ -103,7 +103,9 @@ Además, tenemos la típica **Barra de Herramientas** para manejar los archivos,
 
     <img src="./img/cilindro10_10.png" width="80%">
 
-    **NOTA:** A diferencia de OpenSCAD, donde un cilindro no es más que un prisma de bsae un ploígono regular de un número de lados dado por un parámetro, en BlocksCAD no podemos fijar el número de lados, éste viene fijado por el programa. Esto implica que no podemos hacer prismas de base poligonal utilizando la primitiva **cylinder**, al contrario de como pasa en OpenSCAD. Este hecho limita mucho las posibilidades de esta herramienta, por lo que se espera que en próximas versiones habiliten el parámetro número de lados. Evidentemente, tampoco podemos hacer pirámides ni troncos de pirámides. 
+    ~~**NOTA:** A diferencia de OpenSCAD, donde un cilindro no es más que un prisma de base un polígono regular de un número de lados dado por un parámetro, en BlocksCAD no podemos fijar el número de lados, éste viene fijado por el programa. Esto implica que no podemos hacer prismas de base poligonal utilizando la primitiva **cylinder**, al contrario de como pasa en OpenSCAD. Este hecho limita mucho las posibilidades de esta herramienta, por lo que se espera que en próximas versiones habiliten el parámetro número de lados. Evidentemente, tampoco podemos hacer pirámides ni troncos de pirámides.~~ 
+
+    Para poder crear prismas o pirámides de bases polígonos regulares podemos utilizar el bloque sides aplicado a un cilindro: To do.
 
     ​
     **Ejemplos:**
@@ -197,15 +199,15 @@ Además, tenemos la típica **Barra de Herramientas** para manejar los archivos,
     |                 Problema                 |              Imagen               |              Solución              |
     | :--------------------------------------: | :-------------------------------: | :--------------------------------: |
     | Crea una función que modele una rueda con un radio exterior, uno interior y un grosor | <img src="./img/ejercicio51.png"> | [Solución](./code/ejercicio51.xml) |
-    | Usa la función anterior para crear un modelo similar a éste | <img src="./img/ejercicio02.png"> |                                    |
+    | Usa la función anterior para crear un modelo similar a éste | <img src="./img/ejercicio52.png"> | [Solución](./code/ejercicio52.xml) |
 
     ​
 
     ​
 
-6.   **Objetos convexos a partir de sus vértices: Comando Hull**
+6.   **Objetos convexos a partir de sus vértices: Bloque Hull**
 
-    To do
+    Con el bloque hull vamos a poder crear el objeto convexo mínimo que incluye otros objetos indicados. Esto va a ser especialmente útil para hacer objetos sólidos a partir de sus vértices. To do
 
 7.  **Repetición de tareas: Bucles**
 

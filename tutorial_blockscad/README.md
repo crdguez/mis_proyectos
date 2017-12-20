@@ -14,7 +14,7 @@ python -m SimpleHTTPServer 9000
 # http://localhost:9000/
 ```
 
-En el momento de la elaboracion de este tutorial, se estaba desarrollando un proyecto similar: [ScratchyCAD](http://scratchycad.com/). Posteriormente se ha conocido la existencia de [BeetleBlocks](http://beetleblocks.com/run/)
+**Alternativas a BlocksCAD**En el momento de la elaboracion de este tutorial, se estaba desarrollando un proyecto similar: [ScratchyCAD](http://scratchycad.com/). Posteriormente se ha conocido la existencia de [BeetleBlocks](http://beetleblocks.com/run/)
 
 ### El entorno
 
@@ -206,6 +206,8 @@ Además, tenemos la típica **Barra de Herramientas** para manejar los archivos,
     ​
 
 6.   **Objetos convexos a partir de sus vértices: Bloque Hull**
+
+    A ver, esto es una prueba
 
     Con el bloque hull vamos a poder crear el objeto convexo mínimo que incluye otros objetos indicados. Esto va a ser especialmente útil para hacer objetos sólidos a partir de sus vértices. To do
 

@@ -1,10 +1,12 @@
 # Proyecto Asesoría
 
+**Nota:** La presentación está en la carpeta *docs* y está hecha con [Revealjs](https://revealjs.com/#/) (Gracias). Para que se pueda acceder desde *github-pages* en caso de que se quiera publicar. Habría que pasar todo el proyecto a un repositorio exclusivo de *github* y asociar la web del repositorio a la carpeta *docs* desde las *settings* del repositorio. Si se quiere ver en local, basta con abrir el archivo *docs/index.html* con un navegador.
+
 ## Introducción
 
 Documentación generada para presentar un proyecto de Asesoría de Formación:
 
-- [Convocatoria](http://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=943630302828)
+- [Convocatoria](http://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=943630302828) 2017
 
 - Normativa:
     * [Decreto 105/2013, de 1. Regulación del sistema de formación aragonés](http://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=740020785757)
@@ -15,23 +17,23 @@ Documentación generada para presentar un proyecto de Asesoría de Formación:
 # Documentación solicitada
 
 1. Hoja de Servicios
-1. Actividades reconocidas
-1. Proyecto completo: (3 hojas ambas caras, arial 11, doble espacio). Los Centros de Innovación y Formación Educativa pondrán a disposición de los candidatos que lo soliciten el Plan de actuación del Centro, la Memoria anual y aquellos documentos de carácter público que puedan facilitarle la elaboración del proyecto.
+2. Actividades reconocidas
+3. Proyecto completo: (3 hojas ambas caras, arial 11, doble espacio). Los Centros de Innovación y Formación Educativa pondrán a disposición de los candidatos que lo soliciten el Plan de actuación del Centro, la Memoria anual y aquellos documentos de carácter público que puedan facilitarle la elaboración del proyecto.
 
    - El conocimiento del sistema aragonés de formación permanente del profesorado, la
-normativa, la estructura y funcionamiento de su red
+     normativa, la estructura y funcionamiento de su red
    - El conocimiento de la realidad educativa de los centros de la zona en la que se solicita
-ejercer la asesoría
+     ejercer la asesoría
    - Propuestas para impulsar la participación del profesorado en la planificación de su formación
-y promover la implicación del coordinador de formación en centros.
+     y promover la implicación del coordinador de formación en centros.
    - Las propuestas para realizar un buen acompañamiento y seguimiento de las actividades
-formativas.
+     formativas.
    - La reflexión personal sobre qué puede aportar a la asesoría del CIFE desde la experiencia
-profesional y docente.
+     profesional y docente.
    - La capacidad de resolución de supuestos prácticos que puedan plantear los miembros
-de la comisión
+     de la comisión
 
-1. Otros
+4. Otros
 
 # El sistema aragonés de formación permanente:
 
@@ -59,15 +61,15 @@ Comisión asesora de Formación Permanente del profesorado: Presidida por el tit
 CIFES: Plan de Actuación (desarrollo del Plan Anual en su ámbito geográfico)
 
 ## Funcionamiento de la red:
- 
+
 Funciones de los CIFES:
 
 1. Detectar necesidades de formación
-    
-1. Colaborar en la planificación de la formación (Plan Anula de Formación)
 
-1. Elaborar, desarrollar y evaluar el plan de Actuación
+2. Colaborar en la planificación de la formación (Plan Anula de Formación)
 
-1. Planificar, desarrollar y dinamizar actividades de formacion permanente y 
- 
+3. Elaborar, desarrollar y evaluar el plan de Actuación
+
+4. Planificar, desarrollar y dinamizar actividades de formacion permanente y 
+
 

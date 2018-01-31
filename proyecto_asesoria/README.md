@@ -1,10 +1,12 @@
-# Proyecto Asesoría
+# Proyecto Asesoría (En construcción)
 
 **Nota:** La presentación está en la carpeta *docs* y está hecha con [Revealjs](https://revealjs.com/#/) (Gracias). Para que se pueda acceder desde *github-pages* en caso de que se quiera publicar, habría que pasar todo el proyecto a un repositorio exclusivo de *github* y asociar la web del repositorio a la carpeta *docs* desde las *settings* del repositorio. Si se quiere ver en local, basta con abrir el archivo *docs/index.html* con un navegador.
 
 ## Introducción
 
-Documentación generada para presentar un proyecto de Asesoría de Formación:
+Durante el curso 2016-2017 en alguna conversación con compañeros se plantea la posibilidad de intentar acceder a un puesto como asesor de CIFE (Centros de Formación). El contenido de este repositorio no es más que un intento de recopilar el trabajo que se ha hecho en ese sentido.
+
+Para saber que se le pide a un proyecto de Asesoría de Formación se puede empezar leyendo la siguiente documentación:
 
 - [Convocatoria](http://www.boa.aragon.es/cgi-bin/EBOA/BRSCGI?CMD=VEROBJ&MLKOB=943630302828) 2017
 
@@ -15,6 +17,8 @@ Documentación generada para presentar un proyecto de Asesoría de Formación:
 
 
 # Documentación solicitada
+
+Según pone en la convocatoria al aspirante se le solicita lo siguiente para poder acceder a un puesto de asesor a CIFE:
 
 1. Hoja de Servicios
 2. Actividades reconocidas
@@ -32,7 +36,6 @@ Documentación generada para presentar un proyecto de Asesoría de Formación:
      profesional y docente.
    - La capacidad de resolución de supuestos prácticos que puedan plantear los miembros
      de la comisión
-
 4. Otros
 
 # El sistema aragonés de formación permanente:

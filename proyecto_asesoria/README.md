@@ -1,6 +1,6 @@
 # Proyecto Asesoría
 
-**Nota:** La presentación está en la carpeta *docs* y está hecha con [Revealjs](https://revealjs.com/#/) (Gracias). Para que se pueda acceder desde *github-pages* en caso de que se quiera publicar. Habría que pasar todo el proyecto a un repositorio exclusivo de *github* y asociar la web del repositorio a la carpeta *docs* desde las *settings* del repositorio. Si se quiere ver en local, basta con abrir el archivo *docs/index.html* con un navegador.
+**Nota:** La presentación está en la carpeta *docs* y está hecha con [Revealjs](https://revealjs.com/#/) (Gracias). Para que se pueda acceder desde *github-pages* en caso de que se quiera publicar, habría que pasar todo el proyecto a un repositorio exclusivo de *github* y asociar la web del repositorio a la carpeta *docs* desde las *settings* del repositorio. Si se quiere ver en local, basta con abrir el archivo *docs/index.html* con un navegador.
 
 ## Introducción
 

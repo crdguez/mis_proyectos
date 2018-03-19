@@ -1,4 +1,4 @@
-# Tutorial de BlocksCAD:
+#  Tutorial de BlocksCAD:
 
 ## Introducción
 
@@ -117,13 +117,15 @@ Además, tenemos la típica **Barra de Herramientas** para manejar los archivos,
     | <img src="./img/bloque13.png"> |   <img src="./img/cono10_20nc.png">   |
 
 
-    **Ejercicios:**
+**Ejercicios:**
 
-    |                 Problema                 |              Imagen               |              Solución              |
-    | :--------------------------------------: | :-------------------------------: | :--------------------------------: |
-    |         Modela una esfera de 2cm         | <img src="./img/ejercicio11.png"> | [Solución](./code/ejercicio11.xml) |
-    | Modela un cilindro de 6cm de radio x 3cm de altura, sin centrar | <img src="./img/ejercicio12.png"> | [Solución](./code/ejercicio12.xml) |
-    | Modela un cono de 3cm de base x 5cm de altura sin centrar | <img src="./img/ejercicio13.png"> | [Solución](./code/ejercicio13.xml) |
+|                           Problema                           |              Imagen               |              Solución              |
+| :----------------------------------------------------------: | :-------------------------------: | :--------------------------------: |
+|                   Modela una esfera de 2cm                   | <img src="./img/ejercicio11.png"> | [Solución](./code/ejercicio11.xml) |
+| Modela un cilindro de 6cm de radio x 3cm de altura, sin centrar | <img src="./img/ejercicio12.png"> | [Solución](./code/ejercicio12.xml) |
+|  Modela un cono de 3cm de base x 5cm de altura sin centrar   | <img src="./img/ejercicio13.png"> | [Solución](./code/ejercicio13.xml) |
+
+
 
 3.  **Transformaciones**
 
@@ -207,9 +209,20 @@ Además, tenemos la típica **Barra de Herramientas** para manejar los archivos,
 
 6.   **Objetos convexos a partir de sus vértices: Bloque Hull**
 
-    A ver, esto es una prueba
+    **Hull**: Con el bloque  <img src="./img/bloque_hull.png" width="10%"> vamos a poder crear el objeto convexo mínimo que incluye otros objetos indicados. Esto va a ser especialmente útil para hacer objetos sólidos a partir de sus vértices. Para ello tendremos que dibujar primero los vértices con, por ejemplo, la primitiva *sphere* pero con un radio muy pequeño. Con esto conseguiremos marcar pequeños puntos en el espacio. 
 
-    Con el bloque hull vamos a poder crear el objeto convexo mínimo que incluye otros objetos indicados. Esto va a ser especialmente útil para hacer objetos sólidos a partir de sus vértices. To do
+    ​
+
+    Una vez tengamos los puntos, cuando los metamos en un bloque *hull* se generará el cuerpo convexo
+
+    ​
+
+    **Ejemplos:**
+
+    | Ejemplo                                                      | Bloque                                                       | Renderizado                                                  |
+    | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+    | Crea cuatro esferas de radio 0.5mm que servirán como vértices de un cubo de arista 10mm | ![img](file:///media/datos/mi_git/mis_proyectos/tutorial_blockscad/img/bloque61.png?lastModify=1521447609) | ![img](file:///media/datos/mi_git/mis_proyectos/tutorial_blockscad/img/ejemplo61.png?lastModify=1521447609) |
+    | Con el bloque *hull* construye el prisma que tiene los vértices del ejercicio anterior | ![img](file:///media/datos/mi_git/mis_proyectos/tutorial_blockscad/img/bloque62.png?lastModify=1521447609) | <img src="./img/ejemplo62.png">                              |
 
 7.  **Repetición de tareas: Bucles**
 

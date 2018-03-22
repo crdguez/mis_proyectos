@@ -198,10 +198,10 @@ Además, tenemos la típica **Barra de Herramientas** para manejar los archivos,
 
     Se proponen los siguientes ejercicios:
 
-    |                 Problema                 |              Imagen               |              Solución              |
-    | :--------------------------------------: | :-------------------------------: | :--------------------------------: |
-    | Crea una función que modele una rueda con un radio exterior, uno interior y un grosor | <img src="./img/ejercicio51.png"> | [Solución](./code/ejercicio51.xml) |
-    | Usa la función anterior para crear un modelo similar a éste | <img src="./img/ejercicio52.png"> | [Solución](./code/ejercicio52.xml) |
+    |                           Problema                           |              Imagen               |              Solución              |
+    | :----------------------------------------------------------: | :-------------------------------: | :--------------------------------: |
+    | Crea una función que modele una rueda con un radio exterior, uno interior y un grosor pasados como parámetros | <img src="./img/ejercicio51.png"> | [Solución](./code/ejercicio51.xml) |
+    | Usa la función anterior para crear un modelo similar a éste  | <img src="./img/ejercicio52.png"> | [Solución](./code/ejercicio52.xml) |
 
     ​
 

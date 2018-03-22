@@ -216,8 +216,8 @@ Además, tenemos la típica **Barra de Herramientas** para manejar los archivos,
 
    | Ejemplo                                                      | Bloque                                                       | Renderizado                                                  |
     | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-    | Crea cuatro esferas de radio 0.5mm que servirán como vértices de un cubo de arista 10mm | ![img](./img/bloque61.png?lastModify=1521447609) | ![img](./img/ejemplo61.png?lastModify=1521447609) |
-    | Con el bloque *hull* construye el prisma que tiene los vértices del ejercicio anterior | ![img](./img/bloque62.png?lastModify=1521447609) | <img src="./img/ejemplo62.png">      
+    | Crea cuatro esferas de radio 0.5mm que servirán como vértices de un cubo de arista 10mm | ![img](./img/bloque61.png) | ![img](./img/ejemplo61.png) |
+    | Con el bloque *hull* construye el prisma que tiene los vértices del ejercicio anterior | ![img](./img/bloque62.png) | <img src="./img/ejemplo62.png">     
 
 7.  **Repetición de tareas: Bucles**
 

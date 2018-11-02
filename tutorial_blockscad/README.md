@@ -9,7 +9,14 @@ Podemos acceder via web a [BlocksCAD](https://www.blockscad3d.com/), o bien desc
 
 ```sh
 cd /path/to/mydir-with-index.html-in-it
-python -m SimpleHTTPServer 9000
+
+# Para python 2
+# python -m SimpleHTTPServer 9000
+
+# Para python 3
+
+python -m http.server 9000
+
 # Then point your browser to:
 # http://localhost:9000/
 ```
@@ -179,7 +186,7 @@ Además, tenemos la típica **Barra de Herramientas** para manejar los archivos,
     | :--------------------------------------: | :-------------------------------: | :------: |
     | Modela un spinner de dos ramas con tres agujeros para cilindros de radio 11mm y 7 mm de altura | <img src="./img/ejercicio31.png"> |          |
 
-5.  **Encapsulado de instrucciones en una función o módulo**
+5. **Encapsulado de instrucciones en una función o módulo**
 
     En la **Barra de bloques - Modules** podemos seleccionar el bloque **to do "something"** (por defecto, something es el nombre que se le asigna al módulo o bloque, pero le podemos poner el nombre que queramos). Este bloque nos permite encapsular un conjunto de instrucciones para luego poder ejecutarlas todas las veces que queramos en nuestro programa. Al definir un módulo o función, se nos creará un bloque con el nombre de la función.
 
@@ -203,10 +210,8 @@ Además, tenemos la típica **Barra de Herramientas** para manejar los archivos,
     | Crea una función que modele una rueda con un radio exterior, uno interior y un grosor pasados como parámetros | <img src="./img/ejercicio51.png"> | [Solución](./code/ejercicio51.xml) |
     | Usa la función anterior para crear un modelo similar a éste  | <img src="./img/ejercicio52.png"> | [Solución](./code/ejercicio52.xml) |
 
-    
-
 6.   **Objetos convexos a partir de sus vértices: Bloque Hull**
-    
+  
    **Hull** : Con el bloque  <img src="./img/bloque_hull.png" width="10%"> vamos a poder crear el objeto convexo mínimo que incluye otros objetos indicados. Esto va a ser especialmente útil para hacer objetos sólidos a partir de sus vértices. Para ello tendremos que dibujar primero los vértices con, por ejemplo, la primitiva *sphere* pero con un radio muy pequeño. Con esto conseguiremos marcar pequeños puntos en el espacio.
    
    Una vez tengamos los puntos, cuando los metamos en un bloque *hull* se generará el cuerpo convexo
@@ -214,9 +219,9 @@ Además, tenemos la típica **Barra de Herramientas** para manejar los archivos,
 
    **Ejemplos:**
 
-   | Ejemplo                                                      | Bloque                                                       | Renderizado                                                  |
-    | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-    | Crea cuatro esferas de radio 0.5mm que servirán como vértices de un cubo de arista 10mm | ![img](./img/bloque61.png) | ![img](./img/ejemplo61.png) |
+| Ejemplo                                                      | Bloque                                                       | Renderizado                                                  |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Crea cuatro esferas de radio 0.5mm que servirán como vértices de un cubo de arista 10mm | ![img](./img/bloque61.png) | ![img](./img/ejemplo61.png) |
     | Con el bloque *hull* construye el prisma que tiene los vértices del ejercicio anterior | ![img](./img/bloque62.png) | <img src="./img/ejemplo62.png">     
 
 7.  **Repetición de tareas: Bucles**

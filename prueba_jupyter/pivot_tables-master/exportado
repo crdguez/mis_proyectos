@@ -1,0 +1,1135 @@
+,N,"Apellidos,Nombre",Asignatura,Nota,Eval
+0,1,"Alvar Hernández, José Darío",ARE,,1
+1,2,"Amador Bolea, Alejandro",ARE,,1
+2,3,"Amador Bolea, Álvaro",ARE,,1
+3,4,"Arnillas Gómez, Lucía",ARE,9.0,1
+4,5,"Asso Pino, Lorién",ARE,,1
+5,6,"Bernal Bandrés, Chaime",ARE,9.0,1
+6,7,"Campos Bueno, Natalia",ARE,,1
+7,8,"Cárdenas Vaillant, Adriana",ARE,9.0,1
+8,9,"Cremallet Aguillo, Andrea",ARE,,1
+9,10,"Diaconu , Diana María",ARE,,1
+10,11,"Gabelas Verdugo, Laura",ARE,9.0,1
+11,12,"González Blanco, Javier",ARE,9.0,1
+12,13,"González Blanco, Marta",ARE,9.0,1
+13,14,"Gracia Bardají, Sofía",ARE,,1
+14,15,"Gracia Gonzalvo, Alba",ARE,,1
+15,16,"Julián Pérez, Claudia",ARE,,1
+16,17,"Lafuente García, Alexia",ARE,9.0,1
+17,18,"Mariscal Beltrán, Lucía",ARE,,1
+18,19,"Martos Arévalo, Alejandro",ARE,,1
+19,20,"Pallarés Arnau, Adrián",ARE,,1
+20,21,"Parra Oblanca, Daniel",ARE,,1
+21,22,"Pérez Herrer, David",ARE,,1
+22,23,"Pino Fernández, Claudia",ARE,9.0,1
+23,24,"Rivas Gracia, Cristina",ARE,,1
+24,25,"Santiago Calvo, María",ARE,,1
+25,26,"Vera Blánquez, Andrea",ARE,9.0,1
+26,27,"Villalba Carroquino, Irene Pilar",ARE,9.0,1
+27,1,"Alvar Hernández, José Darío",BG,8.0,1
+28,2,"Amador Bolea, Alejandro",BG,8.0,1
+29,3,"Amador Bolea, Álvaro",BG,7.0,1
+30,4,"Arnillas Gómez, Lucía",BG,6.0,1
+31,5,"Asso Pino, Lorién",BG,9.0,1
+32,6,"Bernal Bandrés, Chaime",BG,9.0,1
+33,7,"Campos Bueno, Natalia",BG,5.0,1
+34,8,"Cárdenas Vaillant, Adriana",BG,5.0,1
+35,9,"Cremallet Aguillo, Andrea",BG,10.0,1
+36,10,"Diaconu , Diana María",BG,6.0,1
+37,11,"Gabelas Verdugo, Laura",BG,6.0,1
+38,12,"González Blanco, Javier",BG,9.0,1
+39,13,"González Blanco, Marta",BG,6.0,1
+40,14,"Gracia Bardají, Sofía",BG,7.0,1
+41,15,"Gracia Gonzalvo, Alba",BG,6.0,1
+42,16,"Julián Pérez, Claudia",BG,5.0,1
+43,17,"Lafuente García, Alexia",BG,7.0,1
+44,18,"Mariscal Beltrán, Lucía",BG,6.0,1
+45,19,"Martos Arévalo, Alejandro",BG,8.0,1
+46,20,"Pallarés Arnau, Adrián",BG,7.0,1
+47,21,"Parra Oblanca, Daniel",BG,10.0,1
+48,22,"Pérez Herrer, David",BG,7.0,1
+49,23,"Pino Fernández, Claudia",BG,7.0,1
+50,24,"Rivas Gracia, Cristina",BG,4.0,1
+51,25,"Santiago Calvo, María",BG,6.0,1
+52,26,"Vera Blánquez, Andrea",BG,7.0,1
+53,27,"Villalba Carroquino, Irene Pilar",BG,10.0,1
+54,1,"Alvar Hernández, José Darío",CC,,1
+55,2,"Amador Bolea, Alejandro",CC,,1
+56,3,"Amador Bolea, Álvaro",CC,,1
+57,4,"Arnillas Gómez, Lucía",CC,,1
+58,5,"Asso Pino, Lorién",CC,8.0,1
+59,6,"Bernal Bandrés, Chaime",CC,,1
+60,7,"Campos Bueno, Natalia",CC,7.0,1
+61,8,"Cárdenas Vaillant, Adriana",CC,,1
+62,9,"Cremallet Aguillo, Andrea",CC,,1
+63,10,"Diaconu , Diana María",CC,,1
+64,11,"Gabelas Verdugo, Laura",CC,,1
+65,12,"González Blanco, Javier",CC,,1
+66,13,"González Blanco, Marta",CC,,1
+67,14,"Gracia Bardají, Sofía",CC,,1
+68,15,"Gracia Gonzalvo, Alba",CC,,1
+69,16,"Julián Pérez, Claudia",CC,,1
+70,17,"Lafuente García, Alexia",CC,,1
+71,18,"Mariscal Beltrán, Lucía",CC,,1
+72,19,"Martos Arévalo, Alejandro",CC,,1
+73,20,"Pallarés Arnau, Adrián",CC,5.0,1
+74,21,"Parra Oblanca, Daniel",CC,,1
+75,22,"Pérez Herrer, David",CC,,1
+76,23,"Pino Fernández, Claudia",CC,,1
+77,24,"Rivas Gracia, Cristina",CC,5.0,1
+78,25,"Santiago Calvo, María",CC,,1
+79,26,"Vera Blánquez, Andrea",CC,,1
+80,27,"Villalba Carroquino, Irene Pilar",CC,,1
+81,1,"Alvar Hernández, José Darío",EF,5.0,1
+82,2,"Amador Bolea, Alejandro",EF,6.0,1
+83,3,"Amador Bolea, Álvaro",EF,5.0,1
+84,4,"Arnillas Gómez, Lucía",EF,5.0,1
+85,5,"Asso Pino, Lorién",EF,5.0,1
+86,6,"Bernal Bandrés, Chaime",EF,5.0,1
+87,7,"Campos Bueno, Natalia",EF,5.0,1
+88,8,"Cárdenas Vaillant, Adriana",EF,4.0,1
+89,9,"Cremallet Aguillo, Andrea",EF,6.0,1
+90,10,"Diaconu , Diana María",EF,6.0,1
+91,11,"Gabelas Verdugo, Laura",EF,5.0,1
+92,12,"González Blanco, Javier",EF,7.0,1
+93,13,"González Blanco, Marta",EF,5.0,1
+94,14,"Gracia Bardají, Sofía",EF,5.0,1
+95,15,"Gracia Gonzalvo, Alba",EF,5.0,1
+96,16,"Julián Pérez, Claudia",EF,5.0,1
+97,17,"Lafuente García, Alexia",EF,5.0,1
+98,18,"Mariscal Beltrán, Lucía",EF,5.0,1
+99,19,"Martos Arévalo, Alejandro",EF,5.0,1
+100,20,"Pallarés Arnau, Adrián",EF,6.0,1
+101,21,"Parra Oblanca, Daniel",EF,7.0,1
+102,22,"Pérez Herrer, David",EF,7.0,1
+103,23,"Pino Fernández, Claudia",EF,5.0,1
+104,24,"Rivas Gracia, Cristina",EF,4.0,1
+105,25,"Santiago Calvo, María",EF,4.0,1
+106,26,"Vera Blánquez, Andrea",EF,5.0,1
+107,27,"Villalba Carroquino, Irene Pilar",EF,8.0,1
+108,1,"Alvar Hernández, José Darío",FQ,6.0,1
+109,2,"Amador Bolea, Alejandro",FQ,7.0,1
+110,3,"Amador Bolea, Álvaro",FQ,4.0,1
+111,4,"Arnillas Gómez, Lucía",FQ,4.0,1
+112,5,"Asso Pino, Lorién",FQ,7.0,1
+113,6,"Bernal Bandrés, Chaime",FQ,8.0,1
+114,7,"Campos Bueno, Natalia",FQ,5.0,1
+115,8,"Cárdenas Vaillant, Adriana",FQ,4.0,1
+116,9,"Cremallet Aguillo, Andrea",FQ,4.0,1
+117,10,"Diaconu , Diana María",FQ,4.0,1
+118,11,"Gabelas Verdugo, Laura",FQ,3.0,1
+119,12,"González Blanco, Javier",FQ,9.0,1
+120,13,"González Blanco, Marta",FQ,4.0,1
+121,14,"Gracia Bardají, Sofía",FQ,3.0,1
+122,15,"Gracia Gonzalvo, Alba",FQ,2.0,1
+123,16,"Julián Pérez, Claudia",FQ,5.0,1
+124,17,"Lafuente García, Alexia",FQ,7.0,1
+125,18,"Mariscal Beltrán, Lucía",FQ,4.0,1
+126,19,"Martos Arévalo, Alejandro",FQ,5.0,1
+127,20,"Pallarés Arnau, Adrián",FQ,5.0,1
+128,21,"Parra Oblanca, Daniel",FQ,7.0,1
+129,22,"Pérez Herrer, David",FQ,7.0,1
+130,23,"Pino Fernández, Claudia",FQ,5.0,1
+131,24,"Rivas Gracia, Cristina",FQ,3.0,1
+132,25,"Santiago Calvo, María",FQ,2.0,1
+133,26,"Vera Blánquez, Andrea",FQ,4.0,1
+134,27,"Villalba Carroquino, Irene Pilar",FQ,9.0,1
+135,1,"Alvar Hernández, José Darío",FR2,7.0,1
+136,2,"Amador Bolea, Alejandro",FR2,6.0,1
+137,3,"Amador Bolea, Álvaro",FR2,7.0,1
+138,4,"Arnillas Gómez, Lucía",FR2,6.0,1
+139,5,"Asso Pino, Lorién",FR2,8.0,1
+140,6,"Bernal Bandrés, Chaime",FR2,8.0,1
+141,7,"Campos Bueno, Natalia",FR2,5.0,1
+142,8,"Cárdenas Vaillant, Adriana",FR2,7.0,1
+143,9,"Cremallet Aguillo, Andrea",FR2,8.0,1
+144,10,"Diaconu , Diana María",FR2,6.0,1
+145,11,"Gabelas Verdugo, Laura",FR2,5.0,1
+146,12,"González Blanco, Javier",FR2,7.0,1
+147,13,"González Blanco, Marta",FR2,6.0,1
+148,14,"Gracia Bardají, Sofía",FR2,6.0,1
+149,15,"Gracia Gonzalvo, Alba",FR2,6.0,1
+150,16,"Julián Pérez, Claudia",FR2,,1
+151,17,"Lafuente García, Alexia",FR2,6.0,1
+152,18,"Mariscal Beltrán, Lucía",FR2,6.0,1
+153,19,"Martos Arévalo, Alejandro",FR2,,1
+154,20,"Pallarés Arnau, Adrián",FR2,6.0,1
+155,21,"Parra Oblanca, Daniel",FR2,8.0,1
+156,22,"Pérez Herrer, David",FR2,8.0,1
+157,23,"Pino Fernández, Claudia",FR2,,1
+158,24,"Rivas Gracia, Cristina",FR2,4.0,1
+159,25,"Santiago Calvo, María",FR2,7.0,1
+160,26,"Vera Blánquez, Andrea",FR2,7.0,1
+161,27,"Villalba Carroquino, Irene Pilar",FR2,9.0,1
+162,1,"Alvar Hernández, José Darío",GH,8.0,1
+163,2,"Amador Bolea, Alejandro",GH,8.0,1
+164,3,"Amador Bolea, Álvaro",GH,7.0,1
+165,4,"Arnillas Gómez, Lucía",GH,8.0,1
+166,5,"Asso Pino, Lorién",GH,9.0,1
+167,6,"Bernal Bandrés, Chaime",GH,8.0,1
+168,7,"Campos Bueno, Natalia",GH,8.0,1
+169,8,"Cárdenas Vaillant, Adriana",GH,5.0,1
+170,9,"Cremallet Aguillo, Andrea",GH,7.0,1
+171,10,"Diaconu , Diana María",GH,5.0,1
+172,11,"Gabelas Verdugo, Laura",GH,7.0,1
+173,12,"González Blanco, Javier",GH,9.0,1
+174,13,"González Blanco, Marta",GH,6.0,1
+175,14,"Gracia Bardají, Sofía",GH,7.0,1
+176,15,"Gracia Gonzalvo, Alba",GH,6.0,1
+177,16,"Julián Pérez, Claudia",GH,6.0,1
+178,17,"Lafuente García, Alexia",GH,7.0,1
+179,18,"Mariscal Beltrán, Lucía",GH,7.0,1
+180,19,"Martos Arévalo, Alejandro",GH,8.0,1
+181,20,"Pallarés Arnau, Adrián",GH,6.0,1
+182,21,"Parra Oblanca, Daniel",GH,9.0,1
+183,22,"Pérez Herrer, David",GH,9.0,1
+184,23,"Pino Fernández, Claudia",GH,7.0,1
+185,24,"Rivas Gracia, Cristina",GH,2.0,1
+186,25,"Santiago Calvo, María",GH,2.0,1
+187,26,"Vera Blánquez, Andrea",GH,7.0,1
+188,27,"Villalba Carroquino, Irene Pilar",GH,9.0,1
+189,1,"Alvar Hernández, José Darío",IN,7.0,1
+190,2,"Amador Bolea, Alejandro",IN,7.0,1
+191,3,"Amador Bolea, Álvaro",IN,7.0,1
+192,4,"Arnillas Gómez, Lucía",IN,6.0,1
+193,5,"Asso Pino, Lorién",IN,9.0,1
+194,6,"Bernal Bandrés, Chaime",IN,9.0,1
+195,7,"Campos Bueno, Natalia",IN,5.0,1
+196,8,"Cárdenas Vaillant, Adriana",IN,6.0,1
+197,9,"Cremallet Aguillo, Andrea",IN,9.0,1
+198,10,"Diaconu , Diana María",IN,7.0,1
+199,11,"Gabelas Verdugo, Laura",IN,6.0,1
+200,12,"González Blanco, Javier",IN,9.0,1
+201,13,"González Blanco, Marta",IN,6.0,1
+202,14,"Gracia Bardají, Sofía",IN,5.0,1
+203,15,"Gracia Gonzalvo, Alba",IN,7.0,1
+204,16,"Julián Pérez, Claudia",IN,6.0,1
+205,17,"Lafuente García, Alexia",IN,6.0,1
+206,18,"Mariscal Beltrán, Lucía",IN,6.0,1
+207,19,"Martos Arévalo, Alejandro",IN,6.0,1
+208,20,"Pallarés Arnau, Adrián",IN,5.0,1
+209,21,"Parra Oblanca, Daniel",IN,8.0,1
+210,22,"Pérez Herrer, David",IN,9.0,1
+211,23,"Pino Fernández, Claudia",IN,8.0,1
+212,24,"Rivas Gracia, Cristina",IN,4.0,1
+213,25,"Santiago Calvo, María",IN,7.0,1
+214,26,"Vera Blánquez, Andrea",IN,8.0,1
+215,27,"Villalba Carroquino, Irene Pilar",IN,10.0,1
+216,1,"Alvar Hernández, José Darío",LE,4.0,1
+217,2,"Amador Bolea, Alejandro",LE,5.0,1
+218,3,"Amador Bolea, Álvaro",LE,5.0,1
+219,4,"Arnillas Gómez, Lucía",LE,4.0,1
+220,5,"Asso Pino, Lorién",LE,7.0,1
+221,6,"Bernal Bandrés, Chaime",LE,7.0,1
+222,7,"Campos Bueno, Natalia",LE,6.0,1
+223,8,"Cárdenas Vaillant, Adriana",LE,4.0,1
+224,9,"Cremallet Aguillo, Andrea",LE,7.0,1
+225,10,"Diaconu , Diana María",LE,4.0,1
+226,11,"Gabelas Verdugo, Laura",LE,5.0,1
+227,12,"González Blanco, Javier",LE,6.0,1
+228,13,"González Blanco, Marta",LE,6.0,1
+229,14,"Gracia Bardají, Sofía",LE,4.0,1
+230,15,"Gracia Gonzalvo, Alba",LE,4.0,1
+231,16,"Julián Pérez, Claudia",LE,3.0,1
+232,17,"Lafuente García, Alexia",LE,5.0,1
+233,18,"Mariscal Beltrán, Lucía",LE,6.0,1
+234,19,"Martos Arévalo, Alejandro",LE,6.0,1
+235,20,"Pallarés Arnau, Adrián",LE,4.0,1
+236,21,"Parra Oblanca, Daniel",LE,7.0,1
+237,22,"Pérez Herrer, David",LE,6.0,1
+238,23,"Pino Fernández, Claudia",LE,5.0,1
+239,24,"Rivas Gracia, Cristina",LE,2.0,1
+240,25,"Santiago Calvo, María",LE,4.0,1
+241,26,"Vera Blánquez, Andrea",LE,4.0,1
+242,27,"Villalba Carroquino, Irene Pilar",LE,7.0,1
+243,1,"Alvar Hernández, José Darío",MC,6.0,1
+244,2,"Amador Bolea, Alejandro",MC,8.0,1
+245,3,"Amador Bolea, Álvaro",MC,5.0,1
+246,4,"Arnillas Gómez, Lucía",MC,3.0,1
+247,5,"Asso Pino, Lorién",MC,8.0,1
+248,6,"Bernal Bandrés, Chaime",MC,9.0,1
+249,7,"Campos Bueno, Natalia",MC,7.0,1
+250,8,"Cárdenas Vaillant, Adriana",MC,3.0,1
+251,9,"Cremallet Aguillo, Andrea",MC,9.0,1
+252,10,"Diaconu , Diana María",MC,5.0,1
+253,11,"Gabelas Verdugo, Laura",MC,4.0,1
+254,12,"González Blanco, Javier",MC,9.0,1
+255,13,"González Blanco, Marta",MC,7.0,1
+256,14,"Gracia Bardají, Sofía",MC,4.0,1
+257,15,"Gracia Gonzalvo, Alba",MC,4.0,1
+258,16,"Julián Pérez, Claudia",MC,6.0,1
+259,17,"Lafuente García, Alexia",MC,6.0,1
+260,18,"Mariscal Beltrán, Lucía",MC,6.0,1
+261,19,"Martos Arévalo, Alejandro",MC,6.0,1
+262,20,"Pallarés Arnau, Adrián",MC,5.0,1
+263,21,"Parra Oblanca, Daniel",MC,8.0,1
+264,22,"Pérez Herrer, David",MC,9.0,1
+265,23,"Pino Fernández, Claudia",MC,5.0,1
+266,24,"Rivas Gracia, Cristina",MC,2.0,1
+267,25,"Santiago Calvo, María",MC,6.0,1
+268,26,"Vera Blánquez, Andrea",MC,4.0,1
+269,27,"Villalba Carroquino, Irene Pilar",MC,9.0,1
+270,1,"Alvar Hernández, José Darío",MU,,1
+271,2,"Amador Bolea, Alejandro",MU,,1
+272,3,"Amador Bolea, Álvaro",MU,,1
+273,4,"Arnillas Gómez, Lucía",MU,,1
+274,5,"Asso Pino, Lorién",MU,,1
+275,6,"Bernal Bandrés, Chaime",MU,,1
+276,7,"Campos Bueno, Natalia",MU,,1
+277,8,"Cárdenas Vaillant, Adriana",MU,,1
+278,9,"Cremallet Aguillo, Andrea",MU,,1
+279,10,"Diaconu , Diana María",MU,,1
+280,11,"Gabelas Verdugo, Laura",MU,,1
+281,12,"González Blanco, Javier",MU,,1
+282,13,"González Blanco, Marta",MU,,1
+283,14,"Gracia Bardají, Sofía",MU,,1
+284,15,"Gracia Gonzalvo, Alba",MU,,1
+285,16,"Julián Pérez, Claudia",MU,9.0,1
+286,17,"Lafuente García, Alexia",MU,,1
+287,18,"Mariscal Beltrán, Lucía",MU,,1
+288,19,"Martos Arévalo, Alejandro",MU,8.0,1
+289,20,"Pallarés Arnau, Adrián",MU,,1
+290,21,"Parra Oblanca, Daniel",MU,,1
+291,22,"Pérez Herrer, David",MU,,1
+292,23,"Pino Fernández, Claudia",MU,9.0,1
+293,24,"Rivas Gracia, Cristina",MU,,1
+294,25,"Santiago Calvo, María",MU,,1
+295,26,"Vera Blánquez, Andrea",MU,,1
+296,27,"Villalba Carroquino, Irene Pilar",MU,,1
+297,1,"Alvar Hernández, José Darío",RC,,1
+298,2,"Amador Bolea, Alejandro",RC,,1
+299,3,"Amador Bolea, Álvaro",RC,,1
+300,4,"Arnillas Gómez, Lucía",RC,8.0,1
+301,5,"Asso Pino, Lorién",RC,,1
+302,6,"Bernal Bandrés, Chaime",RC,,1
+303,7,"Campos Bueno, Natalia",RC,8.0,1
+304,8,"Cárdenas Vaillant, Adriana",RC,9.0,1
+305,9,"Cremallet Aguillo, Andrea",RC,8.0,1
+306,10,"Diaconu , Diana María",RC,,1
+307,11,"Gabelas Verdugo, Laura",RC,9.0,1
+308,12,"González Blanco, Javier",RC,,1
+309,13,"González Blanco, Marta",RC,,1
+310,14,"Gracia Bardají, Sofía",RC,,1
+311,15,"Gracia Gonzalvo, Alba",RC,,1
+312,16,"Julián Pérez, Claudia",RC,8.0,1
+313,17,"Lafuente García, Alexia",RC,9.0,1
+314,18,"Mariscal Beltrán, Lucía",RC,,1
+315,19,"Martos Arévalo, Alejandro",RC,,1
+316,20,"Pallarés Arnau, Adrián",RC,7.0,1
+317,21,"Parra Oblanca, Daniel",RC,,1
+318,22,"Pérez Herrer, David",RC,,1
+319,23,"Pino Fernández, Claudia",RC,,1
+320,24,"Rivas Gracia, Cristina",RC,7.0,1
+321,25,"Santiago Calvo, María",RC,7.0,1
+322,26,"Vera Blánquez, Andrea",RC,10.0,1
+323,27,"Villalba Carroquino, Irene Pilar",RC,,1
+324,1,"Alvar Hernández, José Darío",TIC,9.0,1
+325,2,"Amador Bolea, Alejandro",TIC,9.0,1
+326,3,"Amador Bolea, Álvaro",TIC,9.0,1
+327,4,"Arnillas Gómez, Lucía",TIC,,1
+328,5,"Asso Pino, Lorién",TIC,,1
+329,6,"Bernal Bandrés, Chaime",TIC,,1
+330,7,"Campos Bueno, Natalia",TIC,,1
+331,8,"Cárdenas Vaillant, Adriana",TIC,,1
+332,9,"Cremallet Aguillo, Andrea",TIC,8.0,1
+333,10,"Diaconu , Diana María",TIC,8.0,1
+334,11,"Gabelas Verdugo, Laura",TIC,,1
+335,12,"González Blanco, Javier",TIC,,1
+336,13,"González Blanco, Marta",TIC,,1
+337,14,"Gracia Bardají, Sofía",TIC,5.0,1
+338,15,"Gracia Gonzalvo, Alba",TIC,5.0,1
+339,16,"Julián Pérez, Claudia",TIC,7.0,1
+340,17,"Lafuente García, Alexia",TIC,,1
+341,18,"Mariscal Beltrán, Lucía",TIC,8.0,1
+342,19,"Martos Arévalo, Alejandro",TIC,8.0,1
+343,20,"Pallarés Arnau, Adrián",TIC,,1
+344,21,"Parra Oblanca, Daniel",TIC,9.0,1
+345,22,"Pérez Herrer, David",TIC,9.0,1
+346,23,"Pino Fernández, Claudia",TIC,,1
+347,24,"Rivas Gracia, Cristina",TIC,,1
+348,25,"Santiago Calvo, María",TIC,7.0,1
+349,26,"Vera Blánquez, Andrea",TIC,,1
+350,27,"Villalba Carroquino, Irene Pilar",TIC,,1
+351,1,"Alvar Hernández, José Darío",VET,9.0,1
+352,2,"Amador Bolea, Alejandro",VET,9.0,1
+353,3,"Amador Bolea, Álvaro",VET,6.0,1
+354,4,"Arnillas Gómez, Lucía",VET,,1
+355,5,"Asso Pino, Lorién",VET,9.0,1
+356,6,"Bernal Bandrés, Chaime",VET,8.0,1
+357,7,"Campos Bueno, Natalia",VET,,1
+358,8,"Cárdenas Vaillant, Adriana",VET,,1
+359,9,"Cremallet Aguillo, Andrea",VET,,1
+360,10,"Diaconu , Diana María",VET,6.0,1
+361,11,"Gabelas Verdugo, Laura",VET,,1
+362,12,"González Blanco, Javier",VET,9.0,1
+363,13,"González Blanco, Marta",VET,8.0,1
+364,14,"Gracia Bardají, Sofía",VET,7.0,1
+365,15,"Gracia Gonzalvo, Alba",VET,9.0,1
+366,16,"Julián Pérez, Claudia",VET,,1
+367,17,"Lafuente García, Alexia",VET,,1
+368,18,"Mariscal Beltrán, Lucía",VET,6.0,1
+369,19,"Martos Arévalo, Alejandro",VET,8.0,1
+370,20,"Pallarés Arnau, Adrián",VET,,1
+371,21,"Parra Oblanca, Daniel",VET,8.0,1
+372,22,"Pérez Herrer, David",VET,7.0,1
+373,23,"Pino Fernández, Claudia",VET,10.0,1
+374,24,"Rivas Gracia, Cristina",VET,,1
+375,25,"Santiago Calvo, María",VET,,1
+376,26,"Vera Blánquez, Andrea",VET,,1
+377,27,"Villalba Carroquino, Irene Pilar",VET,10.0,1
+0,1,"Alvar Hernández, José Darío",ARE,,2
+1,2,"Amador Bolea, Alejandro",ARE,,2
+2,3,"Amador Bolea, Álvaro",ARE,,2
+3,4,"Arnillas Gómez, Lucía",ARE,9.0,2
+4,5,"Asso Pino, Lorién",ARE,,2
+5,6,"Bernal Bandrés, Chaime",ARE,9.0,2
+6,7,"Campos Bueno, Natalia",ARE,,2
+7,8,"Cárdenas Vaillant, Adriana",ARE,9.0,2
+8,9,"Cremallet Aguillo, Andrea",ARE,,2
+9,10,"Diaconu , Diana María",ARE,,2
+10,11,"Gabelas Verdugo, Laura",ARE,9.0,2
+11,12,"González Blanco, Javier",ARE,9.0,2
+12,13,"González Blanco, Marta",ARE,9.0,2
+13,14,"Gracia Bardají, Sofía",ARE,,2
+14,15,"Gracia Gonzalvo, Alba",ARE,,2
+15,16,"Julián Pérez, Claudia",ARE,,2
+16,17,"Lafuente García, Alexia",ARE,9.0,2
+17,18,"Mariscal Beltrán, Lucía",ARE,,2
+18,19,"Martos Arévalo, Alejandro",ARE,,2
+19,20,"Pallarés Arnau, Adrián",ARE,,2
+20,21,"Parra Oblanca, Daniel",ARE,,2
+21,22,"Pérez Herrer, David",ARE,,2
+22,23,"Pino Fernández, Claudia",ARE,9.0,2
+23,24,"Rivas Gracia, Cristina",ARE,,2
+24,25,"Santiago Calvo, María",ARE,,2
+25,26,"Vera Blánquez, Andrea",ARE,9.0,2
+26,27,"Villalba Carroquino, Irene Pilar",ARE,9.0,2
+27,1,"Alvar Hernández, José Darío",BG,8.0,2
+28,2,"Amador Bolea, Alejandro",BG,8.0,2
+29,3,"Amador Bolea, Álvaro",BG,7.0,2
+30,4,"Arnillas Gómez, Lucía",BG,6.0,2
+31,5,"Asso Pino, Lorién",BG,9.0,2
+32,6,"Bernal Bandrés, Chaime",BG,9.0,2
+33,7,"Campos Bueno, Natalia",BG,5.0,2
+34,8,"Cárdenas Vaillant, Adriana",BG,5.0,2
+35,9,"Cremallet Aguillo, Andrea",BG,10.0,2
+36,10,"Diaconu , Diana María",BG,6.0,2
+37,11,"Gabelas Verdugo, Laura",BG,6.0,2
+38,12,"González Blanco, Javier",BG,9.0,2
+39,13,"González Blanco, Marta",BG,6.0,2
+40,14,"Gracia Bardají, Sofía",BG,7.0,2
+41,15,"Gracia Gonzalvo, Alba",BG,6.0,2
+42,16,"Julián Pérez, Claudia",BG,5.0,2
+43,17,"Lafuente García, Alexia",BG,7.0,2
+44,18,"Mariscal Beltrán, Lucía",BG,6.0,2
+45,19,"Martos Arévalo, Alejandro",BG,8.0,2
+46,20,"Pallarés Arnau, Adrián",BG,7.0,2
+47,21,"Parra Oblanca, Daniel",BG,10.0,2
+48,22,"Pérez Herrer, David",BG,7.0,2
+49,23,"Pino Fernández, Claudia",BG,7.0,2
+50,24,"Rivas Gracia, Cristina",BG,4.0,2
+51,25,"Santiago Calvo, María",BG,6.0,2
+52,26,"Vera Blánquez, Andrea",BG,7.0,2
+53,27,"Villalba Carroquino, Irene Pilar",BG,10.0,2
+54,1,"Alvar Hernández, José Darío",CC,,2
+55,2,"Amador Bolea, Alejandro",CC,,2
+56,3,"Amador Bolea, Álvaro",CC,,2
+57,4,"Arnillas Gómez, Lucía",CC,,2
+58,5,"Asso Pino, Lorién",CC,8.0,2
+59,6,"Bernal Bandrés, Chaime",CC,,2
+60,7,"Campos Bueno, Natalia",CC,7.0,2
+61,8,"Cárdenas Vaillant, Adriana",CC,,2
+62,9,"Cremallet Aguillo, Andrea",CC,,2
+63,10,"Diaconu , Diana María",CC,,2
+64,11,"Gabelas Verdugo, Laura",CC,,2
+65,12,"González Blanco, Javier",CC,,2
+66,13,"González Blanco, Marta",CC,,2
+67,14,"Gracia Bardají, Sofía",CC,,2
+68,15,"Gracia Gonzalvo, Alba",CC,,2
+69,16,"Julián Pérez, Claudia",CC,,2
+70,17,"Lafuente García, Alexia",CC,,2
+71,18,"Mariscal Beltrán, Lucía",CC,,2
+72,19,"Martos Arévalo, Alejandro",CC,,2
+73,20,"Pallarés Arnau, Adrián",CC,5.0,2
+74,21,"Parra Oblanca, Daniel",CC,,2
+75,22,"Pérez Herrer, David",CC,,2
+76,23,"Pino Fernández, Claudia",CC,,2
+77,24,"Rivas Gracia, Cristina",CC,5.0,2
+78,25,"Santiago Calvo, María",CC,,2
+79,26,"Vera Blánquez, Andrea",CC,,2
+80,27,"Villalba Carroquino, Irene Pilar",CC,,2
+81,1,"Alvar Hernández, José Darío",EF,5.0,2
+82,2,"Amador Bolea, Alejandro",EF,6.0,2
+83,3,"Amador Bolea, Álvaro",EF,5.0,2
+84,4,"Arnillas Gómez, Lucía",EF,5.0,2
+85,5,"Asso Pino, Lorién",EF,5.0,2
+86,6,"Bernal Bandrés, Chaime",EF,5.0,2
+87,7,"Campos Bueno, Natalia",EF,5.0,2
+88,8,"Cárdenas Vaillant, Adriana",EF,4.0,2
+89,9,"Cremallet Aguillo, Andrea",EF,6.0,2
+90,10,"Diaconu , Diana María",EF,6.0,2
+91,11,"Gabelas Verdugo, Laura",EF,5.0,2
+92,12,"González Blanco, Javier",EF,7.0,2
+93,13,"González Blanco, Marta",EF,5.0,2
+94,14,"Gracia Bardají, Sofía",EF,5.0,2
+95,15,"Gracia Gonzalvo, Alba",EF,5.0,2
+96,16,"Julián Pérez, Claudia",EF,5.0,2
+97,17,"Lafuente García, Alexia",EF,5.0,2
+98,18,"Mariscal Beltrán, Lucía",EF,5.0,2
+99,19,"Martos Arévalo, Alejandro",EF,5.0,2
+100,20,"Pallarés Arnau, Adrián",EF,6.0,2
+101,21,"Parra Oblanca, Daniel",EF,7.0,2
+102,22,"Pérez Herrer, David",EF,7.0,2
+103,23,"Pino Fernández, Claudia",EF,5.0,2
+104,24,"Rivas Gracia, Cristina",EF,4.0,2
+105,25,"Santiago Calvo, María",EF,4.0,2
+106,26,"Vera Blánquez, Andrea",EF,5.0,2
+107,27,"Villalba Carroquino, Irene Pilar",EF,8.0,2
+108,1,"Alvar Hernández, José Darío",FQ,6.0,2
+109,2,"Amador Bolea, Alejandro",FQ,7.0,2
+110,3,"Amador Bolea, Álvaro",FQ,4.0,2
+111,4,"Arnillas Gómez, Lucía",FQ,4.0,2
+112,5,"Asso Pino, Lorién",FQ,7.0,2
+113,6,"Bernal Bandrés, Chaime",FQ,8.0,2
+114,7,"Campos Bueno, Natalia",FQ,5.0,2
+115,8,"Cárdenas Vaillant, Adriana",FQ,4.0,2
+116,9,"Cremallet Aguillo, Andrea",FQ,4.0,2
+117,10,"Diaconu , Diana María",FQ,4.0,2
+118,11,"Gabelas Verdugo, Laura",FQ,3.0,2
+119,12,"González Blanco, Javier",FQ,9.0,2
+120,13,"González Blanco, Marta",FQ,4.0,2
+121,14,"Gracia Bardají, Sofía",FQ,3.0,2
+122,15,"Gracia Gonzalvo, Alba",FQ,2.0,2
+123,16,"Julián Pérez, Claudia",FQ,5.0,2
+124,17,"Lafuente García, Alexia",FQ,7.0,2
+125,18,"Mariscal Beltrán, Lucía",FQ,4.0,2
+126,19,"Martos Arévalo, Alejandro",FQ,5.0,2
+127,20,"Pallarés Arnau, Adrián",FQ,5.0,2
+128,21,"Parra Oblanca, Daniel",FQ,7.0,2
+129,22,"Pérez Herrer, David",FQ,7.0,2
+130,23,"Pino Fernández, Claudia",FQ,5.0,2
+131,24,"Rivas Gracia, Cristina",FQ,3.0,2
+132,25,"Santiago Calvo, María",FQ,2.0,2
+133,26,"Vera Blánquez, Andrea",FQ,4.0,2
+134,27,"Villalba Carroquino, Irene Pilar",FQ,9.0,2
+135,1,"Alvar Hernández, José Darío",FR2,7.0,2
+136,2,"Amador Bolea, Alejandro",FR2,6.0,2
+137,3,"Amador Bolea, Álvaro",FR2,7.0,2
+138,4,"Arnillas Gómez, Lucía",FR2,6.0,2
+139,5,"Asso Pino, Lorién",FR2,8.0,2
+140,6,"Bernal Bandrés, Chaime",FR2,8.0,2
+141,7,"Campos Bueno, Natalia",FR2,5.0,2
+142,8,"Cárdenas Vaillant, Adriana",FR2,7.0,2
+143,9,"Cremallet Aguillo, Andrea",FR2,8.0,2
+144,10,"Diaconu , Diana María",FR2,6.0,2
+145,11,"Gabelas Verdugo, Laura",FR2,5.0,2
+146,12,"González Blanco, Javier",FR2,7.0,2
+147,13,"González Blanco, Marta",FR2,6.0,2
+148,14,"Gracia Bardají, Sofía",FR2,6.0,2
+149,15,"Gracia Gonzalvo, Alba",FR2,6.0,2
+150,16,"Julián Pérez, Claudia",FR2,,2
+151,17,"Lafuente García, Alexia",FR2,6.0,2
+152,18,"Mariscal Beltrán, Lucía",FR2,6.0,2
+153,19,"Martos Arévalo, Alejandro",FR2,,2
+154,20,"Pallarés Arnau, Adrián",FR2,6.0,2
+155,21,"Parra Oblanca, Daniel",FR2,8.0,2
+156,22,"Pérez Herrer, David",FR2,8.0,2
+157,23,"Pino Fernández, Claudia",FR2,,2
+158,24,"Rivas Gracia, Cristina",FR2,4.0,2
+159,25,"Santiago Calvo, María",FR2,7.0,2
+160,26,"Vera Blánquez, Andrea",FR2,7.0,2
+161,27,"Villalba Carroquino, Irene Pilar",FR2,9.0,2
+162,1,"Alvar Hernández, José Darío",GH,8.0,2
+163,2,"Amador Bolea, Alejandro",GH,8.0,2
+164,3,"Amador Bolea, Álvaro",GH,7.0,2
+165,4,"Arnillas Gómez, Lucía",GH,8.0,2
+166,5,"Asso Pino, Lorién",GH,9.0,2
+167,6,"Bernal Bandrés, Chaime",GH,8.0,2
+168,7,"Campos Bueno, Natalia",GH,8.0,2
+169,8,"Cárdenas Vaillant, Adriana",GH,5.0,2
+170,9,"Cremallet Aguillo, Andrea",GH,7.0,2
+171,10,"Diaconu , Diana María",GH,5.0,2
+172,11,"Gabelas Verdugo, Laura",GH,7.0,2
+173,12,"González Blanco, Javier",GH,9.0,2
+174,13,"González Blanco, Marta",GH,6.0,2
+175,14,"Gracia Bardají, Sofía",GH,7.0,2
+176,15,"Gracia Gonzalvo, Alba",GH,6.0,2
+177,16,"Julián Pérez, Claudia",GH,6.0,2
+178,17,"Lafuente García, Alexia",GH,7.0,2
+179,18,"Mariscal Beltrán, Lucía",GH,7.0,2
+180,19,"Martos Arévalo, Alejandro",GH,8.0,2
+181,20,"Pallarés Arnau, Adrián",GH,6.0,2
+182,21,"Parra Oblanca, Daniel",GH,9.0,2
+183,22,"Pérez Herrer, David",GH,9.0,2
+184,23,"Pino Fernández, Claudia",GH,7.0,2
+185,24,"Rivas Gracia, Cristina",GH,2.0,2
+186,25,"Santiago Calvo, María",GH,2.0,2
+187,26,"Vera Blánquez, Andrea",GH,7.0,2
+188,27,"Villalba Carroquino, Irene Pilar",GH,9.0,2
+189,1,"Alvar Hernández, José Darío",IN,7.0,2
+190,2,"Amador Bolea, Alejandro",IN,7.0,2
+191,3,"Amador Bolea, Álvaro",IN,7.0,2
+192,4,"Arnillas Gómez, Lucía",IN,6.0,2
+193,5,"Asso Pino, Lorién",IN,9.0,2
+194,6,"Bernal Bandrés, Chaime",IN,9.0,2
+195,7,"Campos Bueno, Natalia",IN,5.0,2
+196,8,"Cárdenas Vaillant, Adriana",IN,6.0,2
+197,9,"Cremallet Aguillo, Andrea",IN,9.0,2
+198,10,"Diaconu , Diana María",IN,7.0,2
+199,11,"Gabelas Verdugo, Laura",IN,6.0,2
+200,12,"González Blanco, Javier",IN,9.0,2
+201,13,"González Blanco, Marta",IN,6.0,2
+202,14,"Gracia Bardají, Sofía",IN,5.0,2
+203,15,"Gracia Gonzalvo, Alba",IN,7.0,2
+204,16,"Julián Pérez, Claudia",IN,6.0,2
+205,17,"Lafuente García, Alexia",IN,6.0,2
+206,18,"Mariscal Beltrán, Lucía",IN,6.0,2
+207,19,"Martos Arévalo, Alejandro",IN,6.0,2
+208,20,"Pallarés Arnau, Adrián",IN,5.0,2
+209,21,"Parra Oblanca, Daniel",IN,8.0,2
+210,22,"Pérez Herrer, David",IN,9.0,2
+211,23,"Pino Fernández, Claudia",IN,8.0,2
+212,24,"Rivas Gracia, Cristina",IN,4.0,2
+213,25,"Santiago Calvo, María",IN,7.0,2
+214,26,"Vera Blánquez, Andrea",IN,8.0,2
+215,27,"Villalba Carroquino, Irene Pilar",IN,10.0,2
+216,1,"Alvar Hernández, José Darío",LE,4.0,2
+217,2,"Amador Bolea, Alejandro",LE,5.0,2
+218,3,"Amador Bolea, Álvaro",LE,5.0,2
+219,4,"Arnillas Gómez, Lucía",LE,4.0,2
+220,5,"Asso Pino, Lorién",LE,7.0,2
+221,6,"Bernal Bandrés, Chaime",LE,7.0,2
+222,7,"Campos Bueno, Natalia",LE,6.0,2
+223,8,"Cárdenas Vaillant, Adriana",LE,4.0,2
+224,9,"Cremallet Aguillo, Andrea",LE,7.0,2
+225,10,"Diaconu , Diana María",LE,4.0,2
+226,11,"Gabelas Verdugo, Laura",LE,5.0,2
+227,12,"González Blanco, Javier",LE,6.0,2
+228,13,"González Blanco, Marta",LE,6.0,2
+229,14,"Gracia Bardají, Sofía",LE,4.0,2
+230,15,"Gracia Gonzalvo, Alba",LE,4.0,2
+231,16,"Julián Pérez, Claudia",LE,3.0,2
+232,17,"Lafuente García, Alexia",LE,5.0,2
+233,18,"Mariscal Beltrán, Lucía",LE,6.0,2
+234,19,"Martos Arévalo, Alejandro",LE,6.0,2
+235,20,"Pallarés Arnau, Adrián",LE,4.0,2
+236,21,"Parra Oblanca, Daniel",LE,7.0,2
+237,22,"Pérez Herrer, David",LE,6.0,2
+238,23,"Pino Fernández, Claudia",LE,5.0,2
+239,24,"Rivas Gracia, Cristina",LE,2.0,2
+240,25,"Santiago Calvo, María",LE,4.0,2
+241,26,"Vera Blánquez, Andrea",LE,4.0,2
+242,27,"Villalba Carroquino, Irene Pilar",LE,7.0,2
+243,1,"Alvar Hernández, José Darío",MC,6.0,2
+244,2,"Amador Bolea, Alejandro",MC,8.0,2
+245,3,"Amador Bolea, Álvaro",MC,5.0,2
+246,4,"Arnillas Gómez, Lucía",MC,3.0,2
+247,5,"Asso Pino, Lorién",MC,8.0,2
+248,6,"Bernal Bandrés, Chaime",MC,9.0,2
+249,7,"Campos Bueno, Natalia",MC,7.0,2
+250,8,"Cárdenas Vaillant, Adriana",MC,3.0,2
+251,9,"Cremallet Aguillo, Andrea",MC,9.0,2
+252,10,"Diaconu , Diana María",MC,5.0,2
+253,11,"Gabelas Verdugo, Laura",MC,4.0,2
+254,12,"González Blanco, Javier",MC,9.0,2
+255,13,"González Blanco, Marta",MC,7.0,2
+256,14,"Gracia Bardají, Sofía",MC,4.0,2
+257,15,"Gracia Gonzalvo, Alba",MC,4.0,2
+258,16,"Julián Pérez, Claudia",MC,6.0,2
+259,17,"Lafuente García, Alexia",MC,6.0,2
+260,18,"Mariscal Beltrán, Lucía",MC,6.0,2
+261,19,"Martos Arévalo, Alejandro",MC,6.0,2
+262,20,"Pallarés Arnau, Adrián",MC,5.0,2
+263,21,"Parra Oblanca, Daniel",MC,8.0,2
+264,22,"Pérez Herrer, David",MC,9.0,2
+265,23,"Pino Fernández, Claudia",MC,5.0,2
+266,24,"Rivas Gracia, Cristina",MC,2.0,2
+267,25,"Santiago Calvo, María",MC,6.0,2
+268,26,"Vera Blánquez, Andrea",MC,4.0,2
+269,27,"Villalba Carroquino, Irene Pilar",MC,9.0,2
+270,1,"Alvar Hernández, José Darío",MU,,2
+271,2,"Amador Bolea, Alejandro",MU,,2
+272,3,"Amador Bolea, Álvaro",MU,,2
+273,4,"Arnillas Gómez, Lucía",MU,,2
+274,5,"Asso Pino, Lorién",MU,,2
+275,6,"Bernal Bandrés, Chaime",MU,,2
+276,7,"Campos Bueno, Natalia",MU,,2
+277,8,"Cárdenas Vaillant, Adriana",MU,,2
+278,9,"Cremallet Aguillo, Andrea",MU,,2
+279,10,"Diaconu , Diana María",MU,,2
+280,11,"Gabelas Verdugo, Laura",MU,,2
+281,12,"González Blanco, Javier",MU,,2
+282,13,"González Blanco, Marta",MU,,2
+283,14,"Gracia Bardají, Sofía",MU,,2
+284,15,"Gracia Gonzalvo, Alba",MU,,2
+285,16,"Julián Pérez, Claudia",MU,9.0,2
+286,17,"Lafuente García, Alexia",MU,,2
+287,18,"Mariscal Beltrán, Lucía",MU,,2
+288,19,"Martos Arévalo, Alejandro",MU,8.0,2
+289,20,"Pallarés Arnau, Adrián",MU,,2
+290,21,"Parra Oblanca, Daniel",MU,,2
+291,22,"Pérez Herrer, David",MU,,2
+292,23,"Pino Fernández, Claudia",MU,9.0,2
+293,24,"Rivas Gracia, Cristina",MU,,2
+294,25,"Santiago Calvo, María",MU,,2
+295,26,"Vera Blánquez, Andrea",MU,,2
+296,27,"Villalba Carroquino, Irene Pilar",MU,,2
+297,1,"Alvar Hernández, José Darío",RC,,2
+298,2,"Amador Bolea, Alejandro",RC,,2
+299,3,"Amador Bolea, Álvaro",RC,,2
+300,4,"Arnillas Gómez, Lucía",RC,8.0,2
+301,5,"Asso Pino, Lorién",RC,,2
+302,6,"Bernal Bandrés, Chaime",RC,,2
+303,7,"Campos Bueno, Natalia",RC,8.0,2
+304,8,"Cárdenas Vaillant, Adriana",RC,9.0,2
+305,9,"Cremallet Aguillo, Andrea",RC,8.0,2
+306,10,"Diaconu , Diana María",RC,,2
+307,11,"Gabelas Verdugo, Laura",RC,9.0,2
+308,12,"González Blanco, Javier",RC,,2
+309,13,"González Blanco, Marta",RC,,2
+310,14,"Gracia Bardají, Sofía",RC,,2
+311,15,"Gracia Gonzalvo, Alba",RC,,2
+312,16,"Julián Pérez, Claudia",RC,8.0,2
+313,17,"Lafuente García, Alexia",RC,9.0,2
+314,18,"Mariscal Beltrán, Lucía",RC,,2
+315,19,"Martos Arévalo, Alejandro",RC,,2
+316,20,"Pallarés Arnau, Adrián",RC,7.0,2
+317,21,"Parra Oblanca, Daniel",RC,,2
+318,22,"Pérez Herrer, David",RC,,2
+319,23,"Pino Fernández, Claudia",RC,,2
+320,24,"Rivas Gracia, Cristina",RC,7.0,2
+321,25,"Santiago Calvo, María",RC,7.0,2
+322,26,"Vera Blánquez, Andrea",RC,10.0,2
+323,27,"Villalba Carroquino, Irene Pilar",RC,,2
+324,1,"Alvar Hernández, José Darío",TIC,9.0,2
+325,2,"Amador Bolea, Alejandro",TIC,9.0,2
+326,3,"Amador Bolea, Álvaro",TIC,9.0,2
+327,4,"Arnillas Gómez, Lucía",TIC,,2
+328,5,"Asso Pino, Lorién",TIC,,2
+329,6,"Bernal Bandrés, Chaime",TIC,,2
+330,7,"Campos Bueno, Natalia",TIC,,2
+331,8,"Cárdenas Vaillant, Adriana",TIC,,2
+332,9,"Cremallet Aguillo, Andrea",TIC,8.0,2
+333,10,"Diaconu , Diana María",TIC,8.0,2
+334,11,"Gabelas Verdugo, Laura",TIC,,2
+335,12,"González Blanco, Javier",TIC,,2
+336,13,"González Blanco, Marta",TIC,,2
+337,14,"Gracia Bardají, Sofía",TIC,5.0,2
+338,15,"Gracia Gonzalvo, Alba",TIC,5.0,2
+339,16,"Julián Pérez, Claudia",TIC,7.0,2
+340,17,"Lafuente García, Alexia",TIC,,2
+341,18,"Mariscal Beltrán, Lucía",TIC,8.0,2
+342,19,"Martos Arévalo, Alejandro",TIC,8.0,2
+343,20,"Pallarés Arnau, Adrián",TIC,,2
+344,21,"Parra Oblanca, Daniel",TIC,9.0,2
+345,22,"Pérez Herrer, David",TIC,9.0,2
+346,23,"Pino Fernández, Claudia",TIC,,2
+347,24,"Rivas Gracia, Cristina",TIC,,2
+348,25,"Santiago Calvo, María",TIC,7.0,2
+349,26,"Vera Blánquez, Andrea",TIC,,2
+350,27,"Villalba Carroquino, Irene Pilar",TIC,,2
+351,1,"Alvar Hernández, José Darío",VET,9.0,2
+352,2,"Amador Bolea, Alejandro",VET,9.0,2
+353,3,"Amador Bolea, Álvaro",VET,6.0,2
+354,4,"Arnillas Gómez, Lucía",VET,,2
+355,5,"Asso Pino, Lorién",VET,9.0,2
+356,6,"Bernal Bandrés, Chaime",VET,8.0,2
+357,7,"Campos Bueno, Natalia",VET,,2
+358,8,"Cárdenas Vaillant, Adriana",VET,,2
+359,9,"Cremallet Aguillo, Andrea",VET,,2
+360,10,"Diaconu , Diana María",VET,6.0,2
+361,11,"Gabelas Verdugo, Laura",VET,,2
+362,12,"González Blanco, Javier",VET,9.0,2
+363,13,"González Blanco, Marta",VET,8.0,2
+364,14,"Gracia Bardají, Sofía",VET,7.0,2
+365,15,"Gracia Gonzalvo, Alba",VET,9.0,2
+366,16,"Julián Pérez, Claudia",VET,,2
+367,17,"Lafuente García, Alexia",VET,,2
+368,18,"Mariscal Beltrán, Lucía",VET,6.0,2
+369,19,"Martos Arévalo, Alejandro",VET,8.0,2
+370,20,"Pallarés Arnau, Adrián",VET,,2
+371,21,"Parra Oblanca, Daniel",VET,8.0,2
+372,22,"Pérez Herrer, David",VET,7.0,2
+373,23,"Pino Fernández, Claudia",VET,10.0,2
+374,24,"Rivas Gracia, Cristina",VET,,2
+375,25,"Santiago Calvo, María",VET,,2
+376,26,"Vera Blánquez, Andrea",VET,,2
+377,27,"Villalba Carroquino, Irene Pilar",VET,10.0,2
+0,1,"Alvar Hernández, José Darío",ARE,,3
+1,2,"Amador Bolea, Alejandro",ARE,,3
+2,3,"Amador Bolea, Álvaro",ARE,,3
+3,4,"Arnillas Gómez, Lucía",ARE,9.0,3
+4,5,"Asso Pino, Lorién",ARE,,3
+5,6,"Bernal Bandrés, Chaime",ARE,9.0,3
+6,7,"Campos Bueno, Natalia",ARE,,3
+7,8,"Cárdenas Vaillant, Adriana",ARE,9.0,3
+8,9,"Cremallet Aguillo, Andrea",ARE,,3
+9,10,"Diaconu , Diana María",ARE,,3
+10,11,"Gabelas Verdugo, Laura",ARE,9.0,3
+11,12,"González Blanco, Javier",ARE,9.0,3
+12,13,"González Blanco, Marta",ARE,9.0,3
+13,14,"Gracia Bardají, Sofía",ARE,,3
+14,15,"Gracia Gonzalvo, Alba",ARE,,3
+15,16,"Julián Pérez, Claudia",ARE,,3
+16,17,"Lafuente García, Alexia",ARE,9.0,3
+17,18,"Mariscal Beltrán, Lucía",ARE,,3
+18,19,"Martos Arévalo, Alejandro",ARE,,3
+19,20,"Pallarés Arnau, Adrián",ARE,,3
+20,21,"Parra Oblanca, Daniel",ARE,,3
+21,22,"Pérez Herrer, David",ARE,,3
+22,23,"Pino Fernández, Claudia",ARE,9.0,3
+23,24,"Rivas Gracia, Cristina",ARE,,3
+24,25,"Santiago Calvo, María",ARE,,3
+25,26,"Vera Blánquez, Andrea",ARE,9.0,3
+26,27,"Villalba Carroquino, Irene Pilar",ARE,9.0,3
+27,1,"Alvar Hernández, José Darío",BG,8.0,3
+28,2,"Amador Bolea, Alejandro",BG,8.0,3
+29,3,"Amador Bolea, Álvaro",BG,7.0,3
+30,4,"Arnillas Gómez, Lucía",BG,6.0,3
+31,5,"Asso Pino, Lorién",BG,9.0,3
+32,6,"Bernal Bandrés, Chaime",BG,9.0,3
+33,7,"Campos Bueno, Natalia",BG,5.0,3
+34,8,"Cárdenas Vaillant, Adriana",BG,5.0,3
+35,9,"Cremallet Aguillo, Andrea",BG,10.0,3
+36,10,"Diaconu , Diana María",BG,6.0,3
+37,11,"Gabelas Verdugo, Laura",BG,6.0,3
+38,12,"González Blanco, Javier",BG,9.0,3
+39,13,"González Blanco, Marta",BG,6.0,3
+40,14,"Gracia Bardají, Sofía",BG,7.0,3
+41,15,"Gracia Gonzalvo, Alba",BG,6.0,3
+42,16,"Julián Pérez, Claudia",BG,5.0,3
+43,17,"Lafuente García, Alexia",BG,7.0,3
+44,18,"Mariscal Beltrán, Lucía",BG,6.0,3
+45,19,"Martos Arévalo, Alejandro",BG,8.0,3
+46,20,"Pallarés Arnau, Adrián",BG,7.0,3
+47,21,"Parra Oblanca, Daniel",BG,10.0,3
+48,22,"Pérez Herrer, David",BG,7.0,3
+49,23,"Pino Fernández, Claudia",BG,7.0,3
+50,24,"Rivas Gracia, Cristina",BG,4.0,3
+51,25,"Santiago Calvo, María",BG,6.0,3
+52,26,"Vera Blánquez, Andrea",BG,7.0,3
+53,27,"Villalba Carroquino, Irene Pilar",BG,10.0,3
+54,1,"Alvar Hernández, José Darío",CC,,3
+55,2,"Amador Bolea, Alejandro",CC,,3
+56,3,"Amador Bolea, Álvaro",CC,,3
+57,4,"Arnillas Gómez, Lucía",CC,,3
+58,5,"Asso Pino, Lorién",CC,8.0,3
+59,6,"Bernal Bandrés, Chaime",CC,,3
+60,7,"Campos Bueno, Natalia",CC,7.0,3
+61,8,"Cárdenas Vaillant, Adriana",CC,,3
+62,9,"Cremallet Aguillo, Andrea",CC,,3
+63,10,"Diaconu , Diana María",CC,,3
+64,11,"Gabelas Verdugo, Laura",CC,,3
+65,12,"González Blanco, Javier",CC,,3
+66,13,"González Blanco, Marta",CC,,3
+67,14,"Gracia Bardají, Sofía",CC,,3
+68,15,"Gracia Gonzalvo, Alba",CC,,3
+69,16,"Julián Pérez, Claudia",CC,,3
+70,17,"Lafuente García, Alexia",CC,,3
+71,18,"Mariscal Beltrán, Lucía",CC,,3
+72,19,"Martos Arévalo, Alejandro",CC,,3
+73,20,"Pallarés Arnau, Adrián",CC,5.0,3
+74,21,"Parra Oblanca, Daniel",CC,,3
+75,22,"Pérez Herrer, David",CC,,3
+76,23,"Pino Fernández, Claudia",CC,,3
+77,24,"Rivas Gracia, Cristina",CC,5.0,3
+78,25,"Santiago Calvo, María",CC,,3
+79,26,"Vera Blánquez, Andrea",CC,,3
+80,27,"Villalba Carroquino, Irene Pilar",CC,,3
+81,1,"Alvar Hernández, José Darío",EF,5.0,3
+82,2,"Amador Bolea, Alejandro",EF,6.0,3
+83,3,"Amador Bolea, Álvaro",EF,5.0,3
+84,4,"Arnillas Gómez, Lucía",EF,5.0,3
+85,5,"Asso Pino, Lorién",EF,5.0,3
+86,6,"Bernal Bandrés, Chaime",EF,5.0,3
+87,7,"Campos Bueno, Natalia",EF,5.0,3
+88,8,"Cárdenas Vaillant, Adriana",EF,4.0,3
+89,9,"Cremallet Aguillo, Andrea",EF,6.0,3
+90,10,"Diaconu , Diana María",EF,6.0,3
+91,11,"Gabelas Verdugo, Laura",EF,5.0,3
+92,12,"González Blanco, Javier",EF,7.0,3
+93,13,"González Blanco, Marta",EF,5.0,3
+94,14,"Gracia Bardají, Sofía",EF,5.0,3
+95,15,"Gracia Gonzalvo, Alba",EF,5.0,3
+96,16,"Julián Pérez, Claudia",EF,5.0,3
+97,17,"Lafuente García, Alexia",EF,5.0,3
+98,18,"Mariscal Beltrán, Lucía",EF,5.0,3
+99,19,"Martos Arévalo, Alejandro",EF,5.0,3
+100,20,"Pallarés Arnau, Adrián",EF,6.0,3
+101,21,"Parra Oblanca, Daniel",EF,7.0,3
+102,22,"Pérez Herrer, David",EF,7.0,3
+103,23,"Pino Fernández, Claudia",EF,5.0,3
+104,24,"Rivas Gracia, Cristina",EF,4.0,3
+105,25,"Santiago Calvo, María",EF,4.0,3
+106,26,"Vera Blánquez, Andrea",EF,5.0,3
+107,27,"Villalba Carroquino, Irene Pilar",EF,8.0,3
+108,1,"Alvar Hernández, José Darío",FQ,6.0,3
+109,2,"Amador Bolea, Alejandro",FQ,7.0,3
+110,3,"Amador Bolea, Álvaro",FQ,4.0,3
+111,4,"Arnillas Gómez, Lucía",FQ,4.0,3
+112,5,"Asso Pino, Lorién",FQ,7.0,3
+113,6,"Bernal Bandrés, Chaime",FQ,8.0,3
+114,7,"Campos Bueno, Natalia",FQ,5.0,3
+115,8,"Cárdenas Vaillant, Adriana",FQ,4.0,3
+116,9,"Cremallet Aguillo, Andrea",FQ,4.0,3
+117,10,"Diaconu , Diana María",FQ,4.0,3
+118,11,"Gabelas Verdugo, Laura",FQ,3.0,3
+119,12,"González Blanco, Javier",FQ,9.0,3
+120,13,"González Blanco, Marta",FQ,4.0,3
+121,14,"Gracia Bardají, Sofía",FQ,3.0,3
+122,15,"Gracia Gonzalvo, Alba",FQ,2.0,3
+123,16,"Julián Pérez, Claudia",FQ,5.0,3
+124,17,"Lafuente García, Alexia",FQ,7.0,3
+125,18,"Mariscal Beltrán, Lucía",FQ,4.0,3
+126,19,"Martos Arévalo, Alejandro",FQ,5.0,3
+127,20,"Pallarés Arnau, Adrián",FQ,5.0,3
+128,21,"Parra Oblanca, Daniel",FQ,7.0,3
+129,22,"Pérez Herrer, David",FQ,7.0,3
+130,23,"Pino Fernández, Claudia",FQ,5.0,3
+131,24,"Rivas Gracia, Cristina",FQ,3.0,3
+132,25,"Santiago Calvo, María",FQ,2.0,3
+133,26,"Vera Blánquez, Andrea",FQ,4.0,3
+134,27,"Villalba Carroquino, Irene Pilar",FQ,9.0,3
+135,1,"Alvar Hernández, José Darío",FR2,7.0,3
+136,2,"Amador Bolea, Alejandro",FR2,6.0,3
+137,3,"Amador Bolea, Álvaro",FR2,7.0,3
+138,4,"Arnillas Gómez, Lucía",FR2,6.0,3
+139,5,"Asso Pino, Lorién",FR2,8.0,3
+140,6,"Bernal Bandrés, Chaime",FR2,8.0,3
+141,7,"Campos Bueno, Natalia",FR2,5.0,3
+142,8,"Cárdenas Vaillant, Adriana",FR2,7.0,3
+143,9,"Cremallet Aguillo, Andrea",FR2,8.0,3
+144,10,"Diaconu , Diana María",FR2,6.0,3
+145,11,"Gabelas Verdugo, Laura",FR2,5.0,3
+146,12,"González Blanco, Javier",FR2,7.0,3
+147,13,"González Blanco, Marta",FR2,6.0,3
+148,14,"Gracia Bardají, Sofía",FR2,6.0,3
+149,15,"Gracia Gonzalvo, Alba",FR2,6.0,3
+150,16,"Julián Pérez, Claudia",FR2,,3
+151,17,"Lafuente García, Alexia",FR2,6.0,3
+152,18,"Mariscal Beltrán, Lucía",FR2,6.0,3
+153,19,"Martos Arévalo, Alejandro",FR2,,3
+154,20,"Pallarés Arnau, Adrián",FR2,6.0,3
+155,21,"Parra Oblanca, Daniel",FR2,8.0,3
+156,22,"Pérez Herrer, David",FR2,8.0,3
+157,23,"Pino Fernández, Claudia",FR2,,3
+158,24,"Rivas Gracia, Cristina",FR2,4.0,3
+159,25,"Santiago Calvo, María",FR2,7.0,3
+160,26,"Vera Blánquez, Andrea",FR2,7.0,3
+161,27,"Villalba Carroquino, Irene Pilar",FR2,9.0,3
+162,1,"Alvar Hernández, José Darío",GH,8.0,3
+163,2,"Amador Bolea, Alejandro",GH,8.0,3
+164,3,"Amador Bolea, Álvaro",GH,7.0,3
+165,4,"Arnillas Gómez, Lucía",GH,8.0,3
+166,5,"Asso Pino, Lorién",GH,9.0,3
+167,6,"Bernal Bandrés, Chaime",GH,8.0,3
+168,7,"Campos Bueno, Natalia",GH,8.0,3
+169,8,"Cárdenas Vaillant, Adriana",GH,5.0,3
+170,9,"Cremallet Aguillo, Andrea",GH,7.0,3
+171,10,"Diaconu , Diana María",GH,5.0,3
+172,11,"Gabelas Verdugo, Laura",GH,7.0,3
+173,12,"González Blanco, Javier",GH,9.0,3
+174,13,"González Blanco, Marta",GH,6.0,3
+175,14,"Gracia Bardají, Sofía",GH,7.0,3
+176,15,"Gracia Gonzalvo, Alba",GH,6.0,3
+177,16,"Julián Pérez, Claudia",GH,6.0,3
+178,17,"Lafuente García, Alexia",GH,7.0,3
+179,18,"Mariscal Beltrán, Lucía",GH,7.0,3
+180,19,"Martos Arévalo, Alejandro",GH,8.0,3
+181,20,"Pallarés Arnau, Adrián",GH,6.0,3
+182,21,"Parra Oblanca, Daniel",GH,9.0,3
+183,22,"Pérez Herrer, David",GH,9.0,3
+184,23,"Pino Fernández, Claudia",GH,7.0,3
+185,24,"Rivas Gracia, Cristina",GH,2.0,3
+186,25,"Santiago Calvo, María",GH,2.0,3
+187,26,"Vera Blánquez, Andrea",GH,7.0,3
+188,27,"Villalba Carroquino, Irene Pilar",GH,9.0,3
+189,1,"Alvar Hernández, José Darío",IN,7.0,3
+190,2,"Amador Bolea, Alejandro",IN,7.0,3
+191,3,"Amador Bolea, Álvaro",IN,7.0,3
+192,4,"Arnillas Gómez, Lucía",IN,6.0,3
+193,5,"Asso Pino, Lorién",IN,9.0,3
+194,6,"Bernal Bandrés, Chaime",IN,9.0,3
+195,7,"Campos Bueno, Natalia",IN,5.0,3
+196,8,"Cárdenas Vaillant, Adriana",IN,6.0,3
+197,9,"Cremallet Aguillo, Andrea",IN,9.0,3
+198,10,"Diaconu , Diana María",IN,7.0,3
+199,11,"Gabelas Verdugo, Laura",IN,6.0,3
+200,12,"González Blanco, Javier",IN,9.0,3
+201,13,"González Blanco, Marta",IN,6.0,3
+202,14,"Gracia Bardají, Sofía",IN,5.0,3
+203,15,"Gracia Gonzalvo, Alba",IN,7.0,3
+204,16,"Julián Pérez, Claudia",IN,6.0,3
+205,17,"Lafuente García, Alexia",IN,6.0,3
+206,18,"Mariscal Beltrán, Lucía",IN,6.0,3
+207,19,"Martos Arévalo, Alejandro",IN,6.0,3
+208,20,"Pallarés Arnau, Adrián",IN,5.0,3
+209,21,"Parra Oblanca, Daniel",IN,8.0,3
+210,22,"Pérez Herrer, David",IN,9.0,3
+211,23,"Pino Fernández, Claudia",IN,8.0,3
+212,24,"Rivas Gracia, Cristina",IN,4.0,3
+213,25,"Santiago Calvo, María",IN,7.0,3
+214,26,"Vera Blánquez, Andrea",IN,8.0,3
+215,27,"Villalba Carroquino, Irene Pilar",IN,10.0,3
+216,1,"Alvar Hernández, José Darío",LE,4.0,3
+217,2,"Amador Bolea, Alejandro",LE,5.0,3
+218,3,"Amador Bolea, Álvaro",LE,5.0,3
+219,4,"Arnillas Gómez, Lucía",LE,4.0,3
+220,5,"Asso Pino, Lorién",LE,7.0,3
+221,6,"Bernal Bandrés, Chaime",LE,7.0,3
+222,7,"Campos Bueno, Natalia",LE,6.0,3
+223,8,"Cárdenas Vaillant, Adriana",LE,4.0,3
+224,9,"Cremallet Aguillo, Andrea",LE,7.0,3
+225,10,"Diaconu , Diana María",LE,4.0,3
+226,11,"Gabelas Verdugo, Laura",LE,5.0,3
+227,12,"González Blanco, Javier",LE,6.0,3
+228,13,"González Blanco, Marta",LE,6.0,3
+229,14,"Gracia Bardají, Sofía",LE,4.0,3
+230,15,"Gracia Gonzalvo, Alba",LE,4.0,3
+231,16,"Julián Pérez, Claudia",LE,3.0,3
+232,17,"Lafuente García, Alexia",LE,5.0,3
+233,18,"Mariscal Beltrán, Lucía",LE,6.0,3
+234,19,"Martos Arévalo, Alejandro",LE,6.0,3
+235,20,"Pallarés Arnau, Adrián",LE,4.0,3
+236,21,"Parra Oblanca, Daniel",LE,7.0,3
+237,22,"Pérez Herrer, David",LE,6.0,3
+238,23,"Pino Fernández, Claudia",LE,5.0,3
+239,24,"Rivas Gracia, Cristina",LE,2.0,3
+240,25,"Santiago Calvo, María",LE,4.0,3
+241,26,"Vera Blánquez, Andrea",LE,4.0,3
+242,27,"Villalba Carroquino, Irene Pilar",LE,7.0,3
+243,1,"Alvar Hernández, José Darío",MC,6.0,3
+244,2,"Amador Bolea, Alejandro",MC,8.0,3
+245,3,"Amador Bolea, Álvaro",MC,5.0,3
+246,4,"Arnillas Gómez, Lucía",MC,3.0,3
+247,5,"Asso Pino, Lorién",MC,8.0,3
+248,6,"Bernal Bandrés, Chaime",MC,9.0,3
+249,7,"Campos Bueno, Natalia",MC,7.0,3
+250,8,"Cárdenas Vaillant, Adriana",MC,3.0,3
+251,9,"Cremallet Aguillo, Andrea",MC,9.0,3
+252,10,"Diaconu , Diana María",MC,5.0,3
+253,11,"Gabelas Verdugo, Laura",MC,4.0,3
+254,12,"González Blanco, Javier",MC,9.0,3
+255,13,"González Blanco, Marta",MC,7.0,3
+256,14,"Gracia Bardají, Sofía",MC,4.0,3
+257,15,"Gracia Gonzalvo, Alba",MC,4.0,3
+258,16,"Julián Pérez, Claudia",MC,6.0,3
+259,17,"Lafuente García, Alexia",MC,6.0,3
+260,18,"Mariscal Beltrán, Lucía",MC,6.0,3
+261,19,"Martos Arévalo, Alejandro",MC,6.0,3
+262,20,"Pallarés Arnau, Adrián",MC,5.0,3
+263,21,"Parra Oblanca, Daniel",MC,8.0,3
+264,22,"Pérez Herrer, David",MC,9.0,3
+265,23,"Pino Fernández, Claudia",MC,5.0,3
+266,24,"Rivas Gracia, Cristina",MC,2.0,3
+267,25,"Santiago Calvo, María",MC,6.0,3
+268,26,"Vera Blánquez, Andrea",MC,4.0,3
+269,27,"Villalba Carroquino, Irene Pilar",MC,9.0,3
+270,1,"Alvar Hernández, José Darío",MU,,3
+271,2,"Amador Bolea, Alejandro",MU,,3
+272,3,"Amador Bolea, Álvaro",MU,,3
+273,4,"Arnillas Gómez, Lucía",MU,,3
+274,5,"Asso Pino, Lorién",MU,,3
+275,6,"Bernal Bandrés, Chaime",MU,,3
+276,7,"Campos Bueno, Natalia",MU,,3
+277,8,"Cárdenas Vaillant, Adriana",MU,,3
+278,9,"Cremallet Aguillo, Andrea",MU,,3
+279,10,"Diaconu , Diana María",MU,,3
+280,11,"Gabelas Verdugo, Laura",MU,,3
+281,12,"González Blanco, Javier",MU,,3
+282,13,"González Blanco, Marta",MU,,3
+283,14,"Gracia Bardají, Sofía",MU,,3
+284,15,"Gracia Gonzalvo, Alba",MU,,3
+285,16,"Julián Pérez, Claudia",MU,9.0,3
+286,17,"Lafuente García, Alexia",MU,,3
+287,18,"Mariscal Beltrán, Lucía",MU,,3
+288,19,"Martos Arévalo, Alejandro",MU,8.0,3
+289,20,"Pallarés Arnau, Adrián",MU,,3
+290,21,"Parra Oblanca, Daniel",MU,,3
+291,22,"Pérez Herrer, David",MU,,3
+292,23,"Pino Fernández, Claudia",MU,9.0,3
+293,24,"Rivas Gracia, Cristina",MU,,3
+294,25,"Santiago Calvo, María",MU,,3
+295,26,"Vera Blánquez, Andrea",MU,,3
+296,27,"Villalba Carroquino, Irene Pilar",MU,,3
+297,1,"Alvar Hernández, José Darío",RC,,3
+298,2,"Amador Bolea, Alejandro",RC,,3
+299,3,"Amador Bolea, Álvaro",RC,,3
+300,4,"Arnillas Gómez, Lucía",RC,8.0,3
+301,5,"Asso Pino, Lorién",RC,,3
+302,6,"Bernal Bandrés, Chaime",RC,,3
+303,7,"Campos Bueno, Natalia",RC,8.0,3
+304,8,"Cárdenas Vaillant, Adriana",RC,9.0,3
+305,9,"Cremallet Aguillo, Andrea",RC,8.0,3
+306,10,"Diaconu , Diana María",RC,,3
+307,11,"Gabelas Verdugo, Laura",RC,9.0,3
+308,12,"González Blanco, Javier",RC,,3
+309,13,"González Blanco, Marta",RC,,3
+310,14,"Gracia Bardají, Sofía",RC,,3
+311,15,"Gracia Gonzalvo, Alba",RC,,3
+312,16,"Julián Pérez, Claudia",RC,8.0,3
+313,17,"Lafuente García, Alexia",RC,9.0,3
+314,18,"Mariscal Beltrán, Lucía",RC,,3
+315,19,"Martos Arévalo, Alejandro",RC,,3
+316,20,"Pallarés Arnau, Adrián",RC,7.0,3
+317,21,"Parra Oblanca, Daniel",RC,,3
+318,22,"Pérez Herrer, David",RC,,3
+319,23,"Pino Fernández, Claudia",RC,,3
+320,24,"Rivas Gracia, Cristina",RC,7.0,3
+321,25,"Santiago Calvo, María",RC,7.0,3
+322,26,"Vera Blánquez, Andrea",RC,10.0,3
+323,27,"Villalba Carroquino, Irene Pilar",RC,,3
+324,1,"Alvar Hernández, José Darío",TIC,9.0,3
+325,2,"Amador Bolea, Alejandro",TIC,9.0,3
+326,3,"Amador Bolea, Álvaro",TIC,9.0,3
+327,4,"Arnillas Gómez, Lucía",TIC,,3
+328,5,"Asso Pino, Lorién",TIC,,3
+329,6,"Bernal Bandrés, Chaime",TIC,,3
+330,7,"Campos Bueno, Natalia",TIC,,3
+331,8,"Cárdenas Vaillant, Adriana",TIC,,3
+332,9,"Cremallet Aguillo, Andrea",TIC,8.0,3
+333,10,"Diaconu , Diana María",TIC,8.0,3
+334,11,"Gabelas Verdugo, Laura",TIC,,3
+335,12,"González Blanco, Javier",TIC,,3
+336,13,"González Blanco, Marta",TIC,,3
+337,14,"Gracia Bardají, Sofía",TIC,5.0,3
+338,15,"Gracia Gonzalvo, Alba",TIC,5.0,3
+339,16,"Julián Pérez, Claudia",TIC,7.0,3
+340,17,"Lafuente García, Alexia",TIC,,3
+341,18,"Mariscal Beltrán, Lucía",TIC,8.0,3
+342,19,"Martos Arévalo, Alejandro",TIC,8.0,3
+343,20,"Pallarés Arnau, Adrián",TIC,,3
+344,21,"Parra Oblanca, Daniel",TIC,9.0,3
+345,22,"Pérez Herrer, David",TIC,9.0,3
+346,23,"Pino Fernández, Claudia",TIC,,3
+347,24,"Rivas Gracia, Cristina",TIC,,3
+348,25,"Santiago Calvo, María",TIC,7.0,3
+349,26,"Vera Blánquez, Andrea",TIC,,3
+350,27,"Villalba Carroquino, Irene Pilar",TIC,,3
+351,1,"Alvar Hernández, José Darío",VET,9.0,3
+352,2,"Amador Bolea, Alejandro",VET,9.0,3
+353,3,"Amador Bolea, Álvaro",VET,6.0,3
+354,4,"Arnillas Gómez, Lucía",VET,,3
+355,5,"Asso Pino, Lorién",VET,9.0,3
+356,6,"Bernal Bandrés, Chaime",VET,8.0,3
+357,7,"Campos Bueno, Natalia",VET,,3
+358,8,"Cárdenas Vaillant, Adriana",VET,,3
+359,9,"Cremallet Aguillo, Andrea",VET,,3
+360,10,"Diaconu , Diana María",VET,6.0,3
+361,11,"Gabelas Verdugo, Laura",VET,,3
+362,12,"González Blanco, Javier",VET,9.0,3
+363,13,"González Blanco, Marta",VET,8.0,3
+364,14,"Gracia Bardají, Sofía",VET,7.0,3
+365,15,"Gracia Gonzalvo, Alba",VET,9.0,3
+366,16,"Julián Pérez, Claudia",VET,,3
+367,17,"Lafuente García, Alexia",VET,,3
+368,18,"Mariscal Beltrán, Lucía",VET,6.0,3
+369,19,"Martos Arévalo, Alejandro",VET,8.0,3
+370,20,"Pallarés Arnau, Adrián",VET,,3
+371,21,"Parra Oblanca, Daniel",VET,8.0,3
+372,22,"Pérez Herrer, David",VET,7.0,3
+373,23,"Pino Fernández, Claudia",VET,10.0,3
+374,24,"Rivas Gracia, Cristina",VET,,3
+375,25,"Santiago Calvo, María",VET,,3
+376,26,"Vera Blánquez, Andrea",VET,,3
+377,27,"Villalba Carroquino, Irene Pilar",VET,10.0,3

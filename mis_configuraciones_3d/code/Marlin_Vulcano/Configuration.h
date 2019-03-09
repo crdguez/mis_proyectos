@@ -112,7 +112,8 @@
 // 147 is Pt100 with 4k7 pullup
 // 110 is Pt100 with 1k pullup (non standard)
 
-#define TEMP_SENSOR_0 5
+//#define TEMP_SENSOR_0 1
+#define TEMP_SENSOR_0 11
 #define TEMP_SENSOR_1 0
 #define TEMP_SENSOR_2 0
 #define TEMP_SENSOR_BED 80
@@ -410,8 +411,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = true; // set to true to invert the logic of
 
   #define X_PROBE_OFFSET_FROM_EXTRUDER -0
   #define Y_PROBE_OFFSET_FROM_EXTRUDER -0
-  #define Z_PROBE_OFFSET_FROM_EXTRUDER -1.3
-
+  #define Z_PROBE_OFFSET_FROM_EXTRUDER -1.8
   #define Z_RAISE_BEFORE_HOMING 4       // (in mm) Raise Z before homing (G28) for Probe Clearance.
                                         // Be sure you have this distance over your Z_MAX_POS in case
 
@@ -494,7 +494,8 @@ const bool Z_MAX_ENDSTOP_INVERTING = true; // set to true to invert the logic of
 
 // default settings
 
-#define DEFAULT_AXIS_STEPS_PER_UNIT   {80,80,4000,775}  // default steps per unit for Ultimaker
+//#define DEFAULT_AXIS_STEPS_PER_UNIT   {80,80,4000,775}  // default steps per unit for Ultimaker
+#define DEFAULT_AXIS_STEPS_PER_UNIT   {160,160,8000,1550}  // default steps per unit for Ultimaker
 //#define DEFAULT_AXIS_STEPS_PER_UNIT   {80,80,3865,775}  // default steps per unit for Ultimaker
 #define DEFAULT_MAX_FEEDRATE          {400, 400, 1, 45}    // (mm/sec)
 #define DEFAULT_MAX_ACCELERATION      {5000,5000,10,5000}    // X, Y, Z, E maximum start speed for accelerated moves. E default values are good for Skeinforge 40+, for older versions raise them a lot.

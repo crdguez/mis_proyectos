@@ -1,0 +1,360 @@
+% Añade al preámbulo:
+%\newcommand{\samedir}{\mathbin{\!/\mkern-5mu/\!}}
+
+
+\section{Vectores Libres}
+
+Dados dos puntos en el plano (A y B), podemos trazar  una flecha que vaya del primero al segundo. A esta flecha la llamaremos vector (fijo) y se denota $\overrightarrow{AB}$.
+
+
+
+\begin{tikzpicture}[scale=0.75]
+\coordinate (A) at (1,2);
+\coordinate (B) at (6,4);
+
+\draw [fill=blue] (A) circle (2pt) node [left] {A};
+\draw [fill=blue] (B) circle (2pt) node [left] {B};
+
+\draw [->, red, thick]  (A) -- node[below] {$\overrightarrow{AB}$} (B); 
+\end{tikzpicture}
+
+
+
+
+\begin{itemize}
+\item \textbf{Módulo}: La longitud del vector
+\item \textbf{Dirección}: La recta que contiene al vector y cualquiera de sus paralelas
+\item \textbf{Sentido}: El que va del origen al final o su contrario. Viene representado por punta "la cabeza de la flecha"
+\end{itemize}
+Dos vectores (fijos) son \textbf{equipolentes} cuando tienen el mismo módulo, misma dirección y mismo sentido. Un vector fijo y todos sus equipolentes forman lo que de denomina un \textbf{vector libre}. Se denota $\overrightarrow{v}$ o $\left[\overrightarrow{AB}\right]$ siendo $\overrightarrow{AB}$ un vector fijo representante de $\overrightarrow{v}$. Un vector libre viene determinado por sus coordenadas:
+
+\section{Coordenadas y módulo de un vector} Un vector se puede ver como el desplazamiento que tenemos que hacer horizontalmente y verticalmente para ir del origen al extremo del mismo. Al desplazamiento horizontal le llamaremos primera coordenada y al vertical, segunda.
+
+\begin{itemize}
+\item Dados $A(x_1,y_2),B(x_2,y_2) \to  \overrightarrow{AB}(x_2-x_1,y_2-y_1)$
+\item A partir de las coordenadas del punto podremos calcular su módulo. Dados $\overrightarrow{u}(x,y), \to  \left|\overrightarrow{u}\right|=\sqrt{x^2+y^2}$
+\end{itemize}
+
+
+
+
+\subsection{Ejemplo}
+
+Determina las coordenadas y el módulo del vector libre cuyo representante es el vector que va de $A(1,1)$ a $B(7,5)$
+
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1cm,y=1cm, scale=0.8]
+\draw [color=lightgray,dash pattern=on 1pt off 1pt, xstep=1cm,ystep=1cm] (-0.6129302567150502,-0.43158220601634095) grid (9.010648940148005,6.1);
+\draw[->,color=black] (-0.6129302567150502,0) -- (9.010648940148005,0);
+\foreach \x in {,1,2,3,4,5,6,7,8,9}
+\draw[shift={(\x,0)},color=black] (0pt,2pt) -- (0pt,-2pt) node[below] {\footnotesize $\x$};
+\draw[->,color=black] (0,-0.43158220601634095) -- (0,6.1);
+\foreach \y in {,1,2,3,4,5,6}
+\draw[shift={(0,\y)},color=black] (2pt,0pt) -- (-2pt,0pt) node[left] {\footnotesize $\y$};
+\draw[color=black] (0pt,-10pt) node[right] {\footnotesize $0$};
+\clip(-0.6129302567150502,-0.43158220601634095) rectangle (9.010648940148005,7.8783927087822985);
+\draw [->,line width=1.5pt,color=red] (1,1) -- node[above,fill=white]{$\overrightarrow{v}=\left(6,4 \right) \land \left|\overrightarrow{v}\right|=\sqrt{6^2+4^2}=\sqrt{52}$} (7,5);
+\draw [-,line width=2pt,color=blue] (1,1) -- node[below]{$7-1=6$} (7,1);
+\draw [-,line width=2pt,color=orange] (7,1) -- node[right]{$5-1=4$}(7,5);
+
+\draw [fill=yellow, color=blue]  (1,1) circle (2pt) node[above] {$A = (1, 1)$};
+\draw [fill=yellow, color=blue]  (7,5) circle (2pt) node[above] {$B = (7, 5)$};
+\end{tikzpicture}
+
+
+
+\section{Operaciones con vectores}
+\subsection{Producto de un número por un vector}
+\paragraph*{Definición}
+Dado $k \in \mathbb{R}$ y $\overrightarrow{u}$ se define $k\cdot\overrightarrow{u}$ como un $\overrightarrow{v}$ que:\begin{itemize}
+\item $\left|\overrightarrow{v}\right|=\left|k\right|\cdot\left|\overrightarrow{u}\right|$
+\item $ \overrightarrow{v}\samedir\overrightarrow{u}$
+\item Mismo sentido que $\overrightarrow{u}$ si $k>0$ o sentido contrario si $k>0$
+\end{itemize}Además se cumple que si $\overrightarrow{u}(x_1,y_1)\to k\overrightarrow{u}(k\cdot x_1,k\cdot y_1)$
+
+\subsubsection{Ejemplos}\begin{tikzpicture}[scale=0.75]
+\draw [->, red, thick, fill=red]  (1,1) -- node[left] {$\overrightarrow{u}(1,2)$} (2,3); 
+\draw [->, blue, thick, fill=blue]  (2,-1) -- node[left] {$2\overrightarrow{u}(2,4)$} (4,3); 
+\draw [->, gray, thick, fill=blue]  (6,1) -- node[left] {$\frac{1}{2}\overrightarrow{u}(0.5,1)$} (6.5,2); 
+\draw [->, orange, thick, fill=blue]  (8,3) -- node[right] {$-\frac{3}{2}\overrightarrow{u}(1.5,3)$} (6.5,0); 
+\end{tikzpicture}
+
+\subsection{Suma y resta de vectores}
+\paragraph*{Definición de suma} Dados $\overrightarrow{u}$ y $\overrightarrow{v}$ se define la suma como el vector que   si los ponemos seguidos va del origen del primer vector al extremo del segundo vector. Además se cumple que si $\overrightarrow{u}(x_1,y_1) \ y \overrightarrow{v}(x_2,y_2) \to \overrightarrow{u} +\overrightarrow{v}(x_1+x_2, y_1+y_2)$ 
+\medskip 
+
+\begin{tikzpicture}[scale=0.75]
+\draw [->, red, thick, fill=red]  (1,0) -- node[left] {$\overrightarrow{u}(1,2)$} (2,2); 
+\draw [->, blue, thick, fill=blue]  (2,2) -- node[left] {$\overrightarrow{v}(4,1)$} (6,3); 
+\draw [->, orange, thick, fill=blue]  (1,0) -- node[right] {$\overrightarrow{u}+\overrightarrow{v}(5,3)$} (6,3); 
+\end{tikzpicture}
+
+\paragraph*{Definición de resta} Dados $\overrightarrow{u}$ y $\overrightarrow{v}$ se define la resta como la suma del primero con el opuesto del segundo. Además se cumple que si $\overrightarrow{u}(x_1,y_1) \ y \overrightarrow{v}(x_2,y_2) \to \overrightarrow{u} -\overrightarrow{v}(x_1-x_2, y_1-y_2)$ 
+
+\section{Punto medio de un segmento}
+
+Dados dos puntos del plano, $A(x_1,y_1)$ y $B(x_2,y_2)$, el punto medio es $M(\frac{x_1+x_2}{2},\frac{y_1+y_2}{2})$. 
+
+\begin{tikzpicture}[scale=0.75]
+
+\tikzmath{\x1 = 1; \y1 =2;
+		  \x2 = 6; \y2 =4; 	 
+                   %computations are also possible
+                    \x3 = (\x1 + \x2)*0.5; \y3 =(\y1 + \y2)*0.5; } 
+
+\coordinate (A) at (\x1,\y1);
+\coordinate (M) at (\x3,\y3);
+\coordinate (B) at (\x2,\y2);
+
+\draw [fill=blue] (A) circle (2pt) node [left] {$A(x_1,y_1)$};
+\draw [fill=blue] (B) circle (2pt) node [right] {$B(x_2,y_2)$};
+\draw [fill=blue] (M) circle (2pt) node [above] {$M(\frac{x_1+x_2}{2},\frac{y_1+y_2}{2})$};
+\draw [->, red, thick]  (A) -- node[below] {$\overrightarrow{AB}$} (B); 
+
+\end{tikzpicture}
+
+La demostración es sencilla aplicando la propiedad geométrica que cumple el punto medio: $\overrightarrow{AM}=\overrightarrow{MB}$
+
+\subsection{Ejemplo}
+\begin{tikzpicture}[scale=0.5]
+
+\tikzmath{\x1 = 1; \y1 = 4;
+		  \x2 = 9; \y2 = 0; 	 
+                   %computations are also possible
+                    \x3 = (\x1 + \x2)*0.5; \y3 =(\y1 + \y2)*0.5; } 
+
+\coordinate (A) at (\x1,\y1);
+\coordinate (M) at (\x3,\y3);
+\coordinate (B) at (\x2,\y2);
+
+\draw [fill=blue] (A) circle (2pt) node [left] {A(\x1,\y1)};
+\draw [fill=blue] (B) circle (2pt) node [right] {B(\x2,\y2)};
+\draw [fill=blue] (M) circle (2pt) node [above] {M(\x3,\y3)};
+\draw [->, red, thick]  (A) -- node[below] {$\overrightarrow{AB}$} (B); 
+
+\end{tikzpicture}
+
+\section{Puntos alineados}
+Dados los puntos $A$, $B$ y $C$ estarán alineados si los vectores $\overrightarrow{AB}$ y $\overrightarrow{BC}$ son colineales, o tienen la misma dirección, y por tanto:
+$\exists k\in\mathbb{R} | \ \left[\overrightarrow{BC}\right]=k\cdot\left[\overrightarrow{AB}\right]$
+
+\begin{tikzpicture}[scale=0.75]
+
+\tikzmath{\x1 = 1; \y1 =1;
+		  \x2 = 3; \y2 =2;
+		  \k=2; 	 
+                   %computations are also possible
+                    \x3 = \x2+(\x2 - \x1)*\k; \y3 =\y2+(\y2 - \y1)*\k; } 
+
+\coordinate (A) at (\x1,\y1);
+\coordinate (C) at (\x3,\y3);
+\coordinate (B) at (\x2,\y2);
+
+\draw [fill=blue] (A) circle (2pt) node [left] {A};
+\draw [fill=blue] (B) circle (2pt) node [above] {B};
+\draw [fill=blue] (C) circle (2pt) node [right] {C};
+\draw [->, red, thick]  (A) -- node[below] {$\overrightarrow{AB}$} (B); 
+\draw [->, red, thick]  (B) -- node[below, fill=white] {$\left[\overrightarrow{BC}\right]=k\cdot\left[\overrightarrow{AB}\right]$} (C); 
+
+\end{tikzpicture}
+
+o bien:
+
+Si $\left[\overrightarrow{AB}\right]=\overrightarrow{u}(u1,u2)$ y  $\left[\overrightarrow{BC}\right]=\overrightarrow{v}(v1,v2)$, se cumple: $$\dfrac{v1}{u1}=\dfrac{v2}{u2}$$
+
+\subsection{Ejemplo}
+\begin{tikzpicture}[scale=0.75]
+
+\tikzmath{\x1 = 1; \y1 =6;
+		  \x2 = 2; \y2 =5.5;
+		  \k=3; 	 
+          %computations are also possible
+          \x3 = \x2+(\x2 - \x1)*\k; \y3 =\y2+(\y2 - \y1)*\k;
+          \u1 = \x2 - \x1; \u2 = \y2 - \y1;
+          \v1 = \x3 - \x2; \v2 = \y3 - \y2; } 
+
+\coordinate (A) at (\x1,\y1);
+\coordinate (C) at (\x3,\y3);
+\coordinate (B) at (\x2,\y2);
+
+\draw [fill=blue] (A) circle (2pt) node [left] {$A(\x1,\y1)$};
+\draw [fill=blue] (B) circle (2pt) node [right] {$B(\x2,\y2)$};
+\draw [fill=blue] (C) circle (2pt) node [below] {$C(\x3,\y3)$};
+\draw [->, red, thick]  (A) -- node[left] {$\overrightarrow{AB}(\u1,\u2)$} (B); 
+\draw [->, red, thick]  (B) -- node[right, fill=white] {$\overrightarrow{BC}=\k\cdot\overrightarrow{AB}=(\v1,\v2)$} (C); 
+
+\end{tikzpicture}
+
+Están alineados porque $\left[\overrightarrow{BC}\right]=3\cdot\left[\overrightarrow{AB}\right]$, o bien porque:
+
+$$\dfrac{3}{1}=\dfrac{-1.5}{-0.5}$$
+
+
+
+\section{Ecuaciones de la recta}
+
+Podemos definir la recta como el lugar geométrico formado por el conjunto de puntos del plano que a partir de un punto fijo siguen una misma dirección. Dado un punto $P(x_0,y_0)$ y un vector $\overrightarrow{d}(v_1,v_2)$, en la recta $r$ se cumple:
+
+\begin{tikzpicture}[domain=-1:6,>=triangle 45]
+
+\tikzmath{\v1 = 3; \v2 =-1;
+		  \x0 = 1; \y0=3;
+		  \k=1.5; 
+		  \x1 = \x0 +\k*\v1; \y1 = \y0 +\k*\v2;	 
+          } 
+%\draw[very thin,color=gray] (-0.1,-1.1) grid (3.9,3.9);
+\draw[->] (0,0) -- (1,0) node[right] {$x$};
+\draw[->] (0,0) -- (0,1) node[above] {$y$};
+\draw [color=green,thick] plot(\x,\v2/\v1*\x + 10/3) node [below]{$r$}  ;
+\draw [fill=blue] (\x0,\y0) circle (2pt) node [left] {$P(x_0,y_0)$};
+\draw [fill=blue] (\x1,\y1) circle (2pt) node [above] {$X(x,y)$};
+\draw [fill=black] (0,0) circle (1pt) node [left] {$O(0,0)$};
+\draw[->, color=red] (0,0) -- node[right] {$\overrightarrow{OP}$}(\x0,\y0);
+\draw[->, color=orange] (0,0) -- node[above] {$\overrightarrow{OX}$}(\x1,\y1);
+
+\draw[->, color=blue] (\x0,\y0) -- node[above] {$\overrightarrow{d}(v_1,v_2)$}(\x0+\v1,\y0+\v2);
+
+
+\end{tikzpicture}
+
+$$\overrightarrow{OX}=\overrightarrow{OP}+\overrightarrow{PX} $$ 
+
+Como $\overrightarrow{PX}$ y $\overrightarrow{d}$ son colineales:
+
+$$\overrightarrow{OX}=\overrightarrow{OP}+\lambda\cdot\overrightarrow{d} $$ 
+
+\subsection{Ecuación vectorial}
+Se obtiene a partir de las coordenadas de la expresión anterior :
+$$(x,y)=(x_0,y_0)+\lambda\cdot(v_1,v_2)$$
+
+\subsection{Ecuaciones paramétricas}
+Se obtienen separando cada coordenada del expresión anterior:
+$$\left\lbrace \begin{gathered}
+  x = x_0 + \lambda\cdot v_1 \hfill \\
+  y = y_0 + \lambda\cdot v_2 \hfill \\ 
+\end{gathered}  \right.
+$$
+ 
+\subsection{Ecuación continua}
+Se obtienen de la anterior despejando $\lambda$ en cada ecuación e igualando la expresiones:
+$$ \dfrac{x-x_0}{v_1}=\dfrac{y-y_0}{v_2}$$
+
+\subsection{Ecuación implícita o general}
+Operando y reduciendo la expresión anterior llegaremos a una de la forma:
+$$Ax+By+C=0$$
+
+\subsection{Ecuación explícita}
+Despejando la $y$ en la ecuación anterior obtendremos
+$$y=mx+n$$
+donde $m$ es la pendiente y $n$ la ordenada en el origen
+\paragraph*{Vector director y pendiente de una recta:} 
+Dada una recta $r$ de pendiente $m$ entonces el vector $\overrightarrow{v}(1,m)$ es un vector director de la recta. Y al revés, si $\overrightarrow{d}(v_1,v_2)$ es un vector director de la recta, entonces $m=\dfrac{v_2}{v_1}$ es la pendiente de la recta 
+
+\subsection{Ejemplo}
+Dada la recta que pasa por $P(1,3)$ y de dirección la marcada por edl vector $\overrightarrow{d}(3,-1)$ determina la ecuación de la misma en sus diferentes variantes:
+\begin{itemize}
+\item Ecuación vectorial:
+$(x,y)=(1,3)+\lambda\cdot(3,-1)$
+\item Ecuaciones paramétricas:
+$\left\lbrace \begin{gathered}
+  x = 1 + 3\lambda \hfill \\
+  y = 3 - \lambda \hfill \\ 
+\end{gathered}  \right.
+$
+\item Ecuación continua:
+$\dfrac{x-1}{3}=3-y$
+\item Ecuación general:
+$3y+x-10=0$
+\item Ecuación explícita:
+$y=-\dfrac{1}{3}x+\dfrac{10}{3}$
+\end{itemize}
+
+\section{Condiciones de paralelismo y perpendicularidad}
+
+Dado $\overrightarrow{d}(u1,u2)$ y un vector perpendicular del mismo módulo $\overrightarrow{e}(v1,v2)$:
+
+\begin{tikzpicture}[domain=-4:4,>=triangle 45]
+
+\tikzmath{\u1 = 2; \u2 = 3;
+		\v1 = -\u2; \v2 = \u1;	
+		\x0 = 3; \y0=2.5;
+		  \r=2; 
+		  \g=-15;
+		  } 
+
+
+
+\draw[very thin,color=gray] (-3.9,-0.5) grid (3.9,3.9);
+\draw[<->] (-3.9,0) -- (3.9,0) node[right] {$x$};
+\draw[<->] (0,-0.5) -- (0,4) node[above] {$y$};
+
+\draw[->, thick, color=red] (0,0) -- node[left] {$\overrightarrow{d}(u1,u2)$}(\u1,\u2);
+\draw[line width=1.5pt, color=blue] (0,0) -- node[below] {$u1$}(\u1,0);
+\draw[line width=1.5pt, color=magenta] (\u1,0) -- node[right] {$u2$}(\u1,\u2);
+\draw[->, thick, color=red] (0,0) -- node[left] {$\overrightarrow{e}(v1,v2)$}(\v1,\v2);
+\draw[line width=1.5pt, color=magenta] (0,0) -- node[below] {$-u2$}(-\u2,0);
+\draw[line width=1.5pt, color=blue] (-\u2,0) -- node[left] {$u1$}(-\u2,\u1);
+\end{tikzpicture}
+
+Se cumple que $\overrightarrow{e}(v1,v2)=(-u2,u1)$ y por tanto:
+
+\begin{itemize}
+\item Para que dos rectas sean paralelas basta con que tengan la misma dirección
+\item Dada una recta con vector director $\overrightarrow{d}(v_1,v_2)$, un vector director de las rectas perpendiculares será $\overrightarrow{e}(-v_2,v_1)$. Además si $m$ y $m'$ son las pendientes de las rectas perpendiculares, se cumple: $m\cdot m'=-1$
+\end{itemize}
+
+\section{Ecuación de la circunferencia}
+
+Dada una circunferencia de centro  $P(x_0,y_0)$ y de radio $r$:
+
+\begin{tikzpicture}[domain=-1:6,>=triangle 45]
+
+\tikzmath{\x0 = 3; \y0=2.5;
+		  \r=2; 
+		  \g=-15;
+		  } 
+
+
+
+%\draw[very thin,color=gray] (-0.1,-1.1) grid (6,6);
+\draw[->] (0,0) -- (1,0) node[right] {$x$};
+\draw[->] (0,0) -- (0,1) node[above] {$y$};
+%\draw [color=green,thick] plot(\x,\v2/\v1*\x + 10/3) node [below]{$r$}  ;
+\draw[fill=blue] (\x0,\y0) circle (2pt) node [left] {$P(x_0,y_0)$};
+\draw[fill=blue] (\x0,\y0)+(\g:\r) circle (2pt) node [right] {$X(x,y)$};
+\draw[] (\x0,\y0) circle (\r) node [left] {$P(x_0,y_0)$};
+\draw [fill=black] (0,0) circle (1pt) node [left] {$O(0,0)$};
+\draw[->, color=red] (0,0) -- node[left] {$\overrightarrow{OP}$}(\x0,\y0);
+\draw[->, color=orange] (0,0) -- node[right] {$\overrightarrow{OX}$} ($(\g:\r)+(\x0,\y0)$);
+
+\draw[->, color=green] (\x0,\y0) -- node[above] {$\overrightarrow{PX}=r$} ($(\g:\r)+(\x0,\y0)$);
+\end{tikzpicture}
+
+Los puntos $X(x,y)$ de la misma  cumplen:
+
+$$\left|\overrightarrow{PX}\right|=r $$
+
+
+Como $\overrightarrow{OP}+\overrightarrow{PX}=\overrightarrow{OX}$, luego $\overrightarrow{PX}=\overrightarrow{OX}-\overrightarrow{OP}$- Por tanto:
+
+$$\left|\overrightarrow{OX}-\overrightarrow{OP}\right|=r $$
+Pasando a coordenadas:
+$$ \left|(x-x_0,y-y_0)\right|=r $$
+
+Y por el teorema de Pitágoras obtenemos la ecuación de la circunferencia:
+
+$$ (x-x_0)^2+(y-y_0)^2=r^2 $$
+
+\subsection{Ejemplo}
+
+Determina la ecuación de la circunferencia con centro $P(3,1)$ y radio 3:
+
+%expand(Circle(Point(3,1),3).equation())
+
+$$(x-3)^2+(y-1)^2=3^2$$
+
+$$x^2-6x+9+y^2-2y+1=9$$
+
+$$x^2+y^2-6x-2y+1=0$$
+
+
+

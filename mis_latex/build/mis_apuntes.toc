@@ -1,0 +1,23 @@
+\select@language {spanish}
+\contentsline {chapter}{\numberline {1}Geometr\IeC {\'\i }a}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Vectores Libres}{2}{section.1.1}
+\contentsline {section}{\numberline {1.2}Coordenadas y m\IeC {\'o}dulo de un vector}{2}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Ejemplo}{2}{subsection.1.2.1}
+\contentsline {section}{\numberline {1.3}Operaciones con vectores}{3}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Producto de un n\IeC {\'u}mero por un vector}{3}{subsection.1.3.1}
+\contentsline {subsubsection}{Ejemplos}{3}{section*.3}
+\contentsline {subsection}{\numberline {1.3.2}Suma y resta de vectores}{3}{subsection.1.3.2}
+\contentsline {section}{\numberline {1.4}Punto medio de un segmento}{4}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Ejemplo}{4}{subsection.1.4.1}
+\contentsline {section}{\numberline {1.5}Puntos alineados}{4}{section.1.5}
+\contentsline {subsection}{\numberline {1.5.1}Ejemplo}{5}{subsection.1.5.1}
+\contentsline {section}{\numberline {1.6}Ecuaciones de la recta}{5}{section.1.6}
+\contentsline {subsection}{\numberline {1.6.1}Ecuaci\IeC {\'o}n vectorial}{5}{subsection.1.6.1}
+\contentsline {subsection}{\numberline {1.6.2}Ecuaciones param\IeC {\'e}tricas}{6}{subsection.1.6.2}
+\contentsline {subsection}{\numberline {1.6.3}Ecuaci\IeC {\'o}n continua}{6}{subsection.1.6.3}
+\contentsline {subsection}{\numberline {1.6.4}Ecuaci\IeC {\'o}n impl\IeC {\'\i }cita o general}{6}{subsection.1.6.4}
+\contentsline {subsection}{\numberline {1.6.5}Ecuaci\IeC {\'o}n expl\IeC {\'\i }cita}{6}{subsection.1.6.5}
+\contentsline {subsection}{\numberline {1.6.6}Ejemplo}{6}{subsection.1.6.6}
+\contentsline {section}{\numberline {1.7}Condiciones de paralelismo y perpendicularidad}{7}{section.1.7}
+\contentsline {section}{\numberline {1.8}Ecuaci\IeC {\'o}n de la circunferencia}{7}{section.1.8}
+\contentsline {subsection}{\numberline {1.8.1}Ejemplo}{8}{subsection.1.8.1}

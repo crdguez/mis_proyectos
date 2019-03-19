@@ -1,21 +1,54 @@
-\BOOKMARK [0][-]{chapter.1}{Geometr\355a}{}% 1
-\BOOKMARK [1][-]{section.1.1}{Vectores Libres}{chapter.1}% 2
-\BOOKMARK [1][-]{section.1.2}{Coordenadas y m\363dulo de un vector}{chapter.1}% 3
-\BOOKMARK [2][-]{subsection.1.2.1}{Ejemplo}{section.1.2}% 4
-\BOOKMARK [1][-]{section.1.3}{Operaciones con vectores}{chapter.1}% 5
-\BOOKMARK [2][-]{subsection.1.3.1}{Producto de un n\372mero por un vector}{section.1.3}% 6
-\BOOKMARK [2][-]{subsection.1.3.2}{Suma y resta de vectores}{section.1.3}% 7
-\BOOKMARK [1][-]{section.1.4}{Punto medio de un segmento}{chapter.1}% 8
-\BOOKMARK [2][-]{subsection.1.4.1}{Ejemplo}{section.1.4}% 9
-\BOOKMARK [1][-]{section.1.5}{Puntos alineados}{chapter.1}% 10
-\BOOKMARK [2][-]{subsection.1.5.1}{Ejemplo}{section.1.5}% 11
-\BOOKMARK [1][-]{section.1.6}{Ecuaciones de la recta}{chapter.1}% 12
-\BOOKMARK [2][-]{subsection.1.6.1}{Ecuaci\363n vectorial}{section.1.6}% 13
-\BOOKMARK [2][-]{subsection.1.6.2}{Ecuaciones param\351tricas}{section.1.6}% 14
-\BOOKMARK [2][-]{subsection.1.6.3}{Ecuaci\363n continua}{section.1.6}% 15
-\BOOKMARK [2][-]{subsection.1.6.4}{Ecuaci\363n impl\355cita o general}{section.1.6}% 16
-\BOOKMARK [2][-]{subsection.1.6.5}{Ecuaci\363n expl\355cita}{section.1.6}% 17
-\BOOKMARK [2][-]{subsection.1.6.6}{Ejemplo}{section.1.6}% 18
-\BOOKMARK [1][-]{section.1.7}{Condiciones de paralelismo y perpendicularidad}{chapter.1}% 19
-\BOOKMARK [1][-]{section.1.8}{Ecuaci\363n de la circunferencia}{chapter.1}% 20
-\BOOKMARK [2][-]{subsection.1.8.1}{Ejemplo}{section.1.8}% 21
+\BOOKMARK [-1][-]{part.1}{I Matem\341ticas de 4\272ESO}{}% 1
+\BOOKMARK [0][-]{chapter.1}{Geometr\355a}{part.1}% 2
+\BOOKMARK [1][-]{section.1.1}{Vectores Libres}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.2}{Coordenadas y m\363dulo de un vector}{chapter.1}% 4
+\BOOKMARK [2][-]{subsection.1.2.1}{Ejemplo}{section.1.2}% 5
+\BOOKMARK [1][-]{section.1.3}{Operaciones con vectores}{chapter.1}% 6
+\BOOKMARK [2][-]{subsection.1.3.1}{Producto de un n\372mero por un vector}{section.1.3}% 7
+\BOOKMARK [2][-]{subsection.1.3.2}{Suma y resta de vectores}{section.1.3}% 8
+\BOOKMARK [1][-]{section.1.4}{Punto medio de un segmento}{chapter.1}% 9
+\BOOKMARK [2][-]{subsection.1.4.1}{Ejemplo}{section.1.4}% 10
+\BOOKMARK [1][-]{section.1.5}{Puntos alineados}{chapter.1}% 11
+\BOOKMARK [2][-]{subsection.1.5.1}{Ejemplo}{section.1.5}% 12
+\BOOKMARK [1][-]{section.1.6}{Ecuaciones de la recta}{chapter.1}% 13
+\BOOKMARK [2][-]{subsection.1.6.1}{Ecuaci\363n vectorial}{section.1.6}% 14
+\BOOKMARK [2][-]{subsection.1.6.2}{Ecuaciones param\351tricas}{section.1.6}% 15
+\BOOKMARK [2][-]{subsection.1.6.3}{Ecuaci\363n continua}{section.1.6}% 16
+\BOOKMARK [2][-]{subsection.1.6.4}{Ecuaci\363n impl\355cita o general}{section.1.6}% 17
+\BOOKMARK [2][-]{subsection.1.6.5}{Ecuaci\363n expl\355cita}{section.1.6}% 18
+\BOOKMARK [2][-]{subsection.1.6.6}{Ejemplo}{section.1.6}% 19
+\BOOKMARK [1][-]{section.1.7}{Condiciones de paralelismo y perpendicularidad}{chapter.1}% 20
+\BOOKMARK [1][-]{section.1.8}{Ecuaci\363n de la circunferencia}{chapter.1}% 21
+\BOOKMARK [2][-]{subsection.1.8.1}{Ejemplo}{section.1.8}% 22
+\BOOKMARK [0][-]{chapter.2}{Funciones}{part.1}% 23
+\BOOKMARK [1][-]{section.2.1}{Funci\363n, dominio y recorrido}{chapter.2}% 24
+\BOOKMARK [2][-]{subsection.2.1.1}{Ejemplo}{section.2.1}% 25
+\BOOKMARK [0][-]{chapter.3}{Probabilidad}{part.1}% 26
+\BOOKMARK [1][-]{section.3.1}{Experimento aleatorio}{chapter.3}% 27
+\BOOKMARK [2][-]{subsection.3.1.1}{Ejemplos}{section.3.1}% 28
+\BOOKMARK [1][-]{section.3.2}{Espacio muestral y sucesos}{chapter.3}% 29
+\BOOKMARK [2][-]{subsection.3.2.1}{Ejemplo:}{section.3.2}% 30
+\BOOKMARK [1][-]{section.3.3}{Operaciones con sucesos y relaciones}{chapter.3}% 31
+\BOOKMARK [2][-]{subsection.3.3.1}{Ejemplo}{section.3.3}% 32
+\BOOKMARK [2][-]{subsection.3.3.2}{Compatibilidad de sucesos}{section.3.3}% 33
+\BOOKMARK [1][-]{section.3.4}{Probabilidad en experimentos regulares y Regla de Laplace}{chapter.3}% 34
+\BOOKMARK [2][-]{subsection.3.4.1}{Ejemplos de experimentos regulares}{section.3.4}% 35
+\BOOKMARK [2][-]{subsection.3.4.2}{Regla de Laplace}{section.3.4}% 36
+\BOOKMARK [1][-]{section.3.5}{Propiedades de la probabilidad}{chapter.3}% 37
+\BOOKMARK [1][-]{section.3.6}{Probabilidad condicionada}{chapter.3}% 38
+\BOOKMARK [2][-]{subsection.3.6.1}{Ejemplo}{section.3.6}% 39
+\BOOKMARK [2][-]{subsection.3.6.2}{Generalizaci\363n del f\363rmula de la probabilidad condicionada}{section.3.6}% 40
+\BOOKMARK [1][-]{section.3.7}{Experimentos compuestos}{chapter.3}% 41
+\BOOKMARK [2][-]{subsection.3.7.1}{Independencia y dependencia de sucesos}{section.3.7}% 42
+\BOOKMARK [2][-]{subsection.3.7.2}{C\341lculo de probabilidad compuesta para sucesos dependientes}{section.3.7}% 43
+\BOOKMARK [2][-]{subsection.3.7.3}{C\341lculo de probabilidad compuesta para sucesos independientes}{section.3.7}% 44
+\BOOKMARK [1][-]{section.3.8}{Teorema de la probabilidad total}{chapter.3}% 45
+\BOOKMARK [2][-]{subsection.3.8.1}{Probabilidad total}{section.3.8}% 46
+\BOOKMARK [1][-]{section.3.9}{Teorema de Bayes}{chapter.3}% 47
+\BOOKMARK [2][-]{subsection.3.9.1}{Ejemplo:}{section.3.9}% 48
+\BOOKMARK [0][-]{chapter.4}{Miscel\341nea}{part.1}% 49
+\BOOKMARK [1][-]{section.4.1}{Rectas y puntos notables de un tri\341ngulo}{chapter.4}% 50
+\BOOKMARK [2][-]{subsection.4.1.1}{Mediana}{section.4.1}% 51
+\BOOKMARK [2][-]{subsection.4.1.2}{Mediatriz}{section.4.1}% 52
+\BOOKMARK [2][-]{subsection.4.1.3}{Altura}{section.4.1}% 53
+\BOOKMARK [2][-]{subsection.4.1.4}{Bisectriz}{section.4.1}% 54

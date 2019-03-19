@@ -1,0 +1,45 @@
+%\documentclass[10pt]{article}
+%\usepackage{pgf,tikz,pgfplots}
+%\pgfplotsset{compat=1.15}
+%\usepackage{mathrsfs}
+%\usetikzlibrary{arrows}
+%\pagestyle{empty}
+%\newcommand{\degre}{\ensuremath{^\circ}}
+%\begin{document}
+%\definecolor{wrwrwr}{rgb}{0.3803921568627451,0.3803921568627451,0.3803921568627451}
+%\definecolor{rvwvcq}{rgb}{0.08235294117647059,0.396078431372549,0.7529411764705882}
+\begin{tikzpicture}[grow=right, sloped, scale=0.7]\clip(-6.154568000000002,-3.8982211062725844) rectangle (4.2,7);
+\fill[line width=2pt,color=rvwvcq,fill=rvwvcq,fill opacity=0.10000000149011612] (-5,-1) -- (3,-1) -- (0,6) -- cycle;
+\draw [shift={(0,6)},line width=1.6pt,fill=black,fill opacity=0.10000000149011612] (0,0) -- (-125.53767779197437:0.7766050682525762) arc (-125.53767779197437:-66.8014094863518:0.7766050682525762) -- cycle;
+\draw [shift={(-5,-1)},line width=1.6pt,fill=black,fill opacity=0.10000000149011612] (0,0) -- (0:0.7766050682525762) arc (0:54.462322208025626:0.7766050682525762) -- cycle;
+\draw [shift={(3,-1)},line width=1.6pt,fill=black,fill opacity=0.10000000149011612] (0,0) -- (113.19859051364813:0.7766050682525762) arc (113.19859051364813:180:0.7766050682525762) -- cycle;
+\draw [shift={(3,-1)},line width=1.6pt,fill=black,fill opacity=0.10000000149011612] (0,0) -- (113.19859051364813:0.7766050682525762) arc (113.19859051364813:146.59929525682406:0.7766050682525762) -- cycle;
+\draw [shift={(0,6)},line width=1.6pt,fill=black,fill opacity=0.10000000149011612] (0,0) -- (-125.53767779197437:0.7766050682525762) arc (-125.53767779197437:-96.1695436391631:0.7766050682525762) -- cycle;
+\draw [shift={(-5,-1)},line width=1.6pt,fill=black,fill opacity=0.10000000149011612] (0,0) -- (0:0.7766050682525762) arc (0:27.231161104012813:0.7766050682525762) -- cycle;
+\draw [line width=2pt,color=rvwvcq] (-5,-1)-- (3,-1);
+\draw [line width=2pt,color=rvwvcq] (3,-1)-- (0,6);
+\draw [line width=2pt,color=rvwvcq] (0,6)-- (-5,-1);
+\draw [line width=2pt,color=wrwrwr,domain=-13.604264981614604:15.829067105158035] plot(\x,{(-0.8166319340003523--0.5504910087462067*\x)/-0.8348410922382679});
+\draw [line width=2pt,color=wrwrwr,domain=-13.604264981614604:15.829067105158035] plot(\x,{(-0.6448253150018926-0.9942082320611364*\x)/-0.10747088583364875});
+\draw [line width=2pt,color=wrwrwr,domain=-13.604264981614604:15.829067105158035] plot(\x,{(--1.3987402615700915--0.4575815808579403*\x)/0.88916764271961});
+\draw [line width=2pt,color=wrwrwr] (-0.5067239194106411,1.3123202795579019) circle (2.313929526200274cm);
+\begin{scriptsize}
+\draw [fill=rvwvcq] (-5,-1) circle (2.5pt);
+\draw[color=rvwvcq] (-4.8027408747520735,-0.42299719371372047) node {$A$};
+\draw [fill=rvwvcq] (3,-1) circle (2.5pt);
+\draw[color=rvwvcq] (3.196291328249462,-0.42299719371372047) node {$B$};
+\draw [fill=rvwvcq] (0,6) circle (2.5pt);
+\draw[color=rvwvcq] (0.2193052332812528,6.576737916043568) node {$C$};
+\draw[color=black] (-0.7643945198386772,5.838484603686354) node {$\alpha = 58.7\textrm{\degre}$};
+\draw[color=black] (-2.498812505602764,0.2332279728260253) node {$\beta = 54.5\textrm{\degre}$};
+\draw[color=black] (3.222178163857881,0.5066551255509193) node {$\gamma = 66.8\textrm{\degre}$};
+\draw[color=black] (2.005496890262178,-0.5050253395311887) node {$\delta = 33.4\textrm{\degre}$};
+\draw[color=black] (1.6689680273527285,5.07288857605665) node {$\epsilon = 29.4\textrm{\degre}$};
+\draw[color=black] (-2.265830985126991,-0.47768262425869923) node {$\zeta = 27.2\textrm{\degre}$};
+\draw [fill=wrwrwr] (-0.5067239194106411,1.3123202795579019) circle (2pt);
+\draw[color=wrwrwr] (-0.5572998349713234,0.42462697973345115) node {$Incentro$};
+\draw [fill=wrwrwr] (-2.438487372426055,2.5861176786035225) circle (2pt);
+\draw[color=wrwrwr] (-2.239944149518572,3.131555791709902) node {$D$};
+\end{scriptsize}
+\end{tikzpicture}
+%\end{document}

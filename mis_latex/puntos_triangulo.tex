@@ -1,0 +1,122 @@
+%% Options for packages loaded elsewhere
+%\PassOptionsToPackage{unicode=true}{hyperref}
+%\PassOptionsToPackage{hyphens}{url}
+%%
+%\documentclass[
+%]{article}
+%\usepackage{lmodern}
+%\usepackage{amssymb,amsmath}
+%\usepackage{ifxetex,ifluatex}
+%\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+%  \usepackage[T1]{fontenc}
+%  \usepackage[utf8]{inputenc}
+%  \usepackage{textcomp} % provides euro and other symbols
+%\else % if luatex or xelatex
+%  \usepackage{unicode-math}
+%  \defaultfontfeatures{Scale=MatchLowercase}
+%  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+%\fi
+%% Use upquote if available, for straight quotes in verbatim environments
+%\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+%\IfFileExists{microtype.sty}{% use microtype if available
+%  \usepackage[]{microtype}
+%  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+%}{}
+%\makeatletter
+%\@ifundefined{KOMAClassName}{% if non-KOMA class
+%  \IfFileExists{parskip.sty}{%
+%    \usepackage{parskip}
+%  }{% else
+%    \setlength{\parindent}{0pt}
+%    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+%}{% if KOMA class
+%  \KOMAoptions{parskip=half}}
+%\makeatother
+%\usepackage{xcolor}
+%\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+%\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+%\hypersetup{
+%  hidelinks,
+%}
+%\urlstyle{same} % disable monospaced font for URLs
+%\setlength{\emergencystretch}{3em} % prevent overfull lines
+%\providecommand{\tightlist}{%
+%  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+%\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+%% Redefines (sub)paragraphs to behave more like sections
+%\ifx\paragraph\undefined\else
+%  \let\oldparagraph\paragraph
+%  \renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+%\fi
+%\ifx\subparagraph\undefined\else
+%  \let\oldsubparagraph\subparagraph
+%  \renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+%\fi
+%
+%% Set default figure placement to htbp
+%\makeatletter
+%\def\fps@figure{htbp}
+%\makeatother
+%
+%
+%\date{}
+%
+%\begin{document}
+%
+
+\definecolor{wrwrwr}{rgb}{0.3803921568627451,0.3803921568627451,0.3803921568627451}
+\definecolor{rvwvcq}{rgb}{0.08235294117647059,0.396078431372549,0.7529411764705882}
+
+\hypertarget{rectas-y-puntos-notables-de-un-triuxe1ngulo}{%
+\section{Rectas y puntos notables de un
+triángulo}\label{rectas-y-puntos-notables-de-un-triuxe1ngulo}}
+
+\hypertarget{mediana}{%
+\subsection{Mediana}\label{mediana}}
+
+La \textbf{mediana} es el segmento que va del punto medio de un lado al
+vértice opuesto.
+
+Al punto dónde se cortan las medianas de un triángulo se le llama
+\textbf{baricentro} y constituye el centro de gravedad del polígono.
+
+\input{img_tikz/tikz_medianas}
+
+\hypertarget{mediatriz}{%
+\subsection{Mediatriz}\label{mediatriz}}
+
+La \textbf{mediatriz} de un segmento es la recta perpendicular al punto medio.
+Geométricamente son los puntos del plano que equidistan a ambos extremos
+del segmento.
+
+En un triángulo llamaremos mediatriz a la mediatriz de cada uno de los
+lados.
+
+El punto de corte de las tres mediatrices equidista a los tres vértices
+del triángulo. Ha dicho punto se le llama \textbf{circuncentro} porque permite
+circunscribir el triángulo en una circunferencia de centro dicho punto.
+
+\input{img_tikz/tikz_mediatrices}
+
+\hypertarget{altura}{%
+\subsection{Altura}\label{altura}}
+
+Llamaremos \textbf{altura} de un triángulo al segmento perpendicular a un lado y
+pasa por el vértice opuesto.
+
+Al punto de corte de las alturas se le llama \textbf{ortocentro}.
+
+\input{img_tikz/tikz_alturas}
+
+\hypertarget{bisectriz}{%
+\subsection{Bisectriz}\label{bisectriz}}
+
+Llamamos \textbf{bisectriz} de un ángulo a la semirrecta que divide al ángulo en
+dos ángulos iguales.
+En un triángulo tendremos las tres bisectrices correspondientes a cada uno de los tres ángulos.
+
+Llamaremos \textbf{incentro} al punto de corte de las bisectrices de un triángulo.
+
+\input{img_tikz/tikz_bisectrices}
+
+%\end{document}

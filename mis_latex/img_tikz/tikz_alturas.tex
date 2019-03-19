@@ -1,0 +1,37 @@
+%\documentclass[10pt]{article}
+%\usepackage{pgf,tikz,pgfplots}
+%%\pgfplotsset{compat=1.15}
+%\usepackage{mathrsfs}
+%\usetikzlibrary{arrows}
+%\pagestyle{empty}
+%\newcommand{\degre}{\ensuremath{^\circ}}
+%\begin{document}
+%\definecolor{wrwrwr}{rgb}{0.3803921568627451,0.3803921568627451,0.3803921568627451}
+%\definecolor{rvwvcq}{rgb}{0.98235294117647059,0.396078431372549,0.7529411764705882}
+\begin{tikzpicture}[grow=right, sloped, scale=0.7]\clip(-6.154568000000002,-3.8982211062725844) rectangle (4.2,7);
+\clip(-11.145015598814782,-9.076966577456616) rectangle (18.28831648795786,8.422371196936597);
+\fill[line width=2pt,color=rvwvcq,fill=rvwvcq,fill opacity=0.10000000149011612] (-5,-1) -- (3,-1) -- (0,6) -- cycle;
+\draw[line width=1.6pt,fill=black,fill opacity=0.10000000149011612] (-2.616480014189626,2.336927980134524) -- (-2.1696242105403662,2.0177452632421953) -- (-1.8504414936480373,2.464601066891455) -- (-2.2972972972972974,2.7837837837837838) -- cycle; 
+\draw[line width=1.6pt,fill=black,fill opacity=0.10000000149011612] (1.5423027784864105,2.401293516865042) -- (1.0375609857592993,2.1849756056962804) -- (1.2538788969280612,1.6802338129691692) -- (1.7586206896551724,1.896551724137931) -- cycle; 
+\draw[line width=1.6pt,fill=black,fill opacity=0.10000000149011612] (0.5491427100652383,-1) -- (0.5491427100652384,-0.4508572899347618) -- (0,-0.4508572899347617) -- (0,-1) -- cycle; 
+\draw [line width=2pt,color=rvwvcq] (-5,-1)-- (3,-1);
+\draw [line width=2pt,color=rvwvcq] (3,-1)-- (0,6);
+\draw [line width=2pt,color=rvwvcq] (0,6)-- (-5,-1);
+\draw [line width=2pt,color=wrwrwr] (0,-9.076966577456616) -- (0,8.422371196936597);
+\draw [line width=2pt,color=wrwrwr,domain=-11.145015598814782:18.28831648795786] plot(\x,{(-8-3*\x)/-7});
+\draw [line width=2pt,color=wrwrwr,domain=-11.145015598814782:18.28831648795786] plot(\x,{(--8-5*\x)/7});
+\begin{scriptsize}
+\draw [fill=rvwvcq] (-5,-1) circle (2.5pt);
+\draw[color=rvwvcq] (-4.802740874752074,-0.42299719371372185) node {$A$};
+\draw [fill=rvwvcq] (3,-1) circle (2.5pt);
+\draw[color=rvwvcq] (3.1962913282494623,-0.42299719371372185) node {$B$};
+\draw [fill=rvwvcq] (0,6) circle (2.5pt);
+\draw[color=rvwvcq] (0.21930523328125284,6.576737916043563) node {$C$};
+\draw[color=black] (-1.0750365471397076,2.530016055715133) node {$\alpha = 90\textrm{\degre}$};
+\draw[color=black] (2.3937994243884666,2.256588902990239) node {$\beta = 90\textrm{\degre}$};
+\draw[color=black] (1.4877601780937941,-0.4776826242587007) node {$\gamma = 90\textrm{\degre}$};
+\draw [fill=wrwrwr] (0,1.1428571428571428) circle (2pt);
+\draw[color=wrwrwr] (1.8501758766116632,1.1355375768181737) node {$Ortocentro$};
+\end{scriptsize}
+\end{tikzpicture}
+%\end{document}

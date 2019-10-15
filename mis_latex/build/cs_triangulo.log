@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.3.16)  19 MAR 2019 12:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.3.16)  20 MAR 2019 07:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1567,6 +1567,15 @@ Package babel Info: Redefining spanish shorthand "!
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 75.
  (./img_tikz/tikz_medianas.tex)
+Overfull \hbox (45.6468pt too wide) in paragraph at lines 39--84
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--84
+
+ []
+
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 86.
 Package babel Info: Redefining spanish shorthand >>
@@ -1579,7 +1588,6 @@ Package babel Info: Redefining spanish shorthand "!
 (babel)             in language  on input line 86.
 Package babel Info: Redefining spanish shorthand "?
 (babel)             in language  on input line 86.
-
 (./img_tikz/tikz_mediatrices.tex)
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 102.
@@ -1640,6 +1648,31 @@ Package babel Info: Redefining spanish shorthand "?
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./img/header_right.jpeg>]
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 114.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 114.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 114.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 114.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 114.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 114.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 114.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 114.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 114.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 114.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 114.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 114.
+ [2]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 116.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 116.
  (build/cs_triangulo.aux
@@ -1653,10 +1686,10 @@ Package rerunfilecheck Info: File `cs_triangulo.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 116.
  ) 
 Here is how much of TeX's memory you used:
- 31417 strings out of 494755
- 750258 string characters out of 6176316
- 945492 words of memory out of 5000000
- 34148 multiletter control sequences out of 15000+600000
+ 31421 strings out of 494755
+ 750347 string characters out of 6176316
+ 944475 words of memory out of 5000000
+ 34151 multiletter control sequences out of 15000+600000
  41845 words of font info for 45 fonts, out of 8000000 for 9000
  107 hyphenation exceptions out of 8191
  62i,18n,96p,779b,843s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1666,10 +1699,10 @@ nc/dvips/tex-gyre/q-rm-sc.enc}</usr/share/texlive/texmf-dist/fonts/type1/public
 ts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 sy5.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qhvb.pfb></usr/share/texm
 f/fonts/type1/public/tex-gyre/qhvr.pfb>
-Output written on build/cs_triangulo.pdf (1 page, 87982 bytes).
+Output written on build/cs_triangulo.pdf (2 pages, 89366 bytes).
 PDF statistics:
- 69 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
- 12 named destinations out of 1000 (max. 500000)
+ 74 PDF objects out of 1000 (max. 8388607)
+ 63 compressed objects within 1 object stream
+ 13 named destinations out of 1000 (max. 500000)
  58 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.3.16)  19 MAR 2019 12:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.3.16)  20 MAR 2019 07:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -95,7 +95,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no 1 in font nullfont!
 ! Undefined control sequence.
 l.68 \definecolor
-                 {rvwvcq}{rgb}{0.98235294117647059,0.396078431372549,0.75294...
+                 {rvwvcq}{rgb}{0.08235294117647059,0.396078431372549,0.75294...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -113,7 +113,7 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no b in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
-Missing character: There is no 9 in font nullfont!
+Missing character: There is no 0 in font nullfont!
 Missing character: There is no 8 in font nullfont!
 Missing character: There is no 2 in font nullfont!
 Missing character: There is no 3 in font nullfont!
@@ -561,8 +561,9 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.7 \begin{tikzpicture}
-                       [grow=right, sloped, scale=0.7]
+l.14 \begin{tikzpicture}
+                        [line cap=round,line join=round,>=triangle 45,x=1cm,...
+
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -574,43 +575,70 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.7 \begin{tikzpicture}[
-                        grow=right, sloped, scale=0.7]
+l.14 \begin{tikzpicture}[
+                         line cap=round,line join=round,>=triangle 45,x=1cm,...
+
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 Missing character: There is no [ in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no w in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no , in font nullfont!
-Missing character: There is no s in font nullfont!
 Missing character: There is no l in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no p in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no , in font nullfont!
-Missing character: There is no s in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no a in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no j in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no > in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no x in font nullfont!
 Missing character: There is no = in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 7 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no m in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.8 \clip
-         (-6.154568000000002,-1.8982211062725844) rectangle (4.1062320000000...
+l.15 \clip
+          (-6.154568000000002,-1.8982211062725844) rectangle (4.106232000000...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -708,8 +736,8 @@ Missing character: There is no ; in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    [
-l.9 \fill[
-          line width=2pt,color=rvwvcq,fill=rvwvcq,fill opacity=0.10000000149...
+l.16 \fill[
+           line width=2pt,color=rvwvcq,fill=rvwvcq,fill opacity=0.1000000014...
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -717,8 +745,8 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    [
-l.9 \fill[
-          line width=2pt,color=rvwvcq,fill=rvwvcq,fill opacity=0.10000000149...
+l.16 \fill[
+           line width=2pt,color=rvwvcq,fill=rvwvcq,fill opacity=0.1000000014...
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -829,7 +857,7 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.10 \draw
+l.17 \draw
            [line width=2pt,color=rvwvcq] (-5,-1)-- (3,-1);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -882,7 +910,7 @@ Missing character: There is no 1 in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.11 \draw
+l.18 \draw
            [line width=2pt,color=rvwvcq] (3,-1)-- (0,6);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -933,7 +961,7 @@ Missing character: There is no 6 in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.12 \draw
+l.19 \draw
            [line width=2pt,color=rvwvcq] (0,6)-- (-5,-1);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -985,7 +1013,7 @@ Missing character: There is no 1 in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.13 \draw
+l.20 \draw
            [line width=2pt,color=wrwrwr] (-2.5,2.5)-- (3,-1);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1041,7 +1069,7 @@ Missing character: There is no 1 in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.14 \draw
+l.21 \draw
            [line width=2pt,color=wrwrwr] (-1,-1)-- (0,6);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1093,7 +1121,7 @@ Missing character: There is no 6 in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.15 \draw
+l.22 \draw
            [line width=2pt,color=wrwrwr] (-5,-1)-- (1.5,2.5);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1155,14 +1183,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.16 \begin{scriptsize}
+l.23 \begin{scriptsize}
                        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.17 \draw
+l.24 \draw
            [fill=rvwvcq] (-5,-1) circle (2.5pt);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1205,7 +1233,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.18 \draw
+l.25 \draw
           [color=rvwvcq] (-4.911871111111114,-0.7361607091015785) node {$A$};
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1272,12 +1300,12 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 18.
+(Font)              <7> on input line 25.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 18.
+(Font)              <5> on input line 25.
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.19 \draw
+l.26 \draw
            [fill=rvwvcq] (3,-1) circle (2.5pt);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1319,7 +1347,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.20 \draw
+l.27 \draw
           [color=rvwvcq] (3.091552888888891,-0.7361607091015785) node {$B$};
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1386,7 +1414,7 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.21 \draw
+l.28 \draw
            [fill=rvwvcq] (0,6) circle (2.5pt);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1427,7 +1455,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.22 \draw
+l.29 \draw
           [color=rvwvcq] (0.09311911111111175,6.260285827233702) node {$C$};
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1494,7 +1522,7 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.23 \draw
+l.30 \draw
            [fill=wrwrwr] (-1,-1) circle (2pt);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1535,7 +1563,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.24 \draw
+l.31 \draw
           [color=wrwrwr] (-0.9101591111111109,-0.7602448624108221) node {$D$};
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1604,7 +1632,7 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.25 \draw
+l.32 \draw
            [fill=wrwrwr] (-2.5,2.5) circle (2pt);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1648,7 +1676,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.26 \draw
+l.33 \draw
           [color=wrwrwr] (-2.403675555555556,2.731957367429507) node {$E$};
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1714,7 +1742,7 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.27 \draw
+l.34 \draw
            [fill=wrwrwr] (1.5,2.5) circle (2pt);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1757,7 +1785,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.28 \draw
+l.35 \draw
           [color=wrwrwr] (1.586635555555557,2.731957367429507) node {$F$};
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1822,7 +1850,7 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.29 \draw
+l.36 \draw
            [fill=wrwrwr] (-0.6666666666666666,1.3333333333333333) circle (2pt);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1896,7 +1924,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.30 \draw
+l.37 \draw
           [color=wrwrwr] (0.6843262222222229,1.359160628802619) node {$Baric...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1968,7 +1996,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.31 \end{scriptsize}
+l.38 \end{scriptsize}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1981,53 +2009,52 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.32 \end{tikzpicture}
+l.39 \end{tikzpicture}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 7--33
+)
+Overfull \hbox (20.0pt too wide) in paragraph at lines 14--84
 []
  []
 
 
-Overfull \hbox (7.50002pt too wide) in paragraph at lines 7--33
+Overfull \hbox (7.50002pt too wide) in paragraph at lines 14--84
 \OML/cmm/m/it/10 A$
  []
 
 
-Overfull \hbox (8.0868pt too wide) in paragraph at lines 7--33
+Overfull \hbox (8.0868pt too wide) in paragraph at lines 14--84
 \OML/cmm/m/it/10 B$
  []
 
 
-Overfull \hbox (7.86249pt too wide) in paragraph at lines 7--33
+Overfull \hbox (7.86249pt too wide) in paragraph at lines 14--84
 \OML/cmm/m/it/10 C$
  []
 
 
-Overfull \hbox (8.55695pt too wide) in paragraph at lines 7--33
+Overfull \hbox (8.55695pt too wide) in paragraph at lines 14--84
 \OML/cmm/m/it/10 D$
  []
 
 
-Overfull \hbox (7.95831pt too wide) in paragraph at lines 7--33
+Overfull \hbox (7.95831pt too wide) in paragraph at lines 14--84
 \OML/cmm/m/it/10 E$
  []
 
 
-Overfull \hbox (7.81946pt too wide) in paragraph at lines 7--33
+Overfull \hbox (7.81946pt too wide) in paragraph at lines 14--84
 \OML/cmm/m/it/10 F$
  []
 
 
-Overfull \hbox (49.84108pt too wide) in paragraph at lines 7--33
+Overfull \hbox (49.84108pt too wide) in paragraph at lines 14--84
 \OML/cmm/m/it/10 Baricentro$
  []
 
-)
 ! Undefined control sequence.
 l.85 \hypertarget
                  {mediatriz}{%
@@ -2656,15 +2683,10 @@ Missing character: There is no , in font nullfont!
 Missing character: There is no 7 in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 10--11
-[]
- []
-
 ! Missing number, treated as zero.
 <to be read again> 
                    [
-l.13 \fill[
+l.11 \fill[
            line width=2pt,color=rvwvcq,fill=rvwvcq,fill opacity=0.1000000014...
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -2673,7 +2695,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    [
-l.13 \fill[
+l.11 \fill[
            line width=2pt,color=rvwvcq,fill=rvwvcq,fill opacity=0.1000000014...
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2681,19 +2703,6 @@ I'll assume that you meant to say pt, for printer's points.
 To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
-
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.13 \fill[
-           line width=2pt,color=rvwvcq,fill=rvwvcq,fill opacity=0.1000000014...
-
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
 
 Missing character: There is no [ in font nullfont!
 Missing character: There is no l in font nullfont!
@@ -2798,7 +2807,7 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.14 \draw
+l.12 \draw
            [line width=2pt,color=rvwvcq] (-5,-1)-- (3,-1);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2851,7 +2860,7 @@ Missing character: There is no 1 in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.15 \draw
+l.13 \draw
            [line width=2pt,color=rvwvcq] (3,-1)-- (0,6);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2902,7 +2911,7 @@ Missing character: There is no 6 in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.16 \draw
+l.14 \draw
            [line width=2pt,color=rvwvcq] (0,6)-- (-5,-1);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2954,8 +2963,8 @@ Missing character: There is no 1 in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.17 \draw
-           [line width=2pt,color=wrwrwr] (-1,-8.817097352840511) -- (-1,8.64...
+l.15 \draw
+           [line width=2pt,color=wrwrwr] (-1,-6.399108752051755) -- (-1,9.59...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2995,23 +3004,23 @@ Missing character: There is no - in font nullfont!
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no , in font nullfont!
 Missing character: There is no - in font nullfont!
-Missing character: There is no 8 in font nullfont!
+Missing character: There is no 6 in font nullfont!
 Missing character: There is no . in font nullfont!
-Missing character: There is no 8 in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no 7 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no 9 in font nullfont!
-Missing character: There is no 7 in font nullfont!
 Missing character: There is no 3 in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 7 in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no 2 in font nullfont!
-Missing character: There is no 8 in font nullfont!
-Missing character: There is no 4 in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no 1 in font nullfont!
-Missing character: There is no 1 in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no 5 in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no - in font nullfont!
 Missing character: There is no - in font nullfont!
@@ -3019,28 +3028,28 @@ Missing character: There is no ( in font nullfont!
 Missing character: There is no - in font nullfont!
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no , in font nullfont!
-Missing character: There is no 8 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no 8 in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
 Missing character: There is no 9 in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no 4 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 8 in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no 9 in font nullfont!
 Missing character: There is no 8 in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 6 in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.18 \draw
-           [line width=2pt,color=wrwrwr,domain=-13.272720251237976:16.094382...
+l.16 \draw
+           [line width=2pt,color=wrwrwr,domain=-13.636070873907869:13.273820...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3086,39 +3095,40 @@ Missing character: There is no - in font nullfont!
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no 3 in font nullfont!
 Missing character: There is no . in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no 7 in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no 7 in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no 3 in font nullfont!
-Missing character: There is no 7 in font nullfont!
-Missing character: There is no 9 in font nullfont!
-Missing character: There is no 7 in font nullfont!
 Missing character: There is no 6 in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 9 in font nullfont!
 Missing character: There is no : in font nullfont!
 Missing character: There is no 1 in font nullfont!
-Missing character: There is no 6 in font nullfont!
+Missing character: There is no 3 in font nullfont!
 Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no 9 in font nullfont!
-Missing character: There is no 4 in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 7 in font nullfont!
 Missing character: There is no 3 in font nullfont!
 Missing character: There is no 8 in font nullfont!
 Missing character: There is no 2 in font nullfont!
 Missing character: There is no 0 in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no 3 in font nullfont!
 Missing character: There is no 6 in font nullfont!
-Missing character: There is no 9 in font nullfont!
-Missing character: There is no 4 in font nullfont!
+Missing character: There is no 6 in font nullfont!
 Missing character: There is no 0 in font nullfont!
-Missing character: There is no 3 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 6 in font nullfont!
 Missing character: There is no ] in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no l in font nullfont!
@@ -3126,7 +3136,7 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no ( in font nullfont!
 ! Undefined control sequence.
-l.18 ...272720251237976:16.09438204369403] plot(\x
+l.16 ...36070873907869:13.273820660511266] plot(\x
                                                   ,{(--5-5*\x)/7});
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3143,7 +3153,7 @@ Missing character: There is no - in font nullfont!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no * in font nullfont!
 ! Undefined control sequence.
-l.18 ...7976:16.09438204369403] plot(\x,{(--5-5*\x
+l.16 ...869:13.273820660511266] plot(\x,{(--5-5*\x
                                                   )/7});
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3157,8 +3167,8 @@ Missing character: There is no 7 in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.19 \draw
-           [line width=2pt,color=wrwrwr,domain=-13.272720251237976:16.094382...
+l.17 \draw
+           [line width=2pt,color=wrwrwr,domain=-13.636070873907869:13.273820...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3204,39 +3214,40 @@ Missing character: There is no - in font nullfont!
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no 3 in font nullfont!
 Missing character: There is no . in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no 7 in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no 7 in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no 3 in font nullfont!
-Missing character: There is no 7 in font nullfont!
-Missing character: There is no 9 in font nullfont!
-Missing character: There is no 7 in font nullfont!
 Missing character: There is no 6 in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 9 in font nullfont!
 Missing character: There is no : in font nullfont!
 Missing character: There is no 1 in font nullfont!
-Missing character: There is no 6 in font nullfont!
+Missing character: There is no 3 in font nullfont!
 Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no 9 in font nullfont!
-Missing character: There is no 4 in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 7 in font nullfont!
 Missing character: There is no 3 in font nullfont!
 Missing character: There is no 8 in font nullfont!
 Missing character: There is no 2 in font nullfont!
 Missing character: There is no 0 in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no 3 in font nullfont!
 Missing character: There is no 6 in font nullfont!
-Missing character: There is no 9 in font nullfont!
-Missing character: There is no 4 in font nullfont!
+Missing character: There is no 6 in font nullfont!
 Missing character: There is no 0 in font nullfont!
-Missing character: There is no 3 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 6 in font nullfont!
 Missing character: There is no ] in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no l in font nullfont!
@@ -3244,7 +3255,7 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no ( in font nullfont!
 ! Undefined control sequence.
-l.19 ...272720251237976:16.09438204369403] plot(\x
+l.17 ...36070873907869:13.273820660511266] plot(\x
                                                   ,{(-13-3*\x)/-7});
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3261,7 +3272,7 @@ Missing character: There is no - in font nullfont!
 Missing character: There is no 3 in font nullfont!
 Missing character: There is no * in font nullfont!
 ! Undefined control sequence.
-l.19 ...7976:16.09438204369403] plot(\x,{(-13-3*\x
+l.17 ...869:13.273820660511266] plot(\x,{(-13-3*\x
                                                   )/-7});
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3276,7 +3287,7 @@ Missing character: There is no 7 in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.20 \draw
+l.18 \draw
            [line width=2pt,color=wrwrwr] (-1,1.4285714285714286) circle (4.6...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3370,14 +3381,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.21 \begin{scriptsize}
+l.19 \begin{scriptsize}
                        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.22 \draw
+l.20 \draw
            [fill=rvwvcq] (-5,-1) circle (2.5pt);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3420,8 +3431,8 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.23 \draw
-          [color=rvwvcq] (-4.80094403950737,-0.4008503276019077) node {$A$};
+l.21 \draw
+          [color=rvwvcq] (-4.808111733768611,-0.46196217732391776) node {$A$};
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3448,38 +3459,40 @@ Missing character: There is no 4 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 8 in font nullfont!
 Missing character: There is no 0 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no 9 in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no 3 in font nullfont!
-Missing character: There is no 9 in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no 0 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 1 in font nullfont!
 Missing character: There is no 7 in font nullfont!
 Missing character: There is no 3 in font nullfont!
+Missing character: There is no 3 in font nullfont!
 Missing character: There is no 7 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 1 in font nullfont!
 Missing character: There is no , in font nullfont!
 Missing character: There is no - in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 4 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no 8 in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no 3 in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no 7 in font nullfont!
 Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no 9 in font nullfont!
-Missing character: There is no 0 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 1 in font nullfont!
 Missing character: There is no 7 in font nullfont!
 Missing character: There is no 7 in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 6 in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -3487,7 +3500,7 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.24 \draw
+l.22 \draw
            [fill=rvwvcq] (3,-1) circle (2.5pt);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3529,8 +3542,8 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.25 \draw
-          [color=rvwvcq] (3.205917624018506,-0.4008503276019077) node {$B$};
+l.23 \draw
+          [color=rvwvcq] (3.191486629145785,-0.46196217732391776) node {$B$};
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3554,41 +3567,42 @@ Missing character: There is no ] in font nullfont!
 Missing character: There is no ( in font nullfont!
 Missing character: There is no 3 in font nullfont!
 Missing character: There is no . in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no 5 in font nullfont!
+Missing character: There is no 1 in font nullfont!
 Missing character: There is no 9 in font nullfont!
 Missing character: There is no 1 in font nullfont!
-Missing character: There is no 7 in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 6 in font nullfont!
 Missing character: There is no 6 in font nullfont!
 Missing character: There is no 2 in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no 0 in font nullfont!
+Missing character: There is no 9 in font nullfont!
 Missing character: There is no 1 in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no 7 in font nullfont!
 Missing character: There is no 8 in font nullfont!
 Missing character: There is no 5 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no 6 in font nullfont!
 Missing character: There is no , in font nullfont!
 Missing character: There is no - in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 4 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no 8 in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no 3 in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no 7 in font nullfont!
 Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no 9 in font nullfont!
-Missing character: There is no 0 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 1 in font nullfont!
 Missing character: There is no 7 in font nullfont!
 Missing character: There is no 7 in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 6 in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -3596,7 +3610,7 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.26 \draw
+l.24 \draw
            [fill=rvwvcq] (0,6) circle (2.5pt);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3637,8 +3651,8 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.27 \draw
-          [color=rvwvcq] (0.20980164669914594,6.583134237912136) node {$C$};
+l.25 \draw
+          [color=rvwvcq] (0.18572038035842364,6.537621152881533) node {$C$};
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3662,41 +3676,41 @@ Missing character: There is no ] in font nullfont!
 Missing character: There is no ( in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no 7 in font nullfont!
 Missing character: There is no 2 in font nullfont!
 Missing character: There is no 0 in font nullfont!
-Missing character: There is no 9 in font nullfont!
+Missing character: There is no 3 in font nullfont!
 Missing character: There is no 8 in font nullfont!
 Missing character: There is no 0 in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 9 in font nullfont!
-Missing character: There is no 9 in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no 4 in font nullfont!
+Missing character: There is no 3 in font nullfont!
 Missing character: There is no 5 in font nullfont!
-Missing character: There is no 9 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no 6 in font nullfont!
 Missing character: There is no 4 in font nullfont!
 Missing character: There is no , in font nullfont!
 Missing character: There is no 6 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 5 in font nullfont!
-Missing character: There is no 8 in font nullfont!
-Missing character: There is no 3 in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no 3 in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no 2 in font nullfont!
 Missing character: There is no 3 in font nullfont!
 Missing character: There is no 7 in font nullfont!
-Missing character: There is no 9 in font nullfont!
-Missing character: There is no 1 in font nullfont!
+Missing character: There is no 6 in font nullfont!
 Missing character: There is no 2 in font nullfont!
 Missing character: There is no 1 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 5 in font nullfont!
 Missing character: There is no 3 in font nullfont!
-Missing character: There is no 6 in font nullfont!
+Missing character: There is no 3 in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -3704,7 +3718,7 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.28 \draw
+l.26 \draw
            [fill=wrwrwr] (-1,-1) circle (2pt);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3745,8 +3759,8 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.29 \draw
-          [color=wrwrwr] (-0.797513207744432,-0.4554127070199861) node {$D$};
+l.27 \draw
+          [color=wrwrwr] (-0.8083125523114124,-0.5119592011110996) node {$D$};
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3771,41 +3785,42 @@ Missing character: There is no ( in font nullfont!
 Missing character: There is no - in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
-Missing character: There is no 7 in font nullfont!
-Missing character: There is no 9 in font nullfont!
-Missing character: There is no 7 in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no 3 in font nullfont!
-Missing character: There is no 2 in font nullfont!
+Missing character: There is no 8 in font nullfont!
 Missing character: There is no 0 in font nullfont!
-Missing character: There is no 7 in font nullfont!
-Missing character: There is no 7 in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no 4 in font nullfont!
+Missing character: There is no 8 in font nullfont!
 Missing character: There is no 3 in font nullfont!
+Missing character: There is no 1 in font nullfont!
 Missing character: There is no 2 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 4 in font nullfont!
 Missing character: There is no , in font nullfont!
 Missing character: There is no - in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
-Missing character: There is no 4 in font nullfont!
 Missing character: There is no 5 in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no 4 in font nullfont!
 Missing character: There is no 1 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no 9 in font nullfont!
 Missing character: There is no 2 in font nullfont!
-Missing character: There is no 7 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no 7 in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no 1 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 0 in font nullfont!
 Missing character: There is no 9 in font nullfont!
 Missing character: There is no 9 in font nullfont!
-Missing character: There is no 8 in font nullfont!
 Missing character: There is no 6 in font nullfont!
-Missing character: There is no 1 in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -3813,7 +3828,7 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.30 \draw
+l.28 \draw
            [fill=wrwrwr] (-2.5,2.5) circle (2pt);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3857,8 +3872,8 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.31 \draw
-          [color=wrwrwr] (-2.295571196404112,3.0365795757370355) node {$E$};
+l.29 \draw
+          [color=wrwrwr] (-2.2993619513161665,2.9878324639916256) node {$E$};
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3885,38 +3900,39 @@ Missing character: There is no 2 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 2 in font nullfont!
 Missing character: There is no 9 in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no 7 in font nullfont!
-Missing character: There is no 1 in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no 6 in font nullfont!
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no 9 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no 1 in font nullfont!
 Missing character: There is no 6 in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no 4 in font nullfont!
 Missing character: There is no 1 in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no 2 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 5 in font nullfont!
 Missing character: There is no , in font nullfont!
-Missing character: There is no 3 in font nullfont!
+Missing character: There is no 2 in font nullfont!
 Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no 3 in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no 7 in font nullfont!
 Missing character: There is no 9 in font nullfont!
-Missing character: There is no 5 in font nullfont!
+Missing character: There is no 8 in font nullfont!
 Missing character: There is no 7 in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no 7 in font nullfont!
+Missing character: There is no 8 in font nullfont!
 Missing character: There is no 3 in font nullfont!
-Missing character: There is no 7 in font nullfont!
-Missing character: There is no 0 in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no 6 in font nullfont!
 Missing character: There is no 3 in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 2 in font nullfont!
 Missing character: There is no 5 in font nullfont!
-Missing character: There is no 5 in font nullfont!
+Missing character: There is no 6 in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -3924,7 +3940,7 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.32 \draw
+l.30 \draw
            [fill=wrwrwr] (1.5,2.5) circle (2pt);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3967,8 +3983,8 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.33 \draw
-          [color=wrwrwr] (1.707859635358826,3.0365795757370355) node {$F$};
+l.31 \draw
+          [color=wrwrwr] (1.700437230141031,2.9878324639916256) node {$F$};
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3994,38 +4010,38 @@ Missing character: There is no 1 in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no 7 in font nullfont!
 Missing character: There is no 0 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no 3 in font nullfont!
 Missing character: There is no 7 in font nullfont!
-Missing character: There is no 8 in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no 9 in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 3 in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no 3 in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no 8 in font nullfont!
-Missing character: There is no 8 in font nullfont!
 Missing character: There is no 2 in font nullfont!
-Missing character: There is no 6 in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no 1 in font nullfont!
 Missing character: There is no , in font nullfont!
-Missing character: There is no 3 in font nullfont!
+Missing character: There is no 2 in font nullfont!
 Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no 3 in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no 7 in font nullfont!
 Missing character: There is no 9 in font nullfont!
-Missing character: There is no 5 in font nullfont!
+Missing character: There is no 8 in font nullfont!
 Missing character: There is no 7 in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no 7 in font nullfont!
+Missing character: There is no 8 in font nullfont!
 Missing character: There is no 3 in font nullfont!
-Missing character: There is no 7 in font nullfont!
-Missing character: There is no 0 in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no 6 in font nullfont!
 Missing character: There is no 3 in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 2 in font nullfont!
 Missing character: There is no 5 in font nullfont!
-Missing character: There is no 5 in font nullfont!
+Missing character: There is no 6 in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -4033,7 +4049,7 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.34 \draw
+l.32 \draw
            [fill=wrwrwr] (-1,1.4285714285714286) circle (2pt);
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4090,8 +4106,8 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 ! Undefined control sequence.
-l.35 \draw
-          [color=wrwrwr] (0.33894457675601497,1.9726131770845055) node {$Cir...
+l.33 \draw
+          [color=wrwrwr] (1.1797533130282598,1.3129321671210357) node {$Circ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -4113,44 +4129,43 @@ Missing character: There is no w in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ( in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 3 in font nullfont!
-Missing character: There is no 3 in font nullfont!
-Missing character: There is no 8 in font nullfont!
-Missing character: There is no 9 in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no 7 in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 7 in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
 Missing character: There is no 1 in font nullfont!
-Missing character: There is no 4 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 7 in font nullfont!
 Missing character: There is no 9 in font nullfont!
 Missing character: There is no 7 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no 8 in font nullfont!
 Missing character: There is no , in font nullfont!
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no . in font nullfont!
-Missing character: There is no 9 in font nullfont!
-Missing character: There is no 7 in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 1 in font nullfont!
 Missing character: There is no 3 in font nullfont!
 Missing character: There is no 1 in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 6 in font nullfont!
 Missing character: There is no 7 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no 5 in font nullfont!
 Missing character: There is no 7 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no 8 in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no 5 in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -4164,7 +4179,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.36 \end{scriptsize}
+l.34 \end{scriptsize}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -4177,49 +4192,49 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.37 \end{tikzpicture}
+l.35 \end{tikzpicture}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 )
-Overfull \hbox (20.0pt too wide) in paragraph at lines 13--100
+Overfull \hbox (20.0pt too wide) in paragraph at lines 10--100
 []
  []
 
 
-Overfull \hbox (7.50002pt too wide) in paragraph at lines 13--100
+Overfull \hbox (7.50002pt too wide) in paragraph at lines 10--100
 \OML/cmm/m/it/10 A$
  []
 
 
-Overfull \hbox (8.0868pt too wide) in paragraph at lines 13--100
+Overfull \hbox (8.0868pt too wide) in paragraph at lines 10--100
 \OML/cmm/m/it/10 B$
  []
 
 
-Overfull \hbox (7.86249pt too wide) in paragraph at lines 13--100
+Overfull \hbox (7.86249pt too wide) in paragraph at lines 10--100
 \OML/cmm/m/it/10 C$
  []
 
 
-Overfull \hbox (8.55695pt too wide) in paragraph at lines 13--100
+Overfull \hbox (8.55695pt too wide) in paragraph at lines 10--100
 \OML/cmm/m/it/10 D$
  []
 
 
-Overfull \hbox (7.95831pt too wide) in paragraph at lines 13--100
+Overfull \hbox (7.95831pt too wide) in paragraph at lines 10--100
 \OML/cmm/m/it/10 E$
  []
 
 
-Overfull \hbox (7.81946pt too wide) in paragraph at lines 13--100
+Overfull \hbox (7.81946pt too wide) in paragraph at lines 10--100
 \OML/cmm/m/it/10 F$
  []
 
 
-Overfull \hbox (60.38536pt too wide) in paragraph at lines 13--100
+Overfull \hbox (60.38536pt too wide) in paragraph at lines 10--100
 \OML/cmm/m/it/10 Circuncentro$
  []
 
@@ -4674,7 +4689,7 @@ Missing character: There is no ; in font nullfont!
 <to be read again> 
                    [
 l.13 \fill[
-           line width=2pt,color=rvwvcq,fill=rvwvcq,fill opacity=0.0000000014...
+           line width=2pt,color=rvwvcq,fill=rvwvcq,fill opacity=0.1000000014...
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -4683,7 +4698,7 @@ look up `weird error' in the index to The TeXbook.)
 <to be read again> 
                    [
 l.13 \fill[
-           line width=2pt,color=rvwvcq,fill=rvwvcq,fill opacity=0.0000000014...
+           line width=2pt,color=rvwvcq,fill=rvwvcq,fill opacity=0.1000000014...
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -4745,7 +4760,7 @@ Missing character: There is no y in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no 0 in font nullfont!

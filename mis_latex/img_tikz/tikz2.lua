@@ -2,7 +2,7 @@ local function tikz2image(src, filetype, outfile)
     local tmp = os.tmpname()
     local tmpdir = string.match(tmp, "^(.*[\\/])") or "."
     local f = io.open(tmp .. ".tex", 'w')
-    f:write("\\documentclass{standalone}\n\\usepackage{pgf,tikz,pgfplots}\n\\pgfplotsset{compat=1.15}\n\\usepackage{mathrsfs}\n\\usetikzlibrary{arrows}\n\\begin{document}\n\\definecolor{wrwrwr}{rgb}{0.3803921568627451,0.3803921568627451,0.3803921568627451}\n\\definecolor{rvwvcq}{rgb}{0.08235294117647059,0.396078431372549,0.7529411764705882}\\	%")
+    f:write("\\documentclass{standalone}\n\\usepackage{pgf,tikz,pgfplots}\n\\pgfplotsset{compat=1.15}\n\\usepackage{mathrsfs}\n\\usetikzlibrary{arrows}\n\\newcommand{\\degre}{\\ensuremath{^\\circ}}\n\\begin{document}\n\\definecolor{wrwrwr}{rgb}{0.3803921568627451,0.3803921568627451,0.3803921568627451}\n\\definecolor{rvwvcq}{rgb}{0.08235294117647059,0.396078431372549,0.7529411764705882}\\ %")
     -- f:write("\\documentclass{standalone}\n\\usepackage{tikz}\n\\begin{document}\n")
     -- f:write("\\documentclass{article}\n\\usepackage{tikz}\n\\begin{document}\n")
     f:write(src)

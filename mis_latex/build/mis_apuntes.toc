@@ -65,5 +65,5 @@
 \contentsline {section}{\numberline {4.1}Rectas y puntos notables de un tri\IeC {\'a}ngulo}{25}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Mediana}{25}{subsection.4.1.1}
 \contentsline {subsection}{\numberline {4.1.2}Mediatriz}{26}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Altura}{26}{subsection.4.1.3}
-\contentsline {subsection}{\numberline {4.1.4}Bisectriz}{27}{subsection.4.1.4}
+\contentsline {subsection}{\numberline {4.1.3}Altura}{27}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}Bisectriz}{28}{subsection.4.1.4}
